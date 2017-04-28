@@ -211,12 +211,17 @@ int shuffle(int player, struct gameState *state) {
   qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
   /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
 
-  while (state->deckCount[player] > 0) {
+  while (state->deckCount[player] > 0) 
+  {
     card = floor(Random() * state->deckCount[player]);
+
     newDeck[newDeckPos] = state->deck[player][card];
+
     newDeckPos++;
-    for (i = card; i < state->deckCount[player]-1; i++) {
-      state->deck[player][i] = state->deck[player][i+1];
+
+    for (i = card; i < state->deckCount[player]-1; i++) 
+	{
+		state->deck[player][i] = state->deck[player][i+1];
     }
     state->deckCount[player]--;
   }
