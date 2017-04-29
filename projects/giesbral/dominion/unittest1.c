@@ -29,7 +29,7 @@ int main() {
 	int i;
 	
 	// 0 == failure, 1 == success
-	int results[TEST_COUNT] = 0;
+	int results[TEST_COUNT] = { 0 };
 
 	printf("----------------- Testing Function: %s ----------------\n", TEST_FUNCTION);
 
@@ -41,14 +41,15 @@ int main() {
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
 	// set the deckCount for thisPlayer
-	preState.handCount[thisPlayer] = -1;
+	preState.deckCount[thisPlayer] = -1;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Shuffling cards...\n");
+	printf("\tShuffling cards...\n");
 	t = shuffle(thisPlayer, &postState);
 
+	printf("\tshuffle exit code = %d, expected %d\n", t, -1);
 	if (t == -1)
 	{
 		results[0] = 1;
@@ -58,6 +59,8 @@ int main() {
 	{
 		printf("TEST 1: FAILED\n");
 	}
+
+	printf("\n");
 
 	// ----------- TEST 2: thisPlayer deckCount = 0 --------------
 	
@@ -75,7 +78,7 @@ int main() {
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
 	// set the deckCount for thisPlayer
-	preState.handCount[thisPlayer] = 0;
+	preState.deckCount[thisPlayer] = 0;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -84,20 +87,21 @@ int main() {
 	}
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Shuffling cards...\n");
+	printf("\tShuffling cards...\n");
 	t = shuffle(thisPlayer, &postState);
 
+	printf("\tshuffle exit code = %d, expected %d\n", t, 0);
 	if (t != -1)
 	{
 		// test that the player's deck count remains the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer])
 		{
 			// check that there are still no cards in the deck
-			printf("preState deck order = ");
+			printf("\tpreState deck order = ");
 
 			for (i = 0; i < preState.deckCount[thisPlayer]; i++)
 			{
@@ -106,7 +110,7 @@ int main() {
 
 			printf("\n");
 
-			printf("postState deck order = ");
+			printf("\tpostState deck order = ");
 
 			for (i = 0; i < postState.deckCount[thisPlayer]; i++)
 			{
@@ -144,6 +148,8 @@ int main() {
 		printf("TEST 2: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 3: thisPlayer deckCount = 1 --------------
 
 	printf("TEST 3: thisPlayer deckCount = 1\n");
@@ -152,7 +158,7 @@ int main() {
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
 	// set the deckCount for thisPlayer
-	preState.handCount[thisPlayer] = 1;
+	preState.deckCount[thisPlayer] = 1;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -174,20 +180,20 @@ int main() {
 	}
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Shuffling cards...\n");
+	printf("\tShuffling cards...\n");
 	t = shuffle(thisPlayer, &postState);
 
 	if (t != -1)
 	{
 		// test that the player's deck count remains the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer])
 		{
 			// check that there is only one card in the deck and the card remains the same
-			printf("Pre shuffle deck contents and order = ");
+			printf("\tPre shuffle deck contents and order = ");
 
 			for (i = 0; i < preState.deckCount[thisPlayer]; i++)
 			{
@@ -196,7 +202,7 @@ int main() {
 
 			printf("\n");
 
-			printf("Post Shuffle deck contents and order = ");
+			printf("\tPost Shuffle deck contents and order = ");
 
 			for (i = 0; i < postState.deckCount[thisPlayer]; i++)
 			{
@@ -234,6 +240,8 @@ int main() {
 		printf("TEST 3: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 4: thisPlayer deckCount = 10 ---------------
 
 	printf("TEST 4: thisPlayer deckCount = 10\n");
@@ -258,20 +266,20 @@ int main() {
 	}
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Shuffling cards...\n");
+	printf("\tShuffling cards...\n");
 	t = shuffle(thisPlayer, &postState);
 
 	if (t != -1)
 	{
 		// test that the player's deck count remains the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer])
 		{
 			// check the deck order
-			printf("Pre shuffle deck contents and order = ");
+			printf("\tPre shuffle deck contents and order = ");
 
 			for (i = 0; i < preState.deckCount[thisPlayer]; i++)
 			{
@@ -280,7 +288,7 @@ int main() {
 
 			printf("\n");
 
-			printf("Post Shuffle deck contents and order = ");
+			printf("\tPost Shuffle deck contents and order = ");
 
 			for (i = 0; i < postState.deckCount[thisPlayer]; i++)
 			{
@@ -293,7 +301,7 @@ int main() {
 
 			for (i = 0; i < preState.deckCount[thisPlayer]; i++)
 			{
-				if (postState.deck[thisPlayer][i] != postState.deck[thisPlayer][i])
+				if (preState.deck[thisPlayer][i] != postState.deck[thisPlayer][i])
 				{
 					shuffled = 1;
 				}
@@ -320,9 +328,11 @@ int main() {
 		printf("TEST 4: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 5: thisPlayer deckCount = 501 --------------
 	
-	// this test should fail (in fact, shuffle should blow up as 501 is outside the bounds of the array)
+	// this test should fail
 	// the function does not validate deck count to see whether 
 	// or not it's greater than the size of the deck array
 
@@ -335,11 +345,12 @@ int main() {
 	preState.deckCount[thisPlayer] = 501;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Shuffling cards...\n");
+	printf("\tShuffling cards...\n");
 	t = shuffle(thisPlayer, &postState);
 
+	printf("\tshuffle exit code = %d, expected %d\n", t, -1);
 	if (t == -1)
 	{
 		results[4] = 1;
@@ -359,11 +370,11 @@ int main() {
 	{
 		if (results[i] == 1)
 		{
-			printf("TEST %d: SUCCESS\n", i + 1);
+			printf("\tTEST %d: SUCCESS\n", i + 1);
 		}
 		else
 		{
-			printf("TEST %d: FAILED\n", i + 1);
+			printf("\tTEST %d: FAILED\n", i + 1);
 		}
 	}
 

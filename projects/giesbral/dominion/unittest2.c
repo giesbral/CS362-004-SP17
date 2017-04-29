@@ -27,10 +27,11 @@ int main() {
 	int thisPlayer = 0;
 	int changed = 0;
 	int count;
+	int expectedCount;
 	int i;
 
 	// 0 == failure, 1 == success
-	int results[TEST_COUNT] = 0;
+	int results[TEST_COUNT] = { 0 };
 
 	printf("----------------- Testing Function: %s ----------------\n", TEST_FUNCTION);
 
@@ -43,6 +44,8 @@ int main() {
 
 	// set test card
 	testCard = adventurer;
+
+	expectedCount = 0;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -58,24 +61,26 @@ int main() {
 	preState.deckCount[thisPlayer] = 0;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Counting instances of testCard...\n");
+	printf("\tCounting instances of testCard...\n");
 	count = fullDeckCount(thisPlayer, testCard, &postState);
 
 	// check if count is correct
+	printf("\tadventurer count = %d, expected %d\n", count, expectedCount);
 	if (count == 0)
 	{
 		// check if deck counts are the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
-		printf("thisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
+		printf("\tthisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer] && 
 			preState.handCount[thisPlayer] == postState.handCount[thisPlayer] && 
 			preState.discardCount[thisPlayer] == postState.discardCount[thisPlayer])
 		{
 			// check if deck contents are the same (just the first card in each, in this case)
+			printf("\tChecking if deck contents are the same...\n");
 			if (postState.deck[thisPlayer][0] == preState.deck[thisPlayer][0] &&
 				postState.hand[thisPlayer][0] == preState.hand[thisPlayer][0] &&
 				postState.discard[thisPlayer][0] == preState.discard[thisPlayer][0])
@@ -98,6 +103,8 @@ int main() {
 		printf("TEST 1: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 2: thisPlayer handCount = 1; discardCount, deckCount = 0, card = adventurer, card count = 1 (in hand) --------------
 
 	printf("TEST 2: thisPlayer handCount = 1; discardCount, deckCount = 0, card = adventurer, card count = 1 (in hand)\n");
@@ -107,6 +114,8 @@ int main() {
 
 	// set test card
 	testCard = adventurer;
+
+	expectedCount = 1;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -125,25 +134,27 @@ int main() {
 	preState.deckCount[thisPlayer] = 0;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Counting instances of testCard...\n");
+	printf("\tCounting instances of testCard...\n");
 	count = fullDeckCount(thisPlayer, testCard, &postState);
 
 	// check if count is correct
+	printf("\tadventurer count = %d, expected %d\n", count, expectedCount);
 	if (count == 1)
 	{
 
 		// check if deck counts are the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
-		printf("thisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
+		printf("\tthisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer] &&
 			preState.handCount[thisPlayer] == postState.handCount[thisPlayer] &&
 			preState.discardCount[thisPlayer] == postState.discardCount[thisPlayer])
 		{
 			// check if deck contents are the same (just the first card in each, in this case)
+			printf("\tChecking if deck contents are the same...\n");
 			if (postState.deck[thisPlayer][0] == preState.deck[thisPlayer][0] &&
 				postState.hand[thisPlayer][0] == preState.hand[thisPlayer][0] &&
 				postState.discard[thisPlayer][0] == preState.discard[thisPlayer][0])
@@ -166,6 +177,8 @@ int main() {
 		printf("TEST 2: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 3: thisPlayer deckCount = 1; handCount, discardCount = 0, card = adventurer, card count = 1 (in deck) --------------
 
 	printf("TEST 3: thisPlayer deckCount = 1; handCount, discardCount = 0, card = adventurer, card count = 1 (in deck)\n");
@@ -175,6 +188,8 @@ int main() {
 
 	// set test card
 	testCard = adventurer;
+
+	expectedCount = 1;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -193,24 +208,26 @@ int main() {
 	preState.deckCount[thisPlayer] = 1;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Counting instances of testCard...\n");
+	printf("\tCounting instances of testCard...\n");
 	count = fullDeckCount(thisPlayer, testCard, &postState);
 
 	// check if count is correct
+	printf("\tadventurer count = %d, expected %d\n", count, expectedCount);
 	if (count == 1)
 	{
 		// check if deck counts are the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
-		printf("thisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
+		printf("\tthisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer] &&
 			preState.handCount[thisPlayer] == postState.handCount[thisPlayer] &&
 			preState.discardCount[thisPlayer] == postState.discardCount[thisPlayer])
 		{
 			// check if deck contents are the same (just the first card in each, in this case)
+			printf("\tChecking if deck contents are the same...\n");
 			if (postState.deck[thisPlayer][0] == preState.deck[thisPlayer][0] &&
 				postState.hand[thisPlayer][0] == preState.hand[thisPlayer][0] &&
 				postState.discard[thisPlayer][0] == preState.discard[thisPlayer][0])
@@ -233,12 +250,16 @@ int main() {
 		printf("TEST 3: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 4: thisPlayer discardCount = 1; handCount, deckCount = 0, card = adventurer, card count = 1 (in discard) --------------
 
 	printf("TEST 4: thisPlayer discardCount = 1; handCount, deckCount = 0, card = adventurer, card count = 1 (in discard)\n");
 
 	// set test card
 	testCard = adventurer;
+
+	expectedCount = 1;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -257,24 +278,26 @@ int main() {
 	preState.deckCount[thisPlayer] = 0;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Counting instances of testCard...\n");
+	printf("\tCounting instances of testCard...\n");
 	count = fullDeckCount(thisPlayer, testCard, &postState);
 
 	// check if count is correct
+	printf("\tadventurer count = %d, expected %d\n", count, expectedCount);
 	if (count == 1)
 	{
 		// check if deck counts are the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
-		printf("thisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
+		printf("\tthisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer] &&
 			preState.handCount[thisPlayer] == postState.handCount[thisPlayer] &&
 			preState.discardCount[thisPlayer] == postState.discardCount[thisPlayer])
 		{
 			// check if deck contents are the same (just the first card in each, in this case)
+			printf("\tChecking if deck contents are the same...\n");
 			if (postState.deck[thisPlayer][0] == preState.deck[thisPlayer][0] &&
 				postState.hand[thisPlayer][0] == preState.hand[thisPlayer][0] &&
 				postState.discard[thisPlayer][0] == preState.discard[thisPlayer][0])
@@ -297,6 +320,8 @@ int main() {
 		printf("TEST 4: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 5: thisPlayer discardCount, handCount, deckCount = 5, card = adventurer, card count = 0 --------------
 
 	printf("TEST 5: thisPlayer discardCount, handCount, deckCount = 5, card = adventurer, card count = 0\n");
@@ -306,6 +331,8 @@ int main() {
 
 	// set test card
 	testCard = adventurer;
+
+	expectedCount = 0;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -337,24 +364,26 @@ int main() {
 	}
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Counting instances of testCard...\n");
+	printf("\tCounting instances of testCard...\n");
 	count = fullDeckCount(thisPlayer, testCard, &postState);
 
 	// check if count is correct
+	printf("\tadventurer count = %d, expected %d\n", count, expectedCount);
 	if (count == 0)
 	{
 		// check if deck counts are the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
-		printf("thisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
+		printf("\tthisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer] &&
 			preState.handCount[thisPlayer] == postState.handCount[thisPlayer] &&
 			preState.discardCount[thisPlayer] == postState.discardCount[thisPlayer])
 		{
 			// check if deck contents are the same
+			printf("\tChecking if deck contents are the same...\n");
 			for (i = 0; i < preState.deckCount[thisPlayer]; i++)
 			{
 				if (postState.deck[thisPlayer][i] != preState.deck[thisPlayer][i])
@@ -413,6 +442,8 @@ int main() {
 		printf("TEST 5: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 6: thisPlayer discardCount, handCount, deckCount = 5, card = adventurer, card count = 3 (one in each deck) --------------
 
 	printf("TEST 6: thisPlayer discardCount, handCount, deckCount = 5, card = adventurer, card count = 3 (one in each deck)\n");
@@ -422,6 +453,8 @@ int main() {
 
 	// set test card
 	testCard = adventurer;
+
+	expectedCount = 3;
 
 	// remove all cards in player deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -457,24 +490,26 @@ int main() {
 	preState.hand[thisPlayer][0] = adventurer;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Counting instances of testCard...\n");
+	printf("\tCounting instances of testCard...\n");
 	count = fullDeckCount(thisPlayer, testCard, &postState);
 
 	// check if count is correct
+	printf("\tadventurer count = %d, expected %d\n", count, expectedCount);
 	if (count == 3)
 	{
 		// check if deck counts are the same
-		printf("thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
-		printf("thisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
+		printf("\tthisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], preState.deckCount[thisPlayer]);
+		printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
+		printf("\tthisPlayer discard count = %d, expected = %d\n", postState.discardCount[thisPlayer], preState.discardCount[thisPlayer]);
 
 		if (preState.deckCount[thisPlayer] == postState.deckCount[thisPlayer] &&
 			preState.handCount[thisPlayer] == postState.handCount[thisPlayer] &&
 			preState.discardCount[thisPlayer] == postState.discardCount[thisPlayer])
 		{
 			// check if deck contents are the same
+			printf("\tChecking if deck contents are the same...\n");
 			for (i = 0; i < preState.deckCount[thisPlayer]; i++)
 			{
 				if (postState.deck[thisPlayer][i] != preState.deck[thisPlayer][i])
@@ -533,6 +568,7 @@ int main() {
 		printf("TEST 6: FAILED\n");
 	}
 
+	printf("\n");
 
 	// ----------- TESTS COMPLETE --------------
 
@@ -543,11 +579,11 @@ int main() {
 	{
 		if (results[i] == 1)
 		{
-			printf("TEST %d: SUCCESS\n", i + 1);
+			printf("\tTEST %d: SUCCESS\n", i + 1);
 		}
 		else
 		{
-			printf("TEST %d: FAILED\n", i + 1);
+			printf("\tTEST %d: FAILED\n", i + 1);
 		}
 	}
 

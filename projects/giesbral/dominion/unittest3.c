@@ -23,14 +23,13 @@ int main() {
 
 	int seed = 1000;
 	int numPlayers = 2;
-	int thisPlayer = 0;
 	int badCount = 0;
-	int failed = 0;
+	int failed;
 	int gameOver;
 	int i, j, k;
 
 	// 0 == failure, 1 == success
-	int results[TEST_COUNT] = 0;
+	int results[TEST_COUNT] = { 0 };
 
 	// initialize game state
 	initializeGame(numPlayers, kingdom, seed, &preState);
@@ -50,19 +49,21 @@ int main() {
 		preState.supplyCount[i] = 0;
 	}
 
-	printf("Testing Game Over...\n");
+	printf("\tTesting Game Over...\n");
 	gameOver = isGameOver(&preState);
 
 	// check if gameOver is correct
 	if (gameOver == 1)
 	{
-		results[1] = 1;
-		printf("TEST 2: SUCCESS\n");
+		results[0] = 1;
+		printf("TEST 1: SUCCESS\n");
 	}
 	else
 	{
-		printf("TEST 2: FAILED\n");
+		printf("TEST 1: FAILED\n");
 	}
+
+	printf("\n");
 
 	// ----------- TEST 2: Supply Count Province = 0; Supply Pile Counts = initial values --------------
 
@@ -74,7 +75,7 @@ int main() {
 	// set province counts
 	preState.supplyCount[province] = 0;
 
-	printf("Testing Game Over...\n");
+	printf("\tTesting Game Over...\n");
 	gameOver = isGameOver(&preState);
 
 	// check if gameOver is correct
@@ -88,9 +89,11 @@ int main() {
 		printf("TEST 2: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 3: Supply Count Province = initial values; Supply Pile Counts = 0 --------------
 
-	printf("TEST 3: Supply Count Province = 0; Supply Pile Counts = initial values\n");
+	printf("TEST 3: Supply Count Province = initial values; Supply Pile Counts = 0\n");
 
 	// initialize game state
 	initializeGame(numPlayers, kingdom, seed, &preState);
@@ -104,7 +107,7 @@ int main() {
 		}
 	}
 
-	printf("Testing Game Over...\n");
+	printf("\tTesting Game Over...\n");
 	gameOver = isGameOver(&preState);
 
 	// check if gameOver is correct
@@ -118,6 +121,8 @@ int main() {
 		printf("TEST 3: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 4: Supply Count Province = initial values; Supply Pile Counts = initial values --------------
 
 	printf("TEST 4: Supply Count Province = initial values; Supply Pile Counts = initial values\n");
@@ -126,15 +131,16 @@ int main() {
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Testing Game Over...\n");
+	printf("\tTesting Game Over...\n");
 	gameOver = isGameOver(&preState);
 
 	// check if gameOver is correct
 	if (gameOver == 0)
 	{
 		// test supply pile counts
+		printf("\tTesting supply pile counts...\n");
 		for (i = 0; i <= treasure_map; i++)
 		{
 			if (preState.supplyCount[i] != postState.supplyCount[i])
@@ -158,6 +164,8 @@ int main() {
 		printf("TEST 4: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 5: All combinations of 3 empty supply piles --------------
 
 	printf("TEST 5: All combinations of 3 empty supply piles\n");
@@ -169,30 +177,39 @@ int main() {
 	// should fail with current implementation of Game Over
 	// whenever Treasure Map and/or Sea Hag is one of the empty piles (
 	
-	printf("Testing Game Over...\n");
+	printf("\tTesting Game Over...\n");
 
-	int preStateProvinceCount = preState.supplyCount[province];
+	failed = 0;
 
-	for (i = 0; i <= treasure_map; i++)
+	for (i = 0; i <= treasure_map-2; i++)
 	{
-		for (j = 0; j <= treasure_map; j++)
+		for (j = i+1; j <= treasure_map-1; j++)
 		{
-			for (k = 0; k <= treasure_map; k++)
+			for (k = i+2; k <= treasure_map; k++)
 			{
-				preState.supplyCount[i] = 0;
-				preState.supplyCount[j] = 0;
-				preState.supplyCount[k] = 0;
-
-				preState.supplyCount[province] = preStateProvinceCount;
-
-				gameOver = isGameOver(&preState);
-
-				// check if gameOver is correct
-				if (gameOver == 0)
+				memcpy(&postState, &preState, sizeof(struct gameState));
+				
+				if (i == province || j == province || k == province)
 				{
-					failed = 1;
-					goto endLoop;
+					//skip to next iteration
 				}
+				else
+				{
+					postState.supplyCount[i] = 0;
+					postState.supplyCount[j] = 0;
+					postState.supplyCount[k] = 0;
+
+					gameOver = isGameOver(&postState);
+					//printf("\tCombination: %d, %d, %d\n", i, j, k);
+
+					// check if gameOver is correct
+					if (gameOver == 0)
+					{
+						printf("\tExpected game over on card values: %d, %d, %d\n", i, j, k);
+						failed = 1;
+						goto endLoop;
+					}
+				}			
 			}
 		}
 	}
@@ -205,9 +222,11 @@ int main() {
 	}
 	else
 	{
-		results[3] = 1;
+		results[4] = 1;
 		printf("TEST 5: SUCCESS\n");
 	}
+
+	printf("\n");
 
 	// ----------- TESTS COMPLETE --------------
 
@@ -218,11 +237,11 @@ int main() {
 	{
 		if (results[i] == 1)
 		{
-			printf("TEST %d: SUCCESS\n", i + 1);
+			printf("\tTEST %d: SUCCESS\n", i + 1);
 		}
 		else
 		{
-			printf("TEST %d: FAILED\n", i + 1);
+			printf("\tTEST %d: FAILED\n", i + 1);
 		}
 	}
 

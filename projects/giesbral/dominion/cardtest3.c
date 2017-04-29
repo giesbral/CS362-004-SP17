@@ -31,12 +31,10 @@ int main() {
 	// initialize game state
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
-	const int actionsUsed = 2;
-	const int actionsGained = 4;
-	const int playedCount = 2;
-	const int villagePosition1 = 0;
-	const int villagePosition2 = 0;
-	const int cardsGained = 2;
+	const int actionsGained = 2;
+	const int playedCount = 1;
+	const int villagePosition = 0;
+	const int cardsGained = 1;
 
 
 	printf("----------------- Testing Card: %s ----------------\n", TEST_CARD);
@@ -55,8 +53,7 @@ int main() {
 		preState.hand[thisPlayer][i] = copper;
 	}
 
-	preState.hand[thisPlayer][villagePosition1] = village;
-	preState.hand[thisPlayer][villagePosition2] = village;
+	preState.hand[thisPlayer][villagePosition] = village;
 
 	// setting up player's deck
 	for (i = 0; i < MAX_DECK; i++)
@@ -73,14 +70,13 @@ int main() {
 	}
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Playing Village TWICE...\n");
-	playVillage(&preState, villagePosition1, thisPlayer);
-	playVillage(&preState, villagePosition2, thisPlayer);
+	printf("\tPlaying Village...\n");
+	playVillage(&postState, villagePosition, thisPlayer);
 
 	// checking hand count
-	printf("TEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
+	printf("\tTEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
 
 	if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
 	{
@@ -89,7 +85,7 @@ int main() {
 	}
 
 	// checking deck count
-	printf("TEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.deckCount[thisPlayer] - cardsGained));
+	printf("\tTEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.deckCount[thisPlayer] - cardsGained));
 
 	if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - cardsGained))
 	{
@@ -98,7 +94,7 @@ int main() {
 	}
 
 	// cards drawn from deck the same as the new cards in the player's hand?
-	printf("TEST: cards drawn from deck are the same as the new cards in the player's hand\n");
+	printf("\tTEST: cards drawn from deck are the same as the new cards in the player's hand\n");
 
 	for (i = preState.handCount[thisPlayer]; i < postState.handCount[thisPlayer]; i++)
 	{
@@ -113,16 +109,16 @@ int main() {
 	}
 
 	// village should not be in the player's hand
-	printf("TEST: player's hand should not contain a village card\n");
+	printf("\tTEST: player's hand should not contain a village card\n");
 
-	if (postState.hand[thisPlayer][villagePosition1] == village || postState.hand[thisPlayer][villagePosition2] == village)
+	if (postState.hand[thisPlayer][villagePosition] == village)
 	{
 		failedFlag = 1;
 		goto endTest;
 	}
 
 	// playedCardCount should be +2
-	printf("TEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
+	printf("\tTEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
 
 	if (postState.playedCardCount != (preState.playedCardCount + playedCount))
 	{
@@ -131,7 +127,7 @@ int main() {
 	}
 
 	// village should be in played pile
-	printf("TEST: village should be in played cards\n");
+	printf("\tTEST: village should be in played cards\n");
 
 	if (postState.playedCards[0] != village)
 	{
@@ -139,10 +135,10 @@ int main() {
 		goto endTest;
 	}
 
-	// number of remaining actions correct?
-	printf("TEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions - actionsUsed + actionsGained));
+	// number of actions correct?
+	printf("\tTEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions + actionsGained));
 
-	if (postState.numActions != (preState.numActions - actionsUsed + actionsGained))
+	if (postState.numActions != (preState.numActions + actionsGained))
 	{
 		failedFlag = 1;
 		goto endTest;

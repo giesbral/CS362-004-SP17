@@ -30,7 +30,6 @@ int main() {
 	// initialize game state
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
-	const int actionsUsed = 1;
 	const int playedCount = 1;
 	const int smithyPosition = 0;
 	const int cardsGained = 3;
@@ -68,13 +67,13 @@ int main() {
 	}
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Playing Smithy...\n");
-	playSmithy(&preState, smithyPosition, thisPlayer);
+	printf("\tPlaying Smithy...\n");
+	playSmithy(&postState, smithyPosition, thisPlayer);
 
 	// checking hand count
-	printf("TEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
+	printf("\tTEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
 
 	if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
 	{
@@ -83,7 +82,7 @@ int main() {
 	}
 
 	// checking deck count
-	printf("TEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.deckCount[thisPlayer] - cardsGained));
+	printf("\tTEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.deckCount[thisPlayer] - cardsGained));
 
 	if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - cardsGained))
 	{
@@ -92,7 +91,7 @@ int main() {
 	}
 
 	// cards drawn from deck the same as the new cards in the player's hand?
-	printf("TEST: cards drawn from deck are the same as the new cards in the player's hand\n");
+	printf("\tTEST: cards drawn from deck are the same as the new cards in the player's hand\n");
 
 	for (i = preState.handCount[thisPlayer]; i < postState.handCount[thisPlayer]; i++)
 	{
@@ -107,7 +106,7 @@ int main() {
 	}
 	
 	// smithy should not be in the player's hand
-	printf("TEST: player's hand should not contain a smithy card\n");
+	printf("\tTEST: player's hand should not contain a smithy card\n");
 				
 	if (postState.hand[thisPlayer][smithyPosition] == smithy)
 	{
@@ -116,7 +115,7 @@ int main() {
 	}
 
 	// playedCardCount should be +1
-	printf("TEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
+	printf("\tTEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
 
 	if (postState.playedCardCount != (preState.playedCardCount + playedCount))
 	{
@@ -125,7 +124,7 @@ int main() {
 	}
 	
 	// smithy should be in played pile
-	printf("TEST: smithy should be in played cards\n");
+	printf("\tTEST: smithy should be in played cards\n");
 
 	if (postState.playedCards[0] != smithy)
 	{
@@ -134,13 +133,13 @@ int main() {
 	}
 
 	// number of remaining actions correct?
-	printf("TEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions - actionsUsed));
+	//printf("\tTEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions - actionsUsed));
 
-	if (postState.numActions != (preState.numActions - actionsUsed))
-	{
-		failedFlag = 1;
-		goto endTest;
-	}
+	//if (postState.numActions != (preState.numActions - actionsUsed))
+	//{
+	//	failedFlag = 1;
+	//	goto endTest;
+	//}
 
 endTest:
 	

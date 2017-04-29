@@ -22,7 +22,7 @@ int main() {
 	int seed = 1000;
 	int numPlayers = 2;
 	int thisPlayer = 0;
-	int i, k;
+	int i;
 
 	// 0 == failure, 1 == success
 	int failedFlag = 0;
@@ -30,7 +30,6 @@ int main() {
 	// initialize game state
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
-	const int actionsUsed = 1;
 	const int playedCount = 1;
 	const int outpostPosition = 0;
 	const int cardsGained = 0;
@@ -68,13 +67,13 @@ int main() {
 	}
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Playing Outpost...\n");
-	playOutpost(&preState, outpostPosition, thisPlayer);
+	printf("\tPlaying Outpost...\n");
+	playOutpost(&postState, outpostPosition, thisPlayer);
 
 	// checking hand count
-	printf("TEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
+	printf("\tTEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
 
 	if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
 	{
@@ -83,7 +82,7 @@ int main() {
 	}
 
 	// checking deck count
-	printf("TEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.deckCount[thisPlayer] - cardsGained));
+	printf("\tTEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.deckCount[thisPlayer] - cardsGained));
 
 	if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - cardsGained))
 	{
@@ -92,7 +91,7 @@ int main() {
 	}
 
 	// outpost should not be in the player's hand
-	printf("TEST: player's hand should not contain an outpost card\n");
+	printf("\tTEST: player's hand should not contain an outpost card\n");
 
 	if (postState.hand[thisPlayer][outpostPosition] == outpost)
 	{
@@ -101,7 +100,7 @@ int main() {
 	}
 
 	// playedCardCount should be +1
-	printf("TEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
+	printf("\tTEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
 
 	if (postState.playedCardCount != (preState.playedCardCount + playedCount))
 	{
@@ -110,7 +109,7 @@ int main() {
 	}
 
 	// outpost should be in played pile
-	printf("TEST: outpost should be in played cards\n");
+	printf("\tTEST: outpost should be in played cards\n");
 
 	if (postState.playedCards[0] != outpost)
 	{
@@ -119,16 +118,16 @@ int main() {
 	}
 
 	// number of remaining actions correct?
-	printf("TEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions - actionsUsed));
+	//printf("\tTEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions - actionsUsed));
 
-	if (postState.numActions != (preState.numActions - actionsUsed))
-	{
-		failedFlag = 1;
-		goto endTest;
-	}
+	//if (postState.numActions != (preState.numActions - actionsUsed))
+	//{
+	//	failedFlag = 1;
+	//	goto endTest;
+	//}
 
 	// outpostPlayed should equal 1
-	printf("TEST: outpostPlayed should equal 1\n");
+	printf("\tTEST: outpostPlayed should equal 1\n");
 
 	if (postState.outpostPlayed != 1)
 	{
@@ -137,12 +136,12 @@ int main() {
 	}
 
 	// end thisPlayer's turn
-	printf("Ending player's turn...\n");
+	printf("\tEnding player's turn...\n");
 
 	endTurn(&postState);
 
 	// should still be thisPlayer's turn
-	printf("TEST: whoseTurn should be 0\n");
+	printf("\tTEST: whoseTurn should be 0\n");
 
 	if (postState.whoseTurn != 0)
 	{
@@ -151,7 +150,7 @@ int main() {
 	}
 
 	// player should have 3 cards in their hand
-	printf("TEST: hand count should be 3");
+	printf("\tTEST: hand count should be 3");
 
 	if (postState.handCount[thisPlayer] != 3)
 	{

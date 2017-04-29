@@ -14,7 +14,7 @@
 #include <stdlib.h>
 
 #define TEST_FUNCTION "numHandCards()"
-#define TEST_COUNT 5
+#define TEST_COUNT 2
 
 int main() {
 
@@ -27,7 +27,7 @@ int main() {
 	int i;
 
 	// 0 == failure, 1 == success
-	int results[TEST_COUNT] = 0;
+	int results[TEST_COUNT] = { 0 };
 
 	printf("----------------- Testing Function: %s ----------------\n", TEST_FUNCTION);
 
@@ -45,15 +45,15 @@ int main() {
 	preState.handCount[thisPlayer] = 0;
 
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("Testing numHandCards...\n");
+	printf("\tTesting numHandCards...\n");
 	count = numHandCards(&preState);
 
-	// check if gameOver is correct
+	// check if handCount is correct
 	if (count == 0)
 	{
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
+		printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
 
 		if (postState.handCount[thisPlayer] == preState.handCount[thisPlayer])
 		{
@@ -70,6 +70,8 @@ int main() {
 		printf("TEST 1: FAILED\n");
 	}
 
+	printf("\n");
+
 	// ----------- TEST 2: handCount =  initialized values --------------
 
 	printf("TEST 2: handCount = initialized values\n");
@@ -80,24 +82,25 @@ int main() {
 	// set whoseTurn
 	preState.whoseTurn = thisPlayer;
 
-	printf("Testing numHandCards...\n");
-	count = numHandCards(&preState);
-
 	// copy the pre-test game state to the post-test game state
-	memcopy(&postState, &preState, sizeof(struct gameState));
+	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	// check if gameOver is correct
+	printf("\tTesting numHandCards...\n");
+	count = numHandCards(&postState);
+
+	// check if handCount is correct
+	printf("\tthisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
 	if (postState.handCount[thisPlayer] == preState.handCount[thisPlayer])
 	{
-		printf("thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], preState.handCount[thisPlayer]);
-
-		results[0] = 1;
-		printf("TEST 1: SUCCESS\n");
+		results[1] = 1;
+		printf("TEST 2: SUCCESS\n");
 	}
 	else
 	{
-		printf("TEST 1: FAILED\n");
+		printf("TEST 2: FAILED\n");
 	}
+
+	printf("\n");
 
 	// ----------- TESTS COMPLETE --------------
 
@@ -108,11 +111,11 @@ int main() {
 	{
 		if (results[i] == 1)
 		{
-			printf("TEST %d: SUCCESS\n", i + 1);
+			printf("\tTEST %d: SUCCESS\n", i + 1);
 		}
 		else
 		{
-			printf("TEST %d: FAILED\n", i + 1);
+			printf("\tTEST %d: FAILED\n", i + 1);
 		}
 	}
 
