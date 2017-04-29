@@ -30,11 +30,15 @@ int main() {
 	// initialize game state
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
-	const int playedCount = 1;
-	const int smithyPosition = 0;
-	const int cardsGained = 3;
-
 	printf("----------------- Testing Card: %s ----------------\n", TEST_CARD);
+
+	// ----------- TEST 1: 5 cards in player deck --------------
+
+	printf("TEST 1: 5 cards in player deck\n");
+
+	int playedCount = 1;
+	int smithyPosition = 0;
+	int cardsGained = 3;
 
 	// setting up player's hand
 	for (i = 0; i < MAX_HAND; i++)
@@ -125,32 +129,120 @@ int main() {
 	
 	// smithy should be in played pile
 	printf("\tTEST: smithy should be in played cards\n");
+	printf("\tPlayed card value = %d, expected %d\n", postState.playedCards[preState.playedCardCount], smithy);
 
-	if (postState.playedCards[0] != smithy)
+	if (postState.playedCards[preState.playedCardCount] != smithy)
 	{
 		failedFlag = 1;
 		goto endTest;
 	}
 
-	// number of remaining actions correct?
-	//printf("\tTEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions - actionsUsed));
-
-	//if (postState.numActions != (preState.numActions - actionsUsed))
-	//{
-	//	failedFlag = 1;
-	//	goto endTest;
-	//}
-
 endTest:
 	
 	if (failedFlag == 0)
 	{
-		printf("TEST %s: SUCCESS\n", TEST_CARD);
+		printf("TEST 1: SUCCESS\n");
 	}
 	else
 	{
-		printf("TEST %s: FAILED\n", TEST_CARD);
-		return 0;
+		printf("TEST 1: FAILED\n");
+	}
+
+	// ----------- TEST 0: 0 cards in player deck --------------
+
+	printf("TEST 2: 0 cards in player deck, 0 cards in discard\n");
+
+	int failedFlag2 = 0;
+	playedCount = 1;
+	smithyPosition = 0;
+	cardsGained = 0;
+
+	// setting up player's hand
+	for (i = 0; i < MAX_HAND; i++)
+	{
+		preState.hand[thisPlayer][i] = -1;
+	}
+
+	preState.handCount[thisPlayer] = 5;
+
+	// setting player's hand to all copper, except for smithy
+	for (i = 0; i < preState.handCount[thisPlayer]; i++)
+	{
+		preState.hand[thisPlayer][i] = copper;
+	}
+
+	preState.hand[thisPlayer][smithyPosition] = smithy;
+
+	// setting up player's deck
+	for (i = 0; i < MAX_DECK; i++)
+	{
+		preState.deck[thisPlayer][i] = -1;
+	}
+
+	preState.deckCount[thisPlayer] = 0;
+
+	// copy the pre-test game state to the post-test game state
+	memcpy(&postState, &preState, sizeof(struct gameState));
+
+	printf("\tPlaying Smithy...\n");
+	playSmithy(&postState, smithyPosition, thisPlayer);
+
+	// checking hand count
+	printf("\tTEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
+
+	if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
+	{
+		failedFlag2 = 1;
+		goto endTest2;
+	}
+
+	// checking deck count
+	printf("\tTEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.deckCount[thisPlayer] - cardsGained));
+
+	if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - cardsGained))
+	{
+		failedFlag2 = 1;
+		goto endTest2;
+	}
+
+	// smithy should not be in the player's hand
+	printf("\tTEST: player's hand should not contain a smithy card\n");
+
+	if (postState.hand[thisPlayer][smithyPosition] == smithy)
+	{
+		failedFlag2 = 1;
+		goto endTest2;
+	}
+
+	// playedCardCount should be +1
+	printf("\tTEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
+
+	if (postState.playedCardCount != (preState.playedCardCount + playedCount))
+	{
+		failedFlag2 = 1;
+		goto endTest2;
+	}
+
+	// smithy should be in played pile
+	printf("\tTEST: smithy should be in played cards\n");
+	printf("\tPlayed card value = %d, expected %d\n", postState.playedCards[preState.playedCardCount], smithy);
+
+	if (postState.playedCards[preState.playedCardCount] != smithy)
+	{
+		
+		failedFlag2 = 1;
+		goto endTest2;
+	}
+
+endTest2:
+
+	if (failedFlag2 == 0)
+	{
+		printf("TEST 2: SUCCESS\n");
+	}
+	else
+	{
+		printf("TEST 2: FAILED\n");
 	}
 
 	// ----------- TESTS COMPLETE --------------
