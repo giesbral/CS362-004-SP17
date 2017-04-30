@@ -117,7 +117,7 @@ int main() {
 		goto endTest;
 	}
 
-	// playedCardCount should be +2
+	// playedCardCount should be +1
 	printf("\tTEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
 
 	if (postState.playedCardCount != (preState.playedCardCount + playedCount))

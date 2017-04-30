@@ -640,7 +640,7 @@ int main() {
 
 	printf("\n");
 
-	// ----------- TEST 8: thisPlayer handCount, discardCount, deckCount = -1; card = adventurer --------------
+	// ----------- TEST 8: thisPlayer handCount, discardCount, deckCount = MAX_DECK + 1; card = adventurer --------------
 
 	printf("TEST 8: thisPlayer handCount, discardCount, deckCount = MAX_DECK + 1; testCard = adventurer\n");
 
