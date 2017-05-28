@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define TEST_CARD "Adventurer"
+#define TEST_CARD_NAME "Adventurer"
 
 int main() {
 
@@ -30,7 +30,7 @@ int main() {
 	// initialize game state
 	initializeGame(numPlayers, kingdom, seed, &preState);
 
-	printf("----------------- Testing Card: %s ----------------\n", TEST_CARD);
+	printf("----------------- Testing Card: %s ----------------\n", TEST_CARD_NAME);
 
 	// ----------- TEST 1: > 2 Treasures Available --------------
 
@@ -73,8 +73,8 @@ int main() {
 	// copy the pre-test game state to the post-test game state
 	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("\tPlaying %s...\n", TEST_CARD);
-	playAdventurer(&postState, adventurerPosition1, thisPlayer);
+	printf("\tPlaying %s...\n", TEST_CARD_NAME);
+	playAdventurer(&postState, thisPlayer);
 
 	// checking hand count
 	printf("\tTEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained1 - playedCount1));
@@ -82,7 +82,7 @@ int main() {
 	if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained1 - playedCount1))
 	{
 		failedFlag = 1;
-		goto endTest1;
+		//goto endTest1;
 	}
 
 	// checking deck count
@@ -91,7 +91,7 @@ int main() {
 	if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - cardsGained1))
 	{
 		failedFlag = 1;
-		goto endTest1;
+		//goto endTest1;
 	}
 
 	// cards drawn from deck the same as the new cards in the player's hand?
@@ -104,7 +104,7 @@ int main() {
 			if (postState.hand[thisPlayer][i] != preState.deck[thisPlayer][k])
 			{
 				failedFlag = 1;
-				goto endTest1;
+				//goto endTest1;
 			}
 		}
 	}
@@ -112,10 +112,10 @@ int main() {
 	// adventurer should not be in the player's hand
 	printf("\tTEST: player's hand should not contain an adventurer card\n");
 
-	if (postState.hand[thisPlayer][adventurerPosition1] == adventurer)
+	if (postState.hand[thisPlayer][adventurerPosition1] != adventurer)
 	{
 		failedFlag = 1;
-		goto endTest1;
+		//goto endTest1;
 	}
 
 	// playedCardCount should be +1
@@ -124,7 +124,7 @@ int main() {
 	if (postState.playedCardCount != (preState.playedCardCount + playedCount1))
 	{
 		failedFlag = 1;
-		goto endTest1;
+		//goto endTest1;
 	}
 
 	// adventurer should be in played pile
@@ -133,7 +133,7 @@ int main() {
 	if (postState.playedCards[0] != adventurer)
 	{
 		failedFlag = 1;
-		goto endTest1;
+		//goto endTest1;
 	}
 
 	// number of remaining actions correct?
@@ -203,9 +203,9 @@ endTest1:
 	// copy the pre-test game state to the post-test game state
 	memcpy(&postState, &preState, sizeof(struct gameState));
 
-	printf("\tPlaying %s...\n", TEST_CARD);
+	printf("\tPlaying %s...\n", TEST_CARD_NAME);
 
-	playAdventurer(&postState, adventurerPosition1, thisPlayer);
+	playAdventurer(&postState, thisPlayer);
 
 	// players hand should not have changed
 	printf("\tTEST: The unplayed cards in player's hand should be the same\n");
@@ -233,7 +233,7 @@ endTest1:
 			if (postState.hand[thisPlayer][k] != preState.hand[thisPlayer][i])
 			{
 				failedFlag = 1;
-				goto endTest2;
+				//goto endTest2;
 			}
 		}
 	}
@@ -244,7 +244,7 @@ endTest1:
 	if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained1 - playedCount1))
 	{
 		failedFlag = 1;
-		goto endTest2;
+		//goto endTest2;
 	}
 
 	// checking deck count
@@ -253,16 +253,16 @@ endTest1:
 	if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - cardsDrawn))
 	{
 		failedFlag = 1;
-		goto endTest2;
+		//goto endTest2;
 	}
 
 	// adventurer should not be in the player's hand
 	printf("\tTEST: player's hand should not contain an adventurer card\n");
 
-	if (postState.hand[thisPlayer][adventurerPosition1] == adventurer)
+	if (postState.hand[thisPlayer][adventurerPosition1] != adventurer)
 	{
 		failedFlag = 1;
-		goto endTest2;
+		//goto endTest2;
 	}
 
 	// playedCardCount should be +1
@@ -271,7 +271,7 @@ endTest1:
 	if (postState.playedCardCount != (preState.playedCardCount + playedCount1))
 	{
 		failedFlag = 1;
-		goto endTest2;
+		//goto endTest2;
 	}
 
 	// adventurer should be in played pile
@@ -280,7 +280,7 @@ endTest1:
 	if (postState.playedCards[0] != adventurer)
 	{
 		failedFlag = 1;
-		goto endTest2;
+		//goto endTest2;
 	}
 
 endTest2:
@@ -296,7 +296,7 @@ endTest2:
 
 	// ----------- TESTS COMPLETE --------------
 
-	printf("\n >>>>> Testing complete %s <<<<<\n\n", TEST_CARD);
+	printf("\n >>>>> Testing complete %s <<<<<\n\n", TEST_CARD_NAME);
 
 	return 0;
 }

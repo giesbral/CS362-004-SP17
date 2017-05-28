@@ -1,0 +1,621 @@
+Bug #1: Adventurer card is not removed from current player's hand after call to playAdventurer
+Test Name: cardTest1 (TEST 2: zero treasures available in deck)
+Version: user stanfiei Assignment 2 dominion.c code
+Platform: OSU server Flip
+Priority: High
+Severity: Moderate - User could play Adventurer card as many times as they have actions in a single turn
+Error Text:
+	TEST 2: zero treasures available in deck
+        Playing Adventurer...
+        TEST: The unplayed cards in player's hand should be the same
+        preState hand contents: 4 4 4 4
+        postState hand contents: 7 4 4 4 4
+        TEST: player's hand should not contain an adventurer card
+        TEST: played count = 0, expected = 1
+        TEST: adventurer should be in played cards
+	TEST 2: FAILED
+Description: 
+	The game state is set up so that the player has zero treasure cards in their deck (deck contains 5 estates) 
+	and 5 cards in their hand (4 coppers and 1 adventurer). After playing the adventurer card, there should be
+	4 coppers in the player's hand, no Adventurer card in the player's hand and the Adventurer card should be in 
+	the set of played cards. The test shows that the adventurer card remains in the player's hand after a call to
+	playAdventurer and is never placed in the set of played cards.
+Test Code:
+	failedFlag = 0;
+	playedCount1 = 1;
+	adventurerPosition1 = 0;
+	cardsGained1 = 0;
+	int cardsDrawn = 5;
+
+	// setting up player's hand
+	for (i = 0; i < MAX_HAND; i++)
+	{
+		preState.hand[thisPlayer][i] = -1;
+	}
+
+	preState.handCount[thisPlayer] = 5;
+
+	// setting player's hand to all copper, except for adventurer
+	for (i = 0; i < preState.handCount[thisPlayer]; i++)
+	{
+		preState.hand[thisPlayer][i] = copper;
+	}
+
+	preState.hand[thisPlayer][adventurerPosition1] = adventurer;
+
+	// setting up player's deck
+	for (i = 0; i < MAX_DECK; i++)
+	{
+		preState.deck[thisPlayer][i] = -1;
+	}
+
+	preState.deckCount[thisPlayer] = 5;
+
+	// setting player's deck to all estates
+	for (i = 0; i < preState.deckCount[thisPlayer]; i++)
+	{
+		preState.deck[thisPlayer][i] = estate;
+	}
+
+	//preState.deck[thisPlayer][0] = gold;
+
+	// copy the pre-test game state to the post-test game state
+	memcpy(&postState, &preState, sizeof(struct gameState));
+
+	printf("\tPlaying %s...\n", TEST_CARD);
+
+	playAdventurer(&postState, thisPlayer);
+
+	// players hand should not have changed
+	printf("\tTEST: The unplayed cards in player's hand should be the same\n");
+
+	printf("\tpreState hand contents: ");
+	for (i = adventurerPosition1 + 1; i < preState.handCount[thisPlayer]; i++)
+	{
+		printf("%d ", preState.hand[thisPlayer][i]);
+	}
+
+	printf("\n");
+
+	printf("\tpostState hand contents: ");
+	for (i = 0; i < postState.handCount[thisPlayer]; i++)
+	{
+		printf("%d ", postState.hand[thisPlayer][i]);
+	}
+
+	printf("\n");
+
+	for (i = adventurerPosition1 + 1; i < preState.handCount[thisPlayer]; i++)
+	{
+		for (k = 0; k < postState.handCount[thisPlayer]; k++)
+		{
+			if (postState.hand[thisPlayer][k] != preState.hand[thisPlayer][i])
+			{
+				failedFlag = 1;
+				//goto endTest2;
+			}
+		}
+	}
+
+	// adventurer should not be in the player's hand
+	printf("\tTEST: player's hand should not contain an adventurer card\n");
+
+	if (postState.hand[thisPlayer][adventurerPosition1] != adventurer)
+	{
+		failedFlag = 1;
+		//goto endTest2;
+	}
+
+	// playedCardCount should be +1
+	printf("\tTEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount1));
+
+	if (postState.playedCardCount != (preState.playedCardCount + playedCount1))
+	{
+		failedFlag = 1;
+		//goto endTest2;
+	}
+
+	// adventurer should be in played pile
+	printf("\tTEST: adventurer should be in played cards\n");
+
+	if (postState.playedCards[0] != adventurer)
+	{
+		failedFlag = 1;
+		//goto endTest2;
+	}
+
+
+Bug #2: Current Player's discard count is incorrect after call to playAdventurer
+Test Name: randomtestcard2
+Version: user stanfiei Assignment 2 dominion.c code
+Platform: OSU server Flip
+Priority: High
+Severity: High - a garbage card value (potentially causing a hard crash) is added to the 
+		 player's discard pile every time playAdventurer is called.
+Error Text:
+	FAILED ON TEST: player discard count: 246, expected: 247
+	Kingdom Cards: 11 19 22 23 24 21 9 25 15 14
+	seed = 700
+	Number of Players: 3
+	Current Player: 1
+	Hand Count: 492
+	Deck Count: 286
+	Discard Count: 204
+	New cards in hand: 7 6 6
+	Cards drawn from deck: 11 14 7 8 15 12 7 15 22 3 13 20 12 2 9 17 18 0 22 9 2 23 23 10 22 11 6 17 11 26 19 14 10 22 0 26 0 15 13 13 18 11 22
+
+Description: 
+	This random tester randomly generates a game state that includes the number of players, current player, 
+	and hand, deck, and discard piles (counts can be seen in the error text). After playing the adventurer 
+	card, there the discard count should be = the original discard count + the number of cards drawn from 
+	the deck - 2 treasure cards that went in the players hand. The test shows that the number of cards in 
+	the player's discard pile is off by 1.
+Test Code:
+
+	struct gameState preState, postState;
+
+	srand(time(0));
+
+	// loop counters
+	int i, k, testLoop;
+
+	int failureCount = 0;
+
+	printf("----------------- Random Testing Card: %s ----------------\n", TEST_CARD);
+
+		// 0 == failure, 1 == success
+		int failedFlag = 0;
+
+		// randomize kingdom cards
+		int kingdom[NUM_KINGDOM] = { -1 };
+
+		int tempKingdomArr[NUM_TEMP_KINGDOM] = { adventurer,
+			council_room,
+			feast,
+			gardens,
+			mine,
+			remodel,
+			smithy,
+			village,
+			baron,
+			great_hall,
+			minion,
+			steward,
+			tribute,
+			ambassador,
+			cutpurse,
+			embargo,
+			outpost,
+			salvager,
+			sea_hag,
+			treasure_map };
+
+		shuffleArr(tempKingdomArr, NUM_TEMP_KINGDOM);
+
+		for (i = 0; i < NUM_KINGDOM; ++i)
+		{
+			kingdom[i] = tempKingdomArr[i];
+		}
+
+		// randomize seed
+		int seed = randDec(1, 1000);
+
+		// randomize numPlayers (2-4)
+		int numPlayers = randDec(2, 4);
+
+		// randomize thisPlayer
+		int thisPlayer = randDec(0, numPlayers - 1);
+
+		// initialize game state
+		initializeGame(numPlayers, kingdom, seed, &preState);
+
+		//randomizing hand size
+		preState.handCount[thisPlayer] = randDec(1, MAX_HAND);
+
+		// clearing player's hand
+		for (i = 0; i < MAX_HAND; i++)
+		{
+			preState.hand[thisPlayer][i] = -1;
+		}
+
+		// setting player's hand to a random assortment of cards
+		for (i = 0; i < preState.handCount[thisPlayer]; i++)
+		{
+			preState.hand[thisPlayer][i] = randDec(curse, treasure_map);
+		}
+
+		// randomize adventurer position and add to hand
+		int adventurerPosition = randDec(0, preState.handCount[thisPlayer] - 1);
+
+		preState.hand[thisPlayer][adventurerPosition] = adventurer;
+
+		// randomizing deck size
+		preState.deckCount[thisPlayer] = randDec(0, MAX_DECK);
+
+		// clearing player's deck
+		for (i = 0; i < MAX_DECK; i++)
+		{
+			preState.deck[thisPlayer][i] = -1;
+		}
+
+		// setting player's deck to a random assortment of cards
+		for (i = 0; i < preState.deckCount[thisPlayer]; i++)
+		{
+			preState.deck[thisPlayer][i] = randDec(curse, treasure_map);
+		}
+
+		// randomizing discard size
+		preState.discardCount[thisPlayer] = randDec(0, MAX_DECK);
+
+		// clearing the player's discard pile
+		for (i = 0; i < MAX_DECK; i++)
+		{
+			preState.discard[thisPlayer][i] = -1;
+		}
+
+		// setting the player's discard pile to a random assortment of cards
+		for (i = 0; i < preState.discardCount[thisPlayer]; i++)
+		{
+			preState.discard[thisPlayer][i] = randDec(curse, treasure_map);
+		}
+
+		// target values
+		int cardsGained;
+		int playedCount = 1;
+
+		if (preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] < 2)
+		{
+			cardsGained = preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer];
+		}
+		else
+		{
+			cardsGained = 2;
+		}
+		
+		// copy the pre-test game state to the post-test game state
+		memcpy(&postState, &preState, sizeof(struct gameState));
+
+		// ***** Playing test card ***** //
+		playAdventurer(&postState, thisPlayer);
+
+		// discard pile should have the correct number of cards
+		if (postState.discardCount[thisPlayer] != preState.discardCount[thisPlayer] + (preState.deckCount[thisPlayer] - postState.deckCount[thisPlayer] - cardsGained))
+		{
+			failedFlag = 1;
+			printf("\tFAILED ON TEST: player discard count: %d, expected: %d\n", (preState.discardCount[thisPlayer] + (preState.deckCount[thisPlayer] - postState.deckCount[thisPlayer] - cardsGained)), postState.discardCount[thisPlayer]);
+		}
+
+		if (failedFlag == 1)
+		{
+			printf("TEST FAILED\n");
+			printf("seed = %d\n", seed);
+			printf("Number of Players: %d\n", numPlayers);
+			printf("Current Player: %d\n", thisPlayer);
+			printf("Hand Count: %d\n", preState.handCount[thisPlayer]);
+			printf("Deck Count: %d\n", preState.deckCount[thisPlayer]);
+			printf("Discard Count: %d\n", preState.discardCount[thisPlayer]);
+			printf("New cards in hand: ");
+			printf("%d ", preState.hand[thisPlayer][adventurerPosition]);
+			for (i = preState.handCount[thisPlayer]; i < postState.handCount[thisPlayer]; i++)
+			{
+				printf("%d ", postState.hand[thisPlayer][i]);
+			}
+			printf("\n");
+
+			printf("Cards drawn from deck: ");
+			for (k = preState.deckCount[thisPlayer] - 1; k > postState.deckCount[thisPlayer]; k--)
+			{
+				printf("%d ", preState.deck[thisPlayer][k]);
+			}
+			printf("\n");
+		}
+
+Bug #3: Council Room card is not removed from current player's hand after call to playCouncil_Room
+Test Name: cardtest4
+Version: user stanfiei Assignment 2 dominion.c code
+Platform: OSU server Flip
+Priority: High
+Severity: Moderate - User could play Council Room card as many times as they have Actions in a single turn
+Error Text:
+	----------------- Testing Card: Council Room----------------
+	Playing Council Room...
+
+        	TEST: thisPlayer hand count = 9, expected = 8
+        	TEST FAILED
+
+        	TEST: player's hand should not contain an outpost card
+        	TEST FAILED
+
+        	TEST: played count = 0, expected = 1
+        	TEST FAILED
+
+        	TEST: outpost should be in played cards
+        	TEST FAILED
+
+	TEST Outpost: FAILED
+
+Description: 
+	The game state is set up so that the player has 5 cards in their deck (deck contains 5 estates) 
+	and 5 cards in their hand (4 coppers and 1 council room). After playing the council room card, there 
+	should be 4 coppers and 4 estates in the player's hand, no Council Room card in the player's hand and 
+	the Council Room card should be in the set of played cards. The test shows that the Council Room card 
+	remains in the player's hand after a call to playCouncil_Room and is never placed in the set of 
+	played cards.
+Test Code:
+	struct gameState preState, postState;
+	int kingdom[10] = { adventurer, smithy, village, outpost, sea_hag, mine, cutpurse, tribute, embargo, minion };
+	int seed = 1000;
+	int numPlayers = 2;
+	int thisPlayer = 0;
+	int i;
+
+	// 0 == failure, 1 == success
+	int failedFlag = 0;
+
+	// initialize game state
+	initializeGame(numPlayers, kingdom, seed, &preState);
+
+	const int playedCount = 1;
+	const int testCard = council_room;
+	const int testCardPosition = 0;
+	const int cardsGained = 4;
+	const int plusBuys = 1;
+
+	printf("----------------- Testing Card: %s ----------------\n", TEST_CARD_NAME);
+
+	// setting up player's hand
+	for (i = 0; i < MAX_HAND; i++)
+	{
+		preState.hand[thisPlayer][i] = -1;
+	}
+
+	preState.handCount[thisPlayer] = 5;
+
+	// setting player's hand to all copper, except for outpost
+	for (i = 0; i < preState.handCount[thisPlayer]; i++)
+	{
+		preState.hand[thisPlayer][i] = copper;
+	}
+
+	preState.hand[thisPlayer][testCardPosition] = testCard;
+
+	// setting up player's deck
+	for (i = 0; i < MAX_DECK; i++)
+	{
+		preState.deck[thisPlayer][i] = -1;
+	}
+
+	preState.deckCount[thisPlayer] = 5;
+
+	// setting player's deck to entirely estates
+	for (i = 0; i < preState.deckCount[thisPlayer]; i++)
+	{
+		preState.deck[thisPlayer][i] = estate;
+	}
+
+	// copy the pre-test game state to the post-test game state
+	memcpy(&postState, &preState, sizeof(struct gameState));
+
+	printf("Playing %s...\n", TEST_CARD_NAME);
+	playCouncil_Room(&postState, testCardPosition, thisPlayer);
+
+	// checking hand count
+	printf("\n\tTEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
+
+	if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
+	{
+		failedFlag = 1;
+		printf("\tTEST FAILED\n");
+	}
+
+	// outpost should not be in the player's hand
+	printf("\n\tTEST: player's hand should not contain an outpost card\n");
+
+	if (postState.hand[thisPlayer][testCardPosition] == testCard)
+	{
+		failedFlag = 1;
+		printf("\tTEST FAILED\n");
+	}
+
+	// playedCardCount should be +1
+	printf("\n\tTEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
+
+	if (postState.playedCardCount != (preState.playedCardCount + playedCount))
+	{
+		failedFlag = 1;
+		printf("\tTEST FAILED\n");
+	}
+
+	// outpost should be in played pile
+	printf("\n\tTEST: outpost should be in played cards\n");
+
+	if (postState.playedCards[0] != outpost)
+	{
+		failedFlag = 1;
+		printf("\tTEST FAILED\n");
+	}	
+
+	if (failedFlag == 0)
+	{
+		printf("\nTEST %s: SUCCESS\n", TEST_CARD_NAME);
+	}
+	else
+	{
+		printf("\nTEST %s: FAILED\n", TEST_CARD_NAME);
+	}
+
+Bug #4: isGameOver does not correctly end the game
+Test Name: unittest3 (Test 5: All combinations of 3 empty supply piles)
+Version: user stanfiei Assignment 2 dominion.c code
+Platform: OSU server Flip
+Priority: High
+Severity: Moderate - Game will not end under certain conditions (but will still end eventually)
+Error Text:
+	
+	TEST 5: All combinations of 3 empty supply piles
+        	Testing Game Over...
+        	Expected game over on card values: 0, 1, 25
+	TEST 5: FAILED
+
+Description: 
+	The game does not end with certain combinations of empty supply piles. If one of the three empty supply
+	piles has the card value 25 or 26 and two other piles in the supply are empty, the method will not
+	correctly signal the end of the game.
+Test Code:
+
+	struct gameState preState, postState;
+	int kingdom[10] = { adventurer, smithy, village, outpost, sea_hag, mine, cutpurse, tribute, embargo, minion };
+
+	int seed = 1000;
+	int numPlayers = 2;
+	int badCount = 0;
+	int failed;
+	int gameOver;
+	int i, j, k;
+
+	// 0 == failure, 1 == success
+	int results[TEST_COUNT] = { 0 };
+
+	// initialize game state
+	initializeGame(numPlayers, kingdom, seed, &preState);
+
+	failed = 0;
+
+	for (i = 0; i <= treasure_map-2; i++)
+	{
+		for (j = i+1; j <= treasure_map-1; j++)
+		{
+			for (k = i+2; k <= treasure_map; k++)
+			{
+				memcpy(&postState, &preState, sizeof(struct gameState));
+				
+				if (i == province || j == province || k == province)
+				{
+					//skip to next iteration
+				}
+				else
+				{
+					postState.supplyCount[i] = 0;
+					postState.supplyCount[j] = 0;
+					postState.supplyCount[k] = 0;
+
+					gameOver = isGameOver(&postState);
+					//printf("\tCombination: %d, %d, %d\n", i, j, k);
+
+					// check if gameOver is correct
+					if (gameOver == 0)
+					{
+						printf("\tExpected game over on card values: %d, %d, %d\n", i, j, k);
+						failed = 1;
+						goto endLoop;
+					}
+				}			
+			}
+		}
+	}
+
+	endLoop:
+	
+	if (failed == 1)
+	{
+		printf("TEST 5: FAILED\n");
+	}
+	else
+	{
+		results[4] = 1;
+		printf("TEST 5: SUCCESS\n");
+	}
+
+Bug #5: Current player does not have a second "outpost" turn after outpost card is played
+Test Name: unittest5
+Version: user stanfiei Assignment 2 dominion.c code
+Platform: OSU server Flip
+Priority: Moderate
+Severity: Moderate - Outpost card is non-functional
+Error Text:
+	
+	----------------- Testing Card: Outpost ----------------
+        Playing Outpost...
+        	TEST: thisPlayer hand count = 4, expected = 4
+        	TEST: thisPlayer deck count = 5, expected = 5
+        	TEST: player's hand should not contain an outpost card
+        	TEST: played count = 1, expected = 1
+        	TEST: outpost should be in played cards
+        	TEST: outpostPlayed should equal 1
+        	Ending player's turn...
+        	TEST: whoseTurn should be 0
+	TEST Outpost: FAILED
+
+Description: 
+	When a player plays an outpost card, according to the game rules they should immediately receive another
+	turn after they end the turn in which they played an outpost card. Instead, when the player's turn ends
+	after playing an outpost card, whoseTurn moves to the next player as if no outpost card was played at all. 
+Test Code:
+		struct gameState preState, postState;
+	int kingdom[10] = { adventurer, smithy, village, outpost, sea_hag, mine, cutpurse, tribute, embargo, minion };
+	int seed = 1000;
+	int numPlayers = 2;
+	int thisPlayer = 0;
+	int i;
+
+	// 0 == failure, 1 == success
+	int failedFlag = 0;
+
+	// initialize game state
+	initializeGame(numPlayers, kingdom, seed, &preState);
+
+	const int playedCount = 1;
+	const int outpostPosition = 0;
+	const int cardsGained = 0;
+
+	printf("----------------- Testing Card: %s ----------------\n", TEST_CARD);
+
+	// setting up player's hand
+	for (i = 0; i < MAX_HAND; i++)
+	{
+		preState.hand[thisPlayer][i] = -1;
+	}
+
+	preState.handCount[thisPlayer] = 5;
+
+	// setting player's hand to all copper, except for outpost
+	for (i = 0; i < preState.handCount[thisPlayer]; i++)
+	{
+		preState.hand[thisPlayer][i] = copper;
+	}
+
+	preState.hand[thisPlayer][outpostPosition] = outpost;
+
+	// setting up player's deck
+	for (i = 0; i < MAX_DECK; i++)
+	{
+		preState.deck[thisPlayer][i] = -1;
+	}
+
+	preState.deckCount[thisPlayer] = 5;
+
+	// setting player's deck to entirely estates
+	for (i = 0; i < preState.deckCount[thisPlayer]; i++)
+	{
+		preState.deck[thisPlayer][i] = estate;
+	}
+
+	// copy the pre-test game state to the post-test game state
+	memcpy(&postState, &preState, sizeof(struct gameState));
+
+	printf("\tPlaying Outpost...\n");
+	//playOutpost(&postState, outpostPosition, thisPlayer);
+	cardEffect(outpost, 0, 0, 0, &postState, outpostPosition, NULL);
+
+	// end thisPlayer's turn
+	printf("\tEnding player's turn...\n");
+	endTurn(&postState);
+
+	// should still be thisPlayer's turn
+	printf("\tTEST: whoseTurn should be 0\n");
+
+	if (postState.whoseTurn != 0)
+	{
+		failedFlag = 1;
+		goto endTest;
+	}

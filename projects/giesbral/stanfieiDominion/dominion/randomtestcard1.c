@@ -4,9 +4,8 @@
 	CS362_400_S2017
 	Assignment 4
 
-	Random Test for Adventurer card
+	Random Test for Smithy card
 */
-
 
 #include "dominion.h"
 #include "dominion_helpers.h"
@@ -16,7 +15,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TEST_CARD "Adventurer"
+#define TEST_CARD_NAME "Smithy"
 #define NUM_TESTS 200
 #define NUM_KINGDOM 10
 #define NUM_TEMP_KINGDOM 20
@@ -69,7 +68,7 @@ int main() {
 
 	int failureCount = 0;
 
-	printf("----------------- Random Testing Card: %s ----------------\n", TEST_CARD);
+	printf("----------------- Random Testing Card: %s ----------------\n", TEST_CARD_NAME);
 
 	for (testLoop = 1; testLoop <= NUM_TESTS; testLoop++)
 	{
@@ -103,12 +102,12 @@ int main() {
 			treasure_map };
 
 		shuffleArr(tempKingdomArr, NUM_TEMP_KINGDOM);
-
+	
 		for (i = 0; i < NUM_KINGDOM; ++i)
 		{
 			kingdom[i] = tempKingdomArr[i];
 		}
-
+	
 		// randomize seed
 		int seed = randDec(1, 1000);
 
@@ -116,14 +115,14 @@ int main() {
 		int numPlayers = randDec(2, 4);
 
 		// randomize thisPlayer
-		int thisPlayer = randDec(0, numPlayers - 1);
+		int thisPlayer = randDec(0, numPlayers-1);
 
 		// initialize game state
-		initializeGame(numPlayers, kingdom, seed, &preState);
+		initializeGame(numPlayers, kingdom, seed, &preState);	
 
 		//randomizing hand size
 		preState.handCount[thisPlayer] = randDec(1, MAX_HAND);
-
+	
 		// clearing player's hand
 		for (i = 0; i < MAX_HAND; i++)
 		{
@@ -136,13 +135,14 @@ int main() {
 			preState.hand[thisPlayer][i] = randDec(curse, treasure_map);
 		}
 
-		// randomize adventurer position and add to hand
-		int adventurerPosition = randDec(0, preState.handCount[thisPlayer] - 1);
+		// randomize smithy position and add to hand
+		int smithyPosition = randDec(0, preState.handCount[thisPlayer] - 1);
 
-		preState.hand[thisPlayer][adventurerPosition] = adventurer;
+		preState.hand[thisPlayer][smithyPosition] = smithy;
 
 		// randomizing deck size
 		preState.deckCount[thisPlayer] = randDec(0, MAX_DECK);
+		//preState.deckCount[thisPlayer] = randDec(1, 2);
 
 		// clearing player's deck
 		for (i = 0; i < MAX_DECK; i++)
@@ -175,20 +175,20 @@ int main() {
 		int cardsGained;
 		int playedCount = 1;
 
-		if (preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] < 2)
+		if (preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] < 3)
 		{
 			cardsGained = preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer];
 		}
 		else
 		{
-			cardsGained = 2;
+			cardsGained = 3;
 		}
-		
+
 		// copy the pre-test game state to the post-test game state
 		memcpy(&postState, &preState, sizeof(struct gameState));
 
 		// ***** Playing test card ***** //
-		playAdventurer(&postState, adventurerPosition, thisPlayer);
+		playSmithy(&postState, smithyPosition, thisPlayer);
 
 		// checking hand count
 		if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
@@ -197,15 +197,7 @@ int main() {
 			printf("\tFAILED ON TEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
 		}
 
-		// played adventurer card should not be in the player's hand
-		if (postState.hand[thisPlayer][adventurerPosition] == adventurer && preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != adventurer)
-		{
-			failedFlag = 1;
-			printf("\tFAILED ON TEST: player's hand should not contain the played adventurer card\n");
-		}
-
-		
-		if (preState.deckCount[thisPlayer] != 0)
+		if (preState.deckCount[thisPlayer] >= cardsGained)
 		{
 			// checking deck count
 			if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer] - preState.discardCount[thisPlayer]))))
@@ -215,8 +207,8 @@ int main() {
 			}
 
 			// cards drawn from deck the same as the new cards in the player's hand?
-			// was the adventurer card played from hand position replaced with the correct card?
-			if (preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != postState.hand[thisPlayer][adventurerPosition] &&
+			// was the Smithy card played from hand position replaced with the correct card?
+			if (preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != postState.hand[thisPlayer][smithyPosition] &&
 				(preState.deck[thisPlayer][postState.deckCount[thisPlayer]] == copper ||
 					preState.deck[thisPlayer][postState.deckCount[thisPlayer]] == silver ||
 					preState.deck[thisPlayer][postState.deckCount[thisPlayer]] == gold))
@@ -226,7 +218,7 @@ int main() {
 				goto continueTests;
 			}
 
-			// are the remaining cards drawn from the deck (that didn't replace the adventurer card at hand position) the same as the cards currently in the player's hand?
+			// are the remaining cards drawn from the deck (that didn't replace the smithy card at hand position) the same as the cards currently in the player's hand?
 			i = preState.handCount[thisPlayer];
 			k = preState.deckCount[thisPlayer] - 1;
 
@@ -249,14 +241,14 @@ int main() {
 		else
 		{
 			// checking deck count
-			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
+			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
 			{
 				failedFlag = 1;
 				printf("\tFAILED ON TEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer]))));
 			}
 
-			// If deck count = 0, was discard shuffled into deck correctly?
-			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
+			// If deck count < cardsGained, was discard shuffled into deck correctly?
+			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
 			{
 				failedFlag = 1;
 				printf("\tFAILED ON TEST: discard pile not shuffled into deck correctly\n");
@@ -265,25 +257,17 @@ int main() {
 
 	continueTests:
 
-		// cards drawn from the deck should be treasure cards
-		if (postState.hand[thisPlayer][adventurerPosition] != copper && 
-			postState.hand[thisPlayer][adventurerPosition] != silver && 
-			postState.hand[thisPlayer][adventurerPosition] != gold)
+		// discard pile should have the correct number of cards
+		if (postState.discardCount[thisPlayer] != preState.discardCount[thisPlayer] + (preState.deckCount[thisPlayer] - postState.deckCount[thisPlayer] - cardsGained))
 		{
 			failedFlag = 1;
-			printf("\tFAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card\n");
+			printf("\tFAILED ON TEST: player discard count: %d, expected: %d\n", (preState.discardCount[thisPlayer] + (preState.deckCount[thisPlayer] - postState.deckCount[thisPlayer] - cardsGained)), postState.discardCount[thisPlayer]);
 		}
-
-		for (i = preState.handCount[thisPlayer]; i < postState.handCount[thisPlayer]; ++i)
+		// played smithy card should not be in the player's hand
+		if (postState.hand[thisPlayer][smithyPosition] == smithy && preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != smithy)
 		{
-			if (postState.hand[thisPlayer][i] != copper && 
-				postState.hand[thisPlayer][i] != silver && 
-				postState.hand[thisPlayer][i] != gold)
-			{
-				failedFlag = 1;
-				printf("\tFAILED ON TEST: cards drawn from deck are not treasure cards\n");
-				break;
-			}
+			failedFlag = 1;
+			printf("\tFAILED ON TEST: player's hand should not contain the played smithy card\n");
 		}
 
 		// playedCardCount should be +1
@@ -293,11 +277,13 @@ int main() {
 			printf("\tFAILED ON TEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
 		}
 
-		// adventurer should be in played pile
-		if (postState.playedCards[preState.playedCardCount] != adventurer)
+		// smithy should be in played pile
+		//printf("\tTEST: smithy should be in played cards\n");
+		//
+		if (postState.playedCards[preState.playedCardCount] != smithy)
 		{
 			failedFlag = 1;
-			printf("\tFAILED ON TEST: Played card value = %d, expected %d\n", postState.playedCards[preState.playedCardCount], adventurer);
+			printf("\tFAILED ON TEST: Played card value = %d, expected %d\n", postState.playedCards[preState.playedCardCount], smithy);
 		}
 
 		if (failedFlag == 1)
@@ -317,7 +303,7 @@ int main() {
 			printf("Deck Count: %d\n", preState.deckCount[thisPlayer]);
 			printf("Discard Count: %d\n", preState.discardCount[thisPlayer]);
 			printf("New cards in hand: ");
-			printf("%d ", preState.hand[thisPlayer][adventurerPosition]);
+			printf("%d ", preState.hand[thisPlayer][smithyPosition]);
 			for (i = preState.handCount[thisPlayer]; i < postState.handCount[thisPlayer]; i++)
 			{
 				printf("%d ", postState.hand[thisPlayer][i]);
@@ -325,19 +311,19 @@ int main() {
 			printf("\n");
 
 			printf("Cards drawn from deck: ");
-			for (k = preState.deckCount[thisPlayer] - 1; k > postState.deckCount[thisPlayer]; k--)
+			for (k = preState.deckCount[thisPlayer] - 1; k >= postState.deckCount[thisPlayer]; k--)
 			{
 				printf("%d ", preState.deck[thisPlayer][k]);
 			}
 			printf("\n");
-			printf("deck to adventurer: %d\n", preState.deck[thisPlayer][postState.deckCount[thisPlayer]]);
-			printf("card at adventurer: %d\n", postState.hand[thisPlayer][adventurerPosition]);
+			printf("deck to smithy: %d\n", preState.deck[thisPlayer][postState.deckCount[thisPlayer]]);
+			printf("card at smithy: %d\n", postState.hand[thisPlayer][smithyPosition]);
 		}
 	}
 
 	// ----------- TESTS COMPLETE --------------
 
-	printf("\n >>>>> Testing complete %s: Failure Count: %d/%d <<<<<\n\n", TEST_CARD, failureCount, NUM_TESTS);
+	printf("\n >>>>> Testing complete %s: Failure Count: %d/%d <<<<<\n\n", TEST_CARD_NAME, failureCount, NUM_TESTS);
 
 	return 0;
 }
