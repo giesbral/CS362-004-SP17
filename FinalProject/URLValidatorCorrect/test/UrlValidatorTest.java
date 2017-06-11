@@ -104,8 +104,7 @@ public class UrlValidatorTest extends TestCase {
          String url = testBuffer.toString();
          boolean result = urlVal.isValid(url);
          
-
-         if(result == true)
+         //if(result == true)
         	 System.out.println(url);
          assertEquals(url, expected, result);
          
@@ -282,7 +281,14 @@ public class UrlValidatorTest extends TestCase {
                carry = true;
             }
          }
-         maxIndex &= (index == (part.length - 1));
+//         if (testPartsIndexIndex == 0)
+//         {
+//        	 maxIndex &= (index == part.length);
+//         }
+//         else
+//         {
+        	 maxIndex &= (index == (part.length - 1));
+//         }     
       }
 
 
