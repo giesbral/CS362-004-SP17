@@ -414,7 +414,6 @@ public class UrlValidatorTest extends TestCase {
 
    ResultPair[] testUrlQuery = {new ResultPair("?action=view", true),
                               new ResultPair("?action=edit&mode=up", true),
-                              new ResultPair("?action=edit &mode=up", false),
                               new ResultPair("", true),
                               
    };
