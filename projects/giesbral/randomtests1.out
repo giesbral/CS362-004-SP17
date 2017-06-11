@@ -1,0 +1,3790 @@
+----------------- Random Testing Card: Smithy ----------------
+
+TEST 1:
+	FAILED ON TEST: thisPlayer hand count = 413, expected = 412
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 1: FAILED
+Kingdom Cards: 17 10 25 18 15 7 9 26 13 11 
+seed = 976
+Number of Players: 2
+Current Player: 0
+Hand Count: 410
+Deck Count: 227
+Discard Count: 227
+New cards in hand: 13 13 24 18 
+Cards drawn from deck: 13 24 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 2:
+	FAILED ON TEST: thisPlayer hand count = 420, expected = 419
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 2: FAILED
+Kingdom Cards: 8 9 11 17 26 13 14 15 20 19 
+seed = 207
+Number of Players: 3
+Current Player: 1
+Hand Count: 417
+Deck Count: 81
+Discard Count: 80
+New cards in hand: 13 10 3 24 
+Cards drawn from deck: 10 3 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 3:
+	FAILED ON TEST: thisPlayer hand count = 23, expected = 22
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 3: FAILED
+Kingdom Cards: 22 21 20 13 18 7 8 16 25 10 
+seed = 978
+Number of Players: 2
+Current Player: 1
+Hand Count: 20
+Deck Count: 177
+Discard Count: 212
+New cards in hand: 13 21 1 0 
+Cards drawn from deck: 21 1 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 4:
+	FAILED ON TEST: thisPlayer hand count = 48, expected = 47
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 4: FAILED
+Kingdom Cards: 13 18 19 15 23 14 8 11 10 12 
+seed = 330
+Number of Players: 3
+Current Player: 2
+Hand Count: 45
+Deck Count: 190
+Discard Count: 461
+New cards in hand: 13 19 20 24 
+Cards drawn from deck: 19 20 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 5:
+	FAILED ON TEST: thisPlayer hand count = 150, expected = 149
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 5: FAILED
+Kingdom Cards: 12 17 10 20 22 18 15 11 25 13 
+seed = 26
+Number of Players: 4
+Current Player: 3
+Hand Count: 147
+Deck Count: 445
+Discard Count: 366
+New cards in hand: 13 7 23 12 
+Cards drawn from deck: 7 23 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 6:
+	FAILED ON TEST: thisPlayer hand count = 280, expected = 279
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 6: FAILED
+Kingdom Cards: 13 23 11 25 12 24 19 8 16 9 
+seed = 194
+Number of Players: 4
+Current Player: 1
+Hand Count: 277
+Deck Count: 337
+Discard Count: 407
+New cards in hand: 13 21 10 24 
+Cards drawn from deck: 21 10 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 7:
+	FAILED ON TEST: thisPlayer hand count = 359, expected = 358
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 7: FAILED
+Kingdom Cards: 18 16 8 17 10 23 13 7 25 11 
+seed = 300
+Number of Players: 2
+Current Player: 0
+Hand Count: 356
+Deck Count: 309
+Discard Count: 94
+New cards in hand: 13 8 3 17 
+Cards drawn from deck: 8 3 17 
+deck to smithy: 17
+card at smithy: 13
+
+TEST 8:
+	FAILED ON TEST: thisPlayer hand count = 40, expected = 39
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 8: FAILED
+Kingdom Cards: 16 14 15 22 25 13 19 21 23 10 
+seed = 979
+Number of Players: 2
+Current Player: 0
+Hand Count: 37
+Deck Count: 161
+Discard Count: 159
+New cards in hand: 13 17 11 26 
+Cards drawn from deck: 17 11 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 9:
+	FAILED ON TEST: thisPlayer hand count = 293, expected = 292
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 9: FAILED
+Kingdom Cards: 7 22 23 11 17 13 15 21 8 26 
+seed = 1
+Number of Players: 2
+Current Player: 1
+Hand Count: 290
+Deck Count: 38
+Discard Count: 55
+New cards in hand: 13 2 23 4 
+Cards drawn from deck: 2 23 4 
+deck to smithy: 4
+card at smithy: 13
+
+TEST 10:
+	FAILED ON TEST: thisPlayer hand count = 319, expected = 318
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 10: FAILED
+Kingdom Cards: 23 15 17 13 8 26 7 18 11 10 
+seed = 30
+Number of Players: 3
+Current Player: 1
+Hand Count: 316
+Deck Count: 121
+Discard Count: 470
+New cards in hand: 13 14 23 18 
+Cards drawn from deck: 14 23 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 11:
+	FAILED ON TEST: thisPlayer hand count = 177, expected = 176
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 11: FAILED
+Kingdom Cards: 20 10 17 26 11 15 13 18 24 16 
+seed = 443
+Number of Players: 2
+Current Player: 0
+Hand Count: 174
+Deck Count: 255
+Discard Count: 353
+New cards in hand: 13 8 15 6 
+Cards drawn from deck: 8 15 6 
+deck to smithy: 6
+card at smithy: 13
+
+TEST 12:
+	FAILED ON TEST: thisPlayer hand count = 100, expected = 99
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 12: FAILED
+Kingdom Cards: 26 8 19 13 20 22 23 24 7 10 
+seed = 871
+Number of Players: 3
+Current Player: 1
+Hand Count: 97
+Deck Count: 429
+Discard Count: 251
+New cards in hand: 13 19 17 10 
+Cards drawn from deck: 19 17 10 
+deck to smithy: 10
+card at smithy: 13
+
+TEST 13:
+	FAILED ON TEST: thisPlayer hand count = 52, expected = 51
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 13: FAILED
+Kingdom Cards: 12 19 11 22 18 15 7 13 8 16 
+seed = 962
+Number of Players: 2
+Current Player: 1
+Hand Count: 49
+Deck Count: 80
+Discard Count: 232
+New cards in hand: 13 14 3 19 
+Cards drawn from deck: 14 3 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 14:
+	FAILED ON TEST: thisPlayer hand count = 9, expected = 8
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 14: FAILED
+Kingdom Cards: 18 7 15 23 21 16 8 22 19 13 
+seed = 947
+Number of Players: 2
+Current Player: 0
+Hand Count: 6
+Deck Count: 387
+Discard Count: 397
+New cards in hand: 13 26 7 21 
+Cards drawn from deck: 26 7 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 15:
+	FAILED ON TEST: thisPlayer hand count = 178, expected = 177
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 15: FAILED
+Kingdom Cards: 12 10 23 20 19 11 18 16 14 7 
+seed = 510
+Number of Players: 3
+Current Player: 0
+Hand Count: 175
+Deck Count: 70
+Discard Count: 336
+New cards in hand: 13 11 16 14 
+Cards drawn from deck: 11 16 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 16:
+	FAILED ON TEST: thisPlayer hand count = 429, expected = 428
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 16: FAILED
+Kingdom Cards: 24 21 8 13 7 9 25 16 26 14 
+seed = 930
+Number of Players: 3
+Current Player: 1
+Hand Count: 426
+Deck Count: 355
+Discard Count: 463
+New cards in hand: 13 16 0 12 
+Cards drawn from deck: 16 0 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 17:
+	FAILED ON TEST: thisPlayer hand count = 422, expected = 421
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 17: FAILED
+Kingdom Cards: 9 10 18 17 15 14 12 24 7 19 
+seed = 534
+Number of Players: 3
+Current Player: 1
+Hand Count: 419
+Deck Count: 201
+Discard Count: 409
+New cards in hand: 13 10 1 1 
+Cards drawn from deck: 10 1 1 
+deck to smithy: 1
+card at smithy: 13
+
+TEST 18:
+	FAILED ON TEST: thisPlayer hand count = 351, expected = 350
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 18: FAILED
+Kingdom Cards: 23 11 24 8 9 17 18 12 16 15 
+seed = 275
+Number of Players: 3
+Current Player: 0
+Hand Count: 348
+Deck Count: 238
+Discard Count: 254
+New cards in hand: 13 22 11 3 
+Cards drawn from deck: 22 11 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 19:
+	FAILED ON TEST: thisPlayer hand count = 322, expected = 321
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 19: FAILED
+Kingdom Cards: 25 17 20 22 11 16 26 14 21 12 
+seed = 731
+Number of Players: 3
+Current Player: 1
+Hand Count: 319
+Deck Count: 122
+Discard Count: 84
+New cards in hand: 13 0 24 18 
+Cards drawn from deck: 0 24 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 20:
+	FAILED ON TEST: thisPlayer hand count = 20, expected = 19
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 20: FAILED
+Kingdom Cards: 23 20 11 17 10 22 9 14 19 21 
+seed = 753
+Number of Players: 4
+Current Player: 2
+Hand Count: 17
+Deck Count: 415
+Discard Count: 159
+New cards in hand: 13 2 9 26 
+Cards drawn from deck: 2 9 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 21:
+	FAILED ON TEST: thisPlayer hand count = 413, expected = 412
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 21: FAILED
+Kingdom Cards: 22 7 12 21 10 26 25 16 17 18 
+seed = 693
+Number of Players: 4
+Current Player: 0
+Hand Count: 410
+Deck Count: 131
+Discard Count: 65
+New cards in hand: 13 1 15 26 
+Cards drawn from deck: 1 15 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 22:
+	FAILED ON TEST: thisPlayer hand count = 374, expected = 373
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 22: FAILED
+Kingdom Cards: 22 24 19 26 23 15 12 10 17 21 
+seed = 623
+Number of Players: 4
+Current Player: 0
+Hand Count: 371
+Deck Count: 420
+Discard Count: 166
+New cards in hand: 13 10 11 25 
+Cards drawn from deck: 10 11 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 23:
+	FAILED ON TEST: thisPlayer hand count = 326, expected = 325
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 23: FAILED
+Kingdom Cards: 11 12 10 13 21 7 18 20 19 24 
+seed = 126
+Number of Players: 2
+Current Player: 1
+Hand Count: 323
+Deck Count: 87
+Discard Count: 269
+New cards in hand: 13 11 6 21 
+Cards drawn from deck: 11 6 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 24:
+	FAILED ON TEST: thisPlayer hand count = 263, expected = 262
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 24: FAILED
+Kingdom Cards: 14 24 10 23 13 21 18 20 19 15 
+seed = 683
+Number of Players: 4
+Current Player: 1
+Hand Count: 260
+Deck Count: 441
+Discard Count: 85
+New cards in hand: 13 20 11 3 
+Cards drawn from deck: 20 11 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 25:
+	FAILED ON TEST: thisPlayer hand count = 401, expected = 400
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 25: FAILED
+Kingdom Cards: 9 11 24 8 20 21 10 16 7 25 
+seed = 632
+Number of Players: 4
+Current Player: 1
+Hand Count: 398
+Deck Count: 462
+Discard Count: 481
+New cards in hand: 13 21 15 0 
+Cards drawn from deck: 21 15 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 26:
+	FAILED ON TEST: thisPlayer hand count = 369, expected = 368
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 26: FAILED
+Kingdom Cards: 8 14 17 11 25 26 21 24 15 7 
+seed = 920
+Number of Players: 4
+Current Player: 1
+Hand Count: 366
+Deck Count: 429
+Discard Count: 145
+New cards in hand: 13 18 7 17 
+Cards drawn from deck: 18 7 17 
+deck to smithy: 17
+card at smithy: 13
+
+TEST 27:
+	FAILED ON TEST: thisPlayer hand count = 76, expected = 75
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 27: FAILED
+Kingdom Cards: 9 15 8 21 20 25 24 22 10 17 
+seed = 205
+Number of Players: 3
+Current Player: 2
+Hand Count: 73
+Deck Count: 291
+Discard Count: 491
+New cards in hand: 13 8 14 9 
+Cards drawn from deck: 8 14 9 
+deck to smithy: 9
+card at smithy: 13
+
+TEST 28:
+	FAILED ON TEST: thisPlayer hand count = 401, expected = 400
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 28: FAILED
+Kingdom Cards: 16 15 26 25 7 17 14 20 18 11 
+seed = 777
+Number of Players: 2
+Current Player: 0
+Hand Count: 398
+Deck Count: 361
+Discard Count: 325
+New cards in hand: 13 6 7 15 
+Cards drawn from deck: 6 7 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 29:
+	FAILED ON TEST: thisPlayer hand count = 87, expected = 86
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 29: FAILED
+Kingdom Cards: 18 16 17 11 22 24 9 25 8 20 
+seed = 498
+Number of Players: 3
+Current Player: 2
+Hand Count: 84
+Deck Count: 455
+Discard Count: 450
+New cards in hand: 13 18 14 25 
+Cards drawn from deck: 18 14 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 30:
+	FAILED ON TEST: thisPlayer hand count = 42, expected = 41
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 30: FAILED
+Kingdom Cards: 15 19 14 24 9 25 16 8 17 13 
+seed = 276
+Number of Players: 3
+Current Player: 0
+Hand Count: 39
+Deck Count: 265
+Discard Count: 94
+New cards in hand: 13 11 26 25 
+Cards drawn from deck: 11 26 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 31:
+	FAILED ON TEST: thisPlayer hand count = 103, expected = 102
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 31: FAILED
+Kingdom Cards: 15 21 8 9 10 12 20 18 17 13 
+seed = 439
+Number of Players: 3
+Current Player: 2
+Hand Count: 100
+Deck Count: 447
+Discard Count: 274
+New cards in hand: 13 14 10 19 
+Cards drawn from deck: 14 10 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 32:
+	FAILED ON TEST: thisPlayer hand count = 451, expected = 450
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 32: FAILED
+Kingdom Cards: 15 22 9 7 25 18 8 13 12 26 
+seed = 555
+Number of Players: 4
+Current Player: 1
+Hand Count: 448
+Deck Count: 346
+Discard Count: 409
+New cards in hand: 13 24 19 0 
+Cards drawn from deck: 24 19 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 33:
+	FAILED ON TEST: thisPlayer hand count = 472, expected = 471
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 33: FAILED
+Kingdom Cards: 23 9 16 21 11 8 20 14 13 12 
+seed = 264
+Number of Players: 2
+Current Player: 1
+Hand Count: 469
+Deck Count: 432
+Discard Count: 258
+New cards in hand: 13 9 21 2 
+Cards drawn from deck: 9 21 2 
+deck to smithy: 2
+card at smithy: 13
+
+TEST 34:
+	FAILED ON TEST: thisPlayer hand count = 173, expected = 172
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 34: FAILED
+Kingdom Cards: 7 8 13 14 23 25 26 17 10 21 
+seed = 425
+Number of Players: 2
+Current Player: 1
+Hand Count: 170
+Deck Count: 448
+Discard Count: 90
+New cards in hand: 13 2 19 9 
+Cards drawn from deck: 2 19 9 
+deck to smithy: 9
+card at smithy: 13
+
+TEST 35:
+	FAILED ON TEST: thisPlayer hand count = 355, expected = 354
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 35: FAILED
+Kingdom Cards: 7 15 21 13 11 24 14 17 9 8 
+seed = 328
+Number of Players: 2
+Current Player: 1
+Hand Count: 352
+Deck Count: 118
+Discard Count: 161
+New cards in hand: 13 23 0 12 
+Cards drawn from deck: 23 0 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 36:
+	FAILED ON TEST: thisPlayer hand count = 151, expected = 150
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 36: FAILED
+Kingdom Cards: 11 15 13 23 18 10 21 16 24 14 
+seed = 24
+Number of Players: 4
+Current Player: 3
+Hand Count: 148
+Deck Count: 430
+Discard Count: 295
+New cards in hand: 13 2 16 21 
+Cards drawn from deck: 2 16 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 37:
+	FAILED ON TEST: thisPlayer hand count = 103, expected = 102
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 37: FAILED
+Kingdom Cards: 17 10 13 19 21 16 7 15 18 20 
+seed = 487
+Number of Players: 2
+Current Player: 1
+Hand Count: 100
+Deck Count: 88
+Discard Count: 272
+New cards in hand: 13 5 15 0 
+Cards drawn from deck: 5 15 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 38:
+	FAILED ON TEST: thisPlayer hand count = 502, expected = 501
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 38: FAILED
+Kingdom Cards: 13 10 21 14 24 12 19 20 25 8 
+seed = 248
+Number of Players: 4
+Current Player: 3
+Hand Count: 499
+Deck Count: 202
+Discard Count: 370
+New cards in hand: 13 7 24 17 
+Cards drawn from deck: 7 24 17 
+deck to smithy: 17
+card at smithy: 13
+
+TEST 39:
+	FAILED ON TEST: thisPlayer hand count = 232, expected = 231
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 39: FAILED
+Kingdom Cards: 12 10 14 17 20 22 25 8 11 21 
+seed = 615
+Number of Players: 2
+Current Player: 1
+Hand Count: 229
+Deck Count: 384
+Discard Count: 428
+New cards in hand: 13 9 4 1 
+Cards drawn from deck: 9 4 1 
+deck to smithy: 1
+card at smithy: 13
+
+TEST 40:
+	FAILED ON TEST: thisPlayer hand count = 65, expected = 64
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 40: FAILED
+Kingdom Cards: 24 12 15 20 22 9 13 18 14 10 
+seed = 787
+Number of Players: 2
+Current Player: 1
+Hand Count: 62
+Deck Count: 230
+Discard Count: 283
+New cards in hand: 13 19 8 17 
+Cards drawn from deck: 19 8 17 
+deck to smithy: 17
+card at smithy: 13
+
+TEST 41:
+	FAILED ON TEST: thisPlayer hand count = 94, expected = 93
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 41: FAILED
+Kingdom Cards: 11 23 10 9 13 14 21 18 15 12 
+seed = 180
+Number of Players: 2
+Current Player: 1
+Hand Count: 91
+Deck Count: 408
+Discard Count: 130
+New cards in hand: 13 22 7 5 
+Cards drawn from deck: 22 7 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 42:
+	FAILED ON TEST: thisPlayer hand count = 230, expected = 229
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 42: FAILED
+Kingdom Cards: 8 17 18 9 14 13 21 16 10 11 
+seed = 38
+Number of Players: 3
+Current Player: 0
+Hand Count: 227
+Deck Count: 5
+Discard Count: 11
+New cards in hand: 13 0 8 4 
+Cards drawn from deck: 0 8 4 
+deck to smithy: 4
+card at smithy: 13
+
+TEST 43:
+	FAILED ON TEST: thisPlayer hand count = 102, expected = 101
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 43: FAILED
+Kingdom Cards: 20 8 9 18 14 15 11 7 17 23 
+seed = 854
+Number of Players: 4
+Current Player: 0
+Hand Count: 99
+Deck Count: 328
+Discard Count: 8
+New cards in hand: 13 23 6 13 
+Cards drawn from deck: 23 6 13 
+deck to smithy: 13
+card at smithy: 13
+
+TEST 44:
+	FAILED ON TEST: thisPlayer hand count = 155, expected = 154
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 44: FAILED
+Kingdom Cards: 10 14 8 11 7 15 12 17 18 24 
+seed = 111
+Number of Players: 2
+Current Player: 1
+Hand Count: 152
+Deck Count: 250
+Discard Count: 145
+New cards in hand: 13 11 5 7 
+Cards drawn from deck: 11 5 7 
+deck to smithy: 7
+card at smithy: 13
+
+TEST 45:
+	FAILED ON TEST: thisPlayer hand count = 100, expected = 99
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 45: FAILED
+Kingdom Cards: 19 11 15 13 22 21 18 16 7 24 
+seed = 633
+Number of Players: 2
+Current Player: 0
+Hand Count: 97
+Deck Count: 148
+Discard Count: 135
+New cards in hand: 13 13 9 14 
+Cards drawn from deck: 13 9 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 46:
+	FAILED ON TEST: thisPlayer hand count = 369, expected = 368
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 46: FAILED
+Kingdom Cards: 9 24 19 21 11 20 16 13 10 17 
+seed = 439
+Number of Players: 3
+Current Player: 0
+Hand Count: 366
+Deck Count: 480
+Discard Count: 251
+New cards in hand: 13 26 21 2 
+Cards drawn from deck: 26 21 2 
+deck to smithy: 2
+card at smithy: 13
+
+TEST 47:
+	FAILED ON TEST: thisPlayer hand count = 87, expected = 86
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 47: FAILED
+Kingdom Cards: 21 19 12 23 14 25 17 10 7 9 
+seed = 674
+Number of Players: 3
+Current Player: 1
+Hand Count: 84
+Deck Count: 469
+Discard Count: 347
+New cards in hand: 13 1 26 21 
+Cards drawn from deck: 1 26 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 48:
+	FAILED ON TEST: thisPlayer hand count = 36, expected = 35
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 48: FAILED
+Kingdom Cards: 8 22 7 23 11 14 16 12 17 9 
+seed = 433
+Number of Players: 4
+Current Player: 2
+Hand Count: 33
+Deck Count: 21
+Discard Count: 221
+New cards in hand: 13 6 3 5 
+Cards drawn from deck: 6 3 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 49:
+	FAILED ON TEST: thisPlayer hand count = 113, expected = 112
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 49: FAILED
+Kingdom Cards: 10 18 15 7 9 14 25 13 24 21 
+seed = 76
+Number of Players: 4
+Current Player: 2
+Hand Count: 110
+Deck Count: 329
+Discard Count: 266
+New cards in hand: 13 23 19 24 
+Cards drawn from deck: 23 19 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 50:
+	FAILED ON TEST: thisPlayer hand count = 110, expected = 109
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 50: FAILED
+Kingdom Cards: 19 8 13 25 11 14 17 22 7 9 
+seed = 899
+Number of Players: 2
+Current Player: 0
+Hand Count: 107
+Deck Count: 199
+Discard Count: 343
+New cards in hand: 13 18 15 3 
+Cards drawn from deck: 18 15 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 51:
+	FAILED ON TEST: thisPlayer hand count = 450, expected = 449
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 51: FAILED
+Kingdom Cards: 23 12 13 25 10 22 21 19 24 26 
+seed = 884
+Number of Players: 3
+Current Player: 2
+Hand Count: 447
+Deck Count: 101
+Discard Count: 184
+New cards in hand: 13 10 26 5 
+Cards drawn from deck: 10 26 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 52:
+	FAILED ON TEST: thisPlayer hand count = 49, expected = 48
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 52: FAILED
+Kingdom Cards: 16 7 10 17 8 20 25 21 11 13 
+seed = 681
+Number of Players: 2
+Current Player: 1
+Hand Count: 46
+Deck Count: 9
+Discard Count: 16
+New cards in hand: 13 20 12 15 
+Cards drawn from deck: 20 12 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 53:
+	FAILED ON TEST: thisPlayer hand count = 181, expected = 180
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 53: FAILED
+Kingdom Cards: 20 26 12 8 19 15 17 24 16 10 
+seed = 683
+Number of Players: 4
+Current Player: 2
+Hand Count: 178
+Deck Count: 3
+Discard Count: 102
+New cards in hand: 13 7 19 22 
+Cards drawn from deck: 7 19 22 
+deck to smithy: 22
+card at smithy: 13
+
+TEST 54:
+	FAILED ON TEST: thisPlayer hand count = 322, expected = 321
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 54: FAILED
+Kingdom Cards: 26 25 23 22 7 13 24 9 10 17 
+seed = 452
+Number of Players: 4
+Current Player: 0
+Hand Count: 319
+Deck Count: 315
+Discard Count: 434
+New cards in hand: 13 3 25 18 
+Cards drawn from deck: 3 25 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 55:
+	FAILED ON TEST: thisPlayer hand count = 308, expected = 307
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 55: FAILED
+Kingdom Cards: 11 21 15 24 19 14 8 16 25 20 
+seed = 282
+Number of Players: 4
+Current Player: 2
+Hand Count: 305
+Deck Count: 183
+Discard Count: 58
+New cards in hand: 13 13 24 6 
+Cards drawn from deck: 13 24 6 
+deck to smithy: 6
+card at smithy: 13
+
+TEST 56:
+	FAILED ON TEST: thisPlayer hand count = 413, expected = 412
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 56: FAILED
+Kingdom Cards: 25 21 26 7 19 12 24 15 8 23 
+seed = 305
+Number of Players: 3
+Current Player: 1
+Hand Count: 410
+Deck Count: 497
+Discard Count: 234
+New cards in hand: 13 14 7 5 
+Cards drawn from deck: 14 7 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 57:
+	FAILED ON TEST: thisPlayer hand count = 215, expected = 214
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 57: FAILED
+Kingdom Cards: 7 10 11 13 17 22 14 26 25 18 
+seed = 952
+Number of Players: 4
+Current Player: 1
+Hand Count: 212
+Deck Count: 30
+Discard Count: 183
+New cards in hand: 13 20 13 3 
+Cards drawn from deck: 20 13 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 58:
+	FAILED ON TEST: thisPlayer hand count = 392, expected = 391
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 58: FAILED
+Kingdom Cards: 11 23 9 14 7 15 8 13 19 25 
+seed = 370
+Number of Players: 4
+Current Player: 2
+Hand Count: 389
+Deck Count: 278
+Discard Count: 25
+New cards in hand: 13 19 0 13 
+Cards drawn from deck: 19 0 13 
+deck to smithy: 13
+card at smithy: 13
+
+TEST 59:
+	FAILED ON TEST: thisPlayer hand count = 444, expected = 443
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 59: FAILED
+Kingdom Cards: 16 9 10 13 19 15 14 25 18 20 
+seed = 364
+Number of Players: 2
+Current Player: 0
+Hand Count: 441
+Deck Count: 157
+Discard Count: 486
+New cards in hand: 13 6 12 6 
+Cards drawn from deck: 6 12 6 
+deck to smithy: 6
+card at smithy: 13
+
+TEST 60:
+	FAILED ON TEST: thisPlayer hand count = 332, expected = 331
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 60: FAILED
+Kingdom Cards: 11 26 12 22 20 19 23 8 17 25 
+seed = 532
+Number of Players: 4
+Current Player: 0
+Hand Count: 329
+Deck Count: 406
+Discard Count: 433
+New cards in hand: 13 22 10 21 
+Cards drawn from deck: 22 10 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 61:
+	FAILED ON TEST: thisPlayer hand count = 55, expected = 54
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 61: FAILED
+Kingdom Cards: 15 18 26 7 20 10 8 13 14 23 
+seed = 990
+Number of Players: 2
+Current Player: 1
+Hand Count: 52
+Deck Count: 187
+Discard Count: 374
+New cards in hand: 13 17 25 26 
+Cards drawn from deck: 17 25 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 62:
+	FAILED ON TEST: thisPlayer hand count = 503, expected = 502
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 62: FAILED
+Kingdom Cards: 24 26 25 19 23 20 10 8 13 16 
+seed = 92
+Number of Players: 3
+Current Player: 0
+Hand Count: 500
+Deck Count: 100
+Discard Count: 286
+New cards in hand: 13 5 1 11 
+Cards drawn from deck: 5 1 11 
+deck to smithy: 11
+card at smithy: 13
+
+TEST 63:
+	FAILED ON TEST: thisPlayer hand count = 314, expected = 313
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 63: FAILED
+Kingdom Cards: 26 21 23 22 13 7 19 12 14 15 
+seed = 848
+Number of Players: 4
+Current Player: 3
+Hand Count: 311
+Deck Count: 178
+Discard Count: 30
+New cards in hand: 13 8 21 1 
+Cards drawn from deck: 8 21 1 
+deck to smithy: 1
+card at smithy: 13
+
+TEST 64:
+	FAILED ON TEST: thisPlayer hand count = 418, expected = 417
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 64: FAILED
+Kingdom Cards: 20 23 13 17 9 12 16 21 14 8 
+seed = 23
+Number of Players: 3
+Current Player: 1
+Hand Count: 415
+Deck Count: 475
+Discard Count: 439
+New cards in hand: 13 2 17 12 
+Cards drawn from deck: 2 17 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 65:
+	FAILED ON TEST: thisPlayer hand count = 474, expected = 473
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 65: FAILED
+Kingdom Cards: 22 15 8 10 21 7 25 14 11 18 
+seed = 972
+Number of Players: 4
+Current Player: 0
+Hand Count: 471
+Deck Count: 170
+Discard Count: 21
+New cards in hand: 13 26 13 24 
+Cards drawn from deck: 26 13 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 66:
+	FAILED ON TEST: thisPlayer hand count = 432, expected = 431
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 66: FAILED
+Kingdom Cards: 22 14 23 16 11 25 9 18 10 15 
+seed = 492
+Number of Players: 4
+Current Player: 3
+Hand Count: 429
+Deck Count: 416
+Discard Count: 353
+New cards in hand: 13 11 8 16 
+Cards drawn from deck: 11 8 16 
+deck to smithy: 16
+card at smithy: 13
+
+TEST 67:
+	FAILED ON TEST: thisPlayer hand count = 278, expected = 277
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 67: FAILED
+Kingdom Cards: 23 26 22 7 17 10 11 15 24 19 
+seed = 466
+Number of Players: 2
+Current Player: 1
+Hand Count: 275
+Deck Count: 41
+Discard Count: 407
+New cards in hand: 13 19 1 6 
+Cards drawn from deck: 19 1 6 
+deck to smithy: 6
+card at smithy: 13
+
+TEST 68:
+	FAILED ON TEST: thisPlayer hand count = 73, expected = 72
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 68: FAILED
+Kingdom Cards: 16 8 14 24 10 19 21 25 17 11 
+seed = 219
+Number of Players: 4
+Current Player: 2
+Hand Count: 70
+Deck Count: 220
+Discard Count: 302
+New cards in hand: 13 3 12 12 
+Cards drawn from deck: 3 12 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 69:
+	FAILED ON TEST: thisPlayer hand count = 293, expected = 292
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 69: FAILED
+Kingdom Cards: 9 7 19 10 22 15 25 11 14 13 
+seed = 949
+Number of Players: 3
+Current Player: 2
+Hand Count: 290
+Deck Count: 428
+Discard Count: 44
+New cards in hand: 13 14 8 19 
+Cards drawn from deck: 14 8 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 70:
+	FAILED ON TEST: thisPlayer hand count = 466, expected = 465
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 70: FAILED
+Kingdom Cards: 22 11 9 15 16 14 21 26 18 12 
+seed = 87
+Number of Players: 3
+Current Player: 2
+Hand Count: 463
+Deck Count: 306
+Discard Count: 277
+New cards in hand: 13 3 19 8 
+Cards drawn from deck: 3 19 8 
+deck to smithy: 8
+card at smithy: 13
+
+TEST 71:
+	FAILED ON TEST: thisPlayer hand count = 485, expected = 484
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 71: FAILED
+Kingdom Cards: 24 17 12 20 16 21 10 19 7 13 
+seed = 727
+Number of Players: 2
+Current Player: 0
+Hand Count: 482
+Deck Count: 42
+Discard Count: 188
+New cards in hand: 13 5 21 7 
+Cards drawn from deck: 5 21 7 
+deck to smithy: 7
+card at smithy: 13
+
+TEST 72:
+	FAILED ON TEST: thisPlayer hand count = 124, expected = 123
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 72: FAILED
+Kingdom Cards: 24 23 11 17 12 14 13 9 25 21 
+seed = 728
+Number of Players: 4
+Current Player: 0
+Hand Count: 121
+Deck Count: 71
+Discard Count: 333
+New cards in hand: 13 15 5 16 
+Cards drawn from deck: 15 5 16 
+deck to smithy: 16
+card at smithy: 13
+
+TEST 73:
+	FAILED ON TEST: thisPlayer hand count = 106, expected = 105
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 73: FAILED
+Kingdom Cards: 15 13 25 26 23 12 21 18 22 8 
+seed = 351
+Number of Players: 2
+Current Player: 0
+Hand Count: 103
+Deck Count: 315
+Discard Count: 493
+New cards in hand: 13 8 19 25 
+Cards drawn from deck: 8 19 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 74:
+	FAILED ON TEST: thisPlayer hand count = 359, expected = 358
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 74: FAILED
+Kingdom Cards: 23 24 8 19 20 26 14 25 21 18 
+seed = 728
+Number of Players: 3
+Current Player: 0
+Hand Count: 356
+Deck Count: 45
+Discard Count: 465
+New cards in hand: 13 11 15 0 
+Cards drawn from deck: 11 15 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 75:
+	FAILED ON TEST: thisPlayer hand count = 53, expected = 52
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 75: FAILED
+Kingdom Cards: 9 17 24 13 25 7 18 23 14 19 
+seed = 893
+Number of Players: 2
+Current Player: 1
+Hand Count: 50
+Deck Count: 172
+Discard Count: 360
+New cards in hand: 13 23 12 26 
+Cards drawn from deck: 23 12 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 76:
+	FAILED ON TEST: thisPlayer hand count = 429, expected = 428
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 76: FAILED
+Kingdom Cards: 7 11 13 26 10 14 25 19 8 12 
+seed = 189
+Number of Players: 3
+Current Player: 1
+Hand Count: 426
+Deck Count: 454
+Discard Count: 295
+New cards in hand: 13 4 20 7 
+Cards drawn from deck: 4 20 7 
+deck to smithy: 7
+card at smithy: 13
+
+TEST 77:
+	FAILED ON TEST: thisPlayer hand count = 302, expected = 301
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 77: FAILED
+Kingdom Cards: 15 22 19 23 18 17 11 10 20 12 
+seed = 821
+Number of Players: 2
+Current Player: 0
+Hand Count: 299
+Deck Count: 493
+Discard Count: 55
+New cards in hand: 13 7 12 0 
+Cards drawn from deck: 7 12 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 78:
+	FAILED ON TEST: thisPlayer hand count = 52, expected = 51
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 78: FAILED
+Kingdom Cards: 18 7 15 20 13 16 24 11 23 25 
+seed = 16
+Number of Players: 3
+Current Player: 1
+Hand Count: 49
+Deck Count: 239
+Discard Count: 358
+New cards in hand: 13 15 12 0 
+Cards drawn from deck: 15 12 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 79:
+	FAILED ON TEST: thisPlayer hand count = 209, expected = 208
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 79: FAILED
+Kingdom Cards: 17 21 24 22 9 13 10 18 8 7 
+seed = 878
+Number of Players: 4
+Current Player: 2
+Hand Count: 206
+Deck Count: 144
+Discard Count: 370
+New cards in hand: 13 16 6 19 
+Cards drawn from deck: 16 6 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 80:
+	FAILED ON TEST: thisPlayer hand count = 460, expected = 459
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 80: FAILED
+Kingdom Cards: 10 15 16 11 26 13 21 9 8 20 
+seed = 134
+Number of Players: 2
+Current Player: 0
+Hand Count: 457
+Deck Count: 331
+Discard Count: 471
+New cards in hand: 13 14 10 24 
+Cards drawn from deck: 14 10 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 81:
+	FAILED ON TEST: thisPlayer hand count = 473, expected = 472
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 81: FAILED
+Kingdom Cards: 17 23 12 11 19 24 15 26 22 16 
+seed = 352
+Number of Players: 4
+Current Player: 0
+Hand Count: 470
+Deck Count: 352
+Discard Count: 401
+New cards in hand: 13 11 23 18 
+Cards drawn from deck: 11 23 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 82:
+	FAILED ON TEST: thisPlayer hand count = 56, expected = 55
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 82: FAILED
+Kingdom Cards: 18 22 7 13 23 19 26 24 8 25 
+seed = 715
+Number of Players: 2
+Current Player: 1
+Hand Count: 53
+Deck Count: 486
+Discard Count: 365
+New cards in hand: 13 10 21 15 
+Cards drawn from deck: 10 21 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 83:
+	FAILED ON TEST: thisPlayer hand count = 479, expected = 478
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 83: FAILED
+Kingdom Cards: 21 25 14 23 15 17 24 22 8 20 
+seed = 221
+Number of Players: 3
+Current Player: 0
+Hand Count: 476
+Deck Count: 456
+Discard Count: 74
+New cards in hand: 13 3 16 18 
+Cards drawn from deck: 3 16 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 84:
+	FAILED ON TEST: thisPlayer hand count = 39, expected = 38
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 84: FAILED
+Kingdom Cards: 14 22 23 11 16 26 21 19 13 15 
+seed = 6
+Number of Players: 4
+Current Player: 3
+Hand Count: 36
+Deck Count: 67
+Discard Count: 238
+New cards in hand: 13 20 12 16 
+Cards drawn from deck: 20 12 16 
+deck to smithy: 16
+card at smithy: 13
+
+TEST 85:
+	FAILED ON TEST: thisPlayer hand count = 347, expected = 346
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 85: FAILED
+Kingdom Cards: 21 12 11 23 26 25 8 18 24 13 
+seed = 131
+Number of Players: 2
+Current Player: 1
+Hand Count: 344
+Deck Count: 146
+Discard Count: 154
+New cards in hand: 13 25 18 23 
+Cards drawn from deck: 25 18 23 
+deck to smithy: 23
+card at smithy: 13
+
+TEST 86:
+	FAILED ON TEST: thisPlayer hand count = 119, expected = 118
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 86: FAILED
+Kingdom Cards: 23 14 12 25 22 20 9 21 26 7 
+seed = 974
+Number of Players: 2
+Current Player: 1
+Hand Count: 116
+Deck Count: 231
+Discard Count: 438
+New cards in hand: 13 10 7 0 
+Cards drawn from deck: 10 7 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 87:
+	FAILED ON TEST: thisPlayer hand count = 439, expected = 438
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 87: FAILED
+Kingdom Cards: 16 14 9 25 12 20 17 23 11 19 
+seed = 872
+Number of Players: 3
+Current Player: 0
+Hand Count: 436
+Deck Count: 445
+Discard Count: 381
+New cards in hand: 13 10 7 2 
+Cards drawn from deck: 10 7 2 
+deck to smithy: 2
+card at smithy: 13
+
+TEST 88:
+	FAILED ON TEST: thisPlayer hand count = 209, expected = 208
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 88: FAILED
+Kingdom Cards: 10 21 22 9 17 8 26 18 25 16 
+seed = 333
+Number of Players: 3
+Current Player: 0
+Hand Count: 206
+Deck Count: 466
+Discard Count: 457
+New cards in hand: 13 4 12 26 
+Cards drawn from deck: 4 12 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 89:
+	FAILED ON TEST: thisPlayer hand count = 372, expected = 371
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 89: FAILED
+Kingdom Cards: 15 13 21 14 11 17 22 20 23 10 
+seed = 20
+Number of Players: 4
+Current Player: 0
+Hand Count: 369
+Deck Count: 183
+Discard Count: 411
+New cards in hand: 13 3 21 26 
+Cards drawn from deck: 3 21 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 90:
+	FAILED ON TEST: thisPlayer hand count = 139, expected = 138
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 90: FAILED
+Kingdom Cards: 7 17 19 24 23 8 25 12 26 18 
+seed = 699
+Number of Players: 2
+Current Player: 1
+Hand Count: 136
+Deck Count: 275
+Discard Count: 434
+New cards in hand: 13 6 4 9 
+Cards drawn from deck: 6 4 9 
+deck to smithy: 9
+card at smithy: 13
+
+TEST 91:
+	FAILED ON TEST: thisPlayer hand count = 446, expected = 445
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 91: FAILED
+Kingdom Cards: 21 9 13 11 14 22 16 17 19 12 
+seed = 253
+Number of Players: 4
+Current Player: 0
+Hand Count: 443
+Deck Count: 491
+Discard Count: 218
+New cards in hand: 13 0 4 15 
+Cards drawn from deck: 0 4 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 92:
+	FAILED ON TEST: thisPlayer hand count = 360, expected = 359
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 92: FAILED
+Kingdom Cards: 24 23 26 11 18 21 19 7 16 17 
+seed = 774
+Number of Players: 3
+Current Player: 0
+Hand Count: 357
+Deck Count: 208
+Discard Count: 16
+New cards in hand: 13 18 14 25 
+Cards drawn from deck: 18 14 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 93:
+	FAILED ON TEST: thisPlayer hand count = 214, expected = 213
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 93: FAILED
+Kingdom Cards: 19 17 26 10 23 18 14 11 7 15 
+seed = 773
+Number of Players: 4
+Current Player: 2
+Hand Count: 211
+Deck Count: 442
+Discard Count: 308
+New cards in hand: 13 17 20 8 
+Cards drawn from deck: 17 20 8 
+deck to smithy: 8
+card at smithy: 13
+
+TEST 94:
+	FAILED ON TEST: thisPlayer hand count = 79, expected = 78
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 94: FAILED
+Kingdom Cards: 25 12 19 23 22 11 7 18 16 24 
+seed = 396
+Number of Players: 2
+Current Player: 1
+Hand Count: 76
+Deck Count: 320
+Discard Count: 113
+New cards in hand: 13 22 23 15 
+Cards drawn from deck: 22 23 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 95:
+	FAILED ON TEST: thisPlayer hand count = 100, expected = 99
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 95: FAILED
+Kingdom Cards: 11 9 7 18 26 8 12 19 15 16 
+seed = 487
+Number of Players: 3
+Current Player: 1
+Hand Count: 97
+Deck Count: 448
+Discard Count: 239
+New cards in hand: 13 22 26 6 
+Cards drawn from deck: 22 26 6 
+deck to smithy: 6
+card at smithy: 13
+
+TEST 96:
+	FAILED ON TEST: thisPlayer hand count = 218, expected = 217
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 96: FAILED
+Kingdom Cards: 15 16 13 21 8 9 25 17 10 14 
+seed = 783
+Number of Players: 4
+Current Player: 2
+Hand Count: 215
+Deck Count: 291
+Discard Count: 32
+New cards in hand: 13 19 25 17 
+Cards drawn from deck: 19 25 17 
+deck to smithy: 17
+card at smithy: 13
+
+TEST 97:
+	FAILED ON TEST: thisPlayer hand count = 293, expected = 292
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 97: FAILED
+Kingdom Cards: 24 26 11 23 13 10 15 17 18 8 
+seed = 217
+Number of Players: 4
+Current Player: 3
+Hand Count: 290
+Deck Count: 403
+Discard Count: 382
+New cards in hand: 13 4 7 21 
+Cards drawn from deck: 4 7 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 98:
+	FAILED ON TEST: thisPlayer hand count = 143, expected = 142
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 98: FAILED
+Kingdom Cards: 10 19 9 12 11 25 22 24 14 17 
+seed = 234
+Number of Players: 4
+Current Player: 1
+Hand Count: 140
+Deck Count: 301
+Discard Count: 240
+New cards in hand: 13 14 22 20 
+Cards drawn from deck: 14 22 20 
+deck to smithy: 20
+card at smithy: 13
+
+TEST 99:
+	FAILED ON TEST: thisPlayer hand count = 169, expected = 168
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 99: FAILED
+Kingdom Cards: 9 18 16 23 19 13 22 26 20 11 
+seed = 455
+Number of Players: 2
+Current Player: 1
+Hand Count: 166
+Deck Count: 378
+Discard Count: 463
+New cards in hand: 13 8 9 14 
+Cards drawn from deck: 8 9 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 100:
+	FAILED ON TEST: thisPlayer hand count = 367, expected = 366
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 100: FAILED
+Kingdom Cards: 8 12 16 24 13 7 20 9 21 22 
+seed = 603
+Number of Players: 2
+Current Player: 1
+Hand Count: 364
+Deck Count: 407
+Discard Count: 288
+New cards in hand: 13 0 12 18 
+Cards drawn from deck: 0 12 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 101:
+	FAILED ON TEST: thisPlayer hand count = 115, expected = 114
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 101: FAILED
+Kingdom Cards: 23 20 9 11 7 24 18 22 21 15 
+seed = 162
+Number of Players: 3
+Current Player: 0
+Hand Count: 112
+Deck Count: 102
+Discard Count: 203
+New cards in hand: 13 0 5 10 
+Cards drawn from deck: 0 5 10 
+deck to smithy: 10
+card at smithy: 13
+
+TEST 102:
+	FAILED ON TEST: thisPlayer hand count = 178, expected = 177
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 102: FAILED
+Kingdom Cards: 21 20 13 22 8 16 23 11 15 18 
+seed = 684
+Number of Players: 2
+Current Player: 0
+Hand Count: 175
+Deck Count: 135
+Discard Count: 135
+New cards in hand: 13 25 10 8 
+Cards drawn from deck: 25 10 8 
+deck to smithy: 8
+card at smithy: 13
+
+TEST 103:
+	FAILED ON TEST: thisPlayer hand count = 232, expected = 231
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 103: FAILED
+Kingdom Cards: 25 17 13 15 22 20 8 21 19 7 
+seed = 645
+Number of Players: 2
+Current Player: 1
+Hand Count: 229
+Deck Count: 49
+Discard Count: 195
+New cards in hand: 13 23 14 25 
+Cards drawn from deck: 23 14 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 104:
+	FAILED ON TEST: thisPlayer hand count = 350, expected = 349
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 104: FAILED
+Kingdom Cards: 11 20 7 10 19 13 21 23 15 16 
+seed = 933
+Number of Players: 4
+Current Player: 2
+Hand Count: 347
+Deck Count: 372
+Discard Count: 475
+New cards in hand: 13 13 6 11 
+Cards drawn from deck: 13 6 11 
+deck to smithy: 11
+card at smithy: 13
+
+TEST 105:
+	FAILED ON TEST: thisPlayer hand count = 332, expected = 331
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 105: FAILED
+Kingdom Cards: 13 12 17 19 16 25 23 26 9 24 
+seed = 838
+Number of Players: 2
+Current Player: 1
+Hand Count: 329
+Deck Count: 399
+Discard Count: 33
+New cards in hand: 13 19 4 20 
+Cards drawn from deck: 19 4 20 
+deck to smithy: 20
+card at smithy: 13
+
+TEST 106:
+	FAILED ON TEST: thisPlayer hand count = 242, expected = 241
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 106: FAILED
+Kingdom Cards: 10 7 24 14 16 13 20 19 11 17 
+seed = 591
+Number of Players: 3
+Current Player: 0
+Hand Count: 239
+Deck Count: 133
+Discard Count: 435
+New cards in hand: 13 16 2 19 
+Cards drawn from deck: 16 2 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 107:
+	FAILED ON TEST: thisPlayer hand count = 102, expected = 101
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 107: FAILED
+Kingdom Cards: 9 14 11 13 26 17 21 8 18 16 
+seed = 592
+Number of Players: 4
+Current Player: 3
+Hand Count: 99
+Deck Count: 261
+Discard Count: 66
+New cards in hand: 13 1 5 0 
+Cards drawn from deck: 1 5 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 108:
+	FAILED ON TEST: thisPlayer hand count = 203, expected = 202
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 108: FAILED
+Kingdom Cards: 9 7 8 25 19 12 14 15 10 16 
+seed = 442
+Number of Players: 3
+Current Player: 2
+Hand Count: 200
+Deck Count: 345
+Discard Count: 14
+New cards in hand: 13 3 1 2 
+Cards drawn from deck: 3 1 2 
+deck to smithy: 2
+card at smithy: 13
+
+TEST 109:
+	FAILED ON TEST: thisPlayer hand count = 266, expected = 265
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 109: FAILED
+Kingdom Cards: 16 7 25 18 23 24 14 13 9 8 
+seed = 410
+Number of Players: 2
+Current Player: 0
+Hand Count: 263
+Deck Count: 421
+Discard Count: 426
+New cards in hand: 13 11 12 2 
+Cards drawn from deck: 11 12 2 
+deck to smithy: 2
+card at smithy: 13
+
+TEST 110:
+	FAILED ON TEST: thisPlayer hand count = 157, expected = 156
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 110: FAILED
+Kingdom Cards: 22 16 26 23 25 21 17 14 19 20 
+seed = 895
+Number of Players: 3
+Current Player: 1
+Hand Count: 154
+Deck Count: 249
+Discard Count: 254
+New cards in hand: 13 15 1 3 
+Cards drawn from deck: 15 1 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 111:
+	FAILED ON TEST: thisPlayer hand count = 340, expected = 339
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 111: FAILED
+Kingdom Cards: 9 16 21 10 24 17 23 19 13 15 
+seed = 874
+Number of Players: 3
+Current Player: 0
+Hand Count: 337
+Deck Count: 415
+Discard Count: 230
+New cards in hand: 13 6 2 15 
+Cards drawn from deck: 6 2 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 112:
+	FAILED ON TEST: thisPlayer hand count = 278, expected = 277
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 112: FAILED
+Kingdom Cards: 26 12 19 7 22 11 24 14 25 23 
+seed = 381
+Number of Players: 2
+Current Player: 1
+Hand Count: 275
+Deck Count: 276
+Discard Count: 452
+New cards in hand: 13 19 22 25 
+Cards drawn from deck: 19 22 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 113:
+	FAILED ON TEST: thisPlayer hand count = 315, expected = 314
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 113: FAILED
+Kingdom Cards: 17 26 20 13 7 16 12 11 25 24 
+seed = 353
+Number of Players: 2
+Current Player: 1
+Hand Count: 312
+Deck Count: 373
+Discard Count: 33
+New cards in hand: 13 20 19 11 
+Cards drawn from deck: 20 19 11 
+deck to smithy: 11
+card at smithy: 13
+
+TEST 114:
+	FAILED ON TEST: thisPlayer hand count = 163, expected = 162
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 114: FAILED
+Kingdom Cards: 17 9 19 25 8 13 12 22 16 11 
+seed = 288
+Number of Players: 3
+Current Player: 2
+Hand Count: 160
+Deck Count: 393
+Discard Count: 498
+New cards in hand: 13 23 7 3 
+Cards drawn from deck: 23 7 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 115:
+	FAILED ON TEST: thisPlayer hand count = 205, expected = 204
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 115: FAILED
+Kingdom Cards: 14 13 9 19 26 20 24 10 25 11 
+seed = 959
+Number of Players: 2
+Current Player: 1
+Hand Count: 202
+Deck Count: 2
+Discard Count: 230
+New cards in hand: 13 9 20 20 
+Cards drawn from deck: 
+deck to smithy: -1
+card at smithy: 13
+
+TEST 116:
+	FAILED ON TEST: thisPlayer hand count = 377, expected = 376
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 116: FAILED
+Kingdom Cards: 12 19 11 14 7 10 8 21 15 26 
+seed = 848
+Number of Players: 3
+Current Player: 2
+Hand Count: 374
+Deck Count: 126
+Discard Count: 318
+New cards in hand: 13 14 11 10 
+Cards drawn from deck: 14 11 10 
+deck to smithy: 10
+card at smithy: 13
+
+TEST 117:
+	FAILED ON TEST: thisPlayer hand count = 236, expected = 235
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 117: FAILED
+Kingdom Cards: 16 22 9 19 10 20 11 21 12 18 
+seed = 583
+Number of Players: 4
+Current Player: 0
+Hand Count: 233
+Deck Count: 336
+Discard Count: 25
+New cards in hand: 13 18 5 8 
+Cards drawn from deck: 18 5 8 
+deck to smithy: 8
+card at smithy: 13
+
+TEST 118:
+	FAILED ON TEST: thisPlayer hand count = 148, expected = 147
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 118: FAILED
+Kingdom Cards: 8 12 11 7 25 18 15 19 16 10 
+seed = 37
+Number of Players: 4
+Current Player: 0
+Hand Count: 145
+Deck Count: 185
+Discard Count: 405
+New cards in hand: 13 2 3 9 
+Cards drawn from deck: 2 3 9 
+deck to smithy: 9
+card at smithy: 13
+
+TEST 119:
+	FAILED ON TEST: thisPlayer hand count = 290, expected = 289
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 119: FAILED
+Kingdom Cards: 9 19 10 11 22 20 26 25 8 15 
+seed = 965
+Number of Players: 2
+Current Player: 1
+Hand Count: 287
+Deck Count: 354
+Discard Count: 392
+New cards in hand: 13 23 10 14 
+Cards drawn from deck: 23 10 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 120:
+	FAILED ON TEST: thisPlayer hand count = 123, expected = 122
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 120: FAILED
+Kingdom Cards: 18 26 19 25 24 23 13 12 9 14 
+seed = 20
+Number of Players: 4
+Current Player: 1
+Hand Count: 120
+Deck Count: 265
+Discard Count: 164
+New cards in hand: 13 8 10 25 
+Cards drawn from deck: 8 10 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 121:
+	FAILED ON TEST: thisPlayer hand count = 431, expected = 430
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 121: FAILED
+Kingdom Cards: 20 15 16 8 11 19 12 26 7 13 
+seed = 632
+Number of Players: 4
+Current Player: 3
+Hand Count: 428
+Deck Count: 315
+Discard Count: 442
+New cards in hand: 13 19 3 1 
+Cards drawn from deck: 19 3 1 
+deck to smithy: 1
+card at smithy: 13
+
+TEST 122:
+	FAILED ON TEST: thisPlayer hand count = 235, expected = 234
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 122: FAILED
+Kingdom Cards: 19 13 11 14 10 17 21 9 16 20 
+seed = 274
+Number of Players: 2
+Current Player: 0
+Hand Count: 232
+Deck Count: 24
+Discard Count: 403
+New cards in hand: 13 10 10 14 
+Cards drawn from deck: 10 10 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 123:
+	FAILED ON TEST: thisPlayer hand count = 27, expected = 26
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 123: FAILED
+Kingdom Cards: 17 24 15 7 18 26 14 23 25 20 
+seed = 198
+Number of Players: 3
+Current Player: 2
+Hand Count: 24
+Deck Count: 74
+Discard Count: 335
+New cards in hand: 13 0 22 14 
+Cards drawn from deck: 0 22 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 124:
+	FAILED ON TEST: thisPlayer hand count = 72, expected = 71
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 124: FAILED
+Kingdom Cards: 13 7 20 14 26 15 23 11 22 9 
+seed = 312
+Number of Players: 4
+Current Player: 3
+Hand Count: 69
+Deck Count: 235
+Discard Count: 233
+New cards in hand: 13 21 12 23 
+Cards drawn from deck: 21 12 23 
+deck to smithy: 23
+card at smithy: 13
+
+TEST 125:
+	FAILED ON TEST: thisPlayer hand count = 135, expected = 134
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 125: FAILED
+Kingdom Cards: 8 9 12 17 23 25 7 10 15 11 
+seed = 710
+Number of Players: 3
+Current Player: 2
+Hand Count: 132
+Deck Count: 329
+Discard Count: 395
+New cards in hand: 13 21 15 26 
+Cards drawn from deck: 21 15 26 
+deck to smithy: 26
+card at smithy: 13
+
+TEST 126:
+	FAILED ON TEST: thisPlayer hand count = 309, expected = 308
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 126: FAILED
+Kingdom Cards: 8 23 26 22 14 19 15 25 10 18 
+seed = 333
+Number of Players: 3
+Current Player: 2
+Hand Count: 306
+Deck Count: 8
+Discard Count: 311
+New cards in hand: 13 17 6 0 
+Cards drawn from deck: 17 6 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 127:
+	FAILED ON TEST: thisPlayer hand count = 317, expected = 316
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 127: FAILED
+Kingdom Cards: 25 24 17 15 14 12 16 21 11 19 
+seed = 724
+Number of Players: 4
+Current Player: 1
+Hand Count: 314
+Deck Count: 331
+Discard Count: 371
+New cards in hand: 13 24 21 10 
+Cards drawn from deck: 24 21 10 
+deck to smithy: 10
+card at smithy: 13
+
+TEST 128:
+	FAILED ON TEST: thisPlayer hand count = 438, expected = 437
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 128: FAILED
+Kingdom Cards: 12 17 11 25 20 9 13 10 22 18 
+seed = 538
+Number of Players: 2
+Current Player: 0
+Hand Count: 435
+Deck Count: 447
+Discard Count: 162
+New cards in hand: 13 4 12 14 
+Cards drawn from deck: 4 12 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 129:
+	FAILED ON TEST: thisPlayer hand count = 265, expected = 264
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 129: FAILED
+Kingdom Cards: 18 24 15 10 26 14 20 16 25 9 
+seed = 48
+Number of Players: 3
+Current Player: 2
+Hand Count: 262
+Deck Count: 464
+Discard Count: 0
+New cards in hand: 13 0 18 17 
+Cards drawn from deck: 0 18 17 
+deck to smithy: 17
+card at smithy: 13
+
+TEST 130:
+	FAILED ON TEST: thisPlayer hand count = 194, expected = 193
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 130: FAILED
+Kingdom Cards: 15 14 11 21 10 19 24 18 23 25 
+seed = 447
+Number of Players: 3
+Current Player: 2
+Hand Count: 191
+Deck Count: 276
+Discard Count: 89
+New cards in hand: 13 19 17 23 
+Cards drawn from deck: 19 17 23 
+deck to smithy: 23
+card at smithy: 13
+
+TEST 131:
+	FAILED ON TEST: thisPlayer hand count = 499, expected = 498
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 131: FAILED
+Kingdom Cards: 13 16 11 17 7 18 21 20 24 19 
+seed = 841
+Number of Players: 4
+Current Player: 2
+Hand Count: 496
+Deck Count: 466
+Discard Count: 0
+New cards in hand: 13 14 4 24 
+Cards drawn from deck: 14 4 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 132:
+	FAILED ON TEST: thisPlayer hand count = 122, expected = 121
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 132: FAILED
+Kingdom Cards: 13 11 17 15 16 18 21 23 22 19 
+seed = 788
+Number of Players: 2
+Current Player: 0
+Hand Count: 119
+Deck Count: 156
+Discard Count: 234
+New cards in hand: 13 3 10 19 
+Cards drawn from deck: 3 10 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 133:
+	FAILED ON TEST: thisPlayer hand count = 315, expected = 314
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 133: FAILED
+Kingdom Cards: 9 10 12 22 7 20 23 11 17 21 
+seed = 809
+Number of Players: 4
+Current Player: 3
+Hand Count: 312
+Deck Count: 260
+Discard Count: 173
+New cards in hand: 13 18 1 9 
+Cards drawn from deck: 18 1 9 
+deck to smithy: 9
+card at smithy: 13
+
+TEST 134:
+	FAILED ON TEST: thisPlayer hand count = 72, expected = 71
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 134: FAILED
+Kingdom Cards: 14 19 15 8 13 17 22 9 7 20 
+seed = 833
+Number of Players: 3
+Current Player: 0
+Hand Count: 69
+Deck Count: 224
+Discard Count: 157
+New cards in hand: 13 13 18 18 
+Cards drawn from deck: 13 18 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 135:
+	FAILED ON TEST: thisPlayer hand count = 36, expected = 35
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 135: FAILED
+Kingdom Cards: 23 25 13 17 8 20 9 18 14 22 
+seed = 684
+Number of Players: 2
+Current Player: 1
+Hand Count: 33
+Deck Count: 403
+Discard Count: 444
+New cards in hand: 13 21 6 25 
+Cards drawn from deck: 21 6 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 136:
+	FAILED ON TEST: thisPlayer hand count = 451, expected = 450
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 136: FAILED
+Kingdom Cards: 25 15 18 26 16 9 7 8 17 12 
+seed = 47
+Number of Players: 3
+Current Player: 2
+Hand Count: 448
+Deck Count: 397
+Discard Count: 196
+New cards in hand: 13 11 11 1 
+Cards drawn from deck: 11 11 1 
+deck to smithy: 1
+card at smithy: 13
+
+TEST 137:
+	FAILED ON TEST: thisPlayer hand count = 401, expected = 400
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 137: FAILED
+Kingdom Cards: 16 8 22 19 11 26 9 25 24 18 
+seed = 964
+Number of Players: 3
+Current Player: 2
+Hand Count: 398
+Deck Count: 203
+Discard Count: 362
+New cards in hand: 13 12 1 6 
+Cards drawn from deck: 12 1 6 
+deck to smithy: 6
+card at smithy: 13
+
+TEST 138:
+	FAILED ON TEST: thisPlayer hand count = 357, expected = 356
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 138: FAILED
+Kingdom Cards: 19 20 22 8 25 12 7 16 13 21 
+seed = 626
+Number of Players: 4
+Current Player: 2
+Hand Count: 354
+Deck Count: 142
+Discard Count: 235
+New cards in hand: 13 2 19 15 
+Cards drawn from deck: 2 19 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 139:
+	FAILED ON TEST: thisPlayer hand count = 130, expected = 129
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 139: FAILED
+Kingdom Cards: 7 26 24 19 9 10 14 17 22 21 
+seed = 678
+Number of Players: 3
+Current Player: 0
+Hand Count: 127
+Deck Count: 161
+Discard Count: 122
+New cards in hand: 13 5 15 5 
+Cards drawn from deck: 5 15 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 140:
+	FAILED ON TEST: thisPlayer hand count = 411, expected = 410
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 140: FAILED
+Kingdom Cards: 15 19 7 24 8 22 17 25 9 18 
+seed = 199
+Number of Players: 2
+Current Player: 0
+Hand Count: 408
+Deck Count: 256
+Discard Count: 251
+New cards in hand: 13 25 0 22 
+Cards drawn from deck: 25 0 22 
+deck to smithy: 22
+card at smithy: 13
+
+TEST 141:
+	FAILED ON TEST: thisPlayer hand count = 100, expected = 99
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 141: FAILED
+Kingdom Cards: 17 24 14 22 20 25 19 8 18 21 
+seed = 608
+Number of Players: 2
+Current Player: 0
+Hand Count: 97
+Deck Count: 287
+Discard Count: 173
+New cards in hand: 13 22 14 23 
+Cards drawn from deck: 22 14 23 
+deck to smithy: 23
+card at smithy: 13
+
+TEST 142:
+	FAILED ON TEST: thisPlayer hand count = 46, expected = 45
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 142: FAILED
+Kingdom Cards: 12 24 10 25 9 13 20 15 18 22 
+seed = 872
+Number of Players: 3
+Current Player: 0
+Hand Count: 43
+Deck Count: 236
+Discard Count: 31
+New cards in hand: 13 26 16 24 
+Cards drawn from deck: 26 16 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 143:
+	FAILED ON TEST: thisPlayer hand count = 273, expected = 272
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 143: FAILED
+Kingdom Cards: 10 15 25 7 19 11 14 26 12 9 
+seed = 338
+Number of Players: 2
+Current Player: 0
+Hand Count: 270
+Deck Count: 389
+Discard Count: 384
+New cards in hand: 13 8 7 19 
+Cards drawn from deck: 8 7 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 144:
+	FAILED ON TEST: thisPlayer hand count = 4, expected = 3
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 144: FAILED
+Kingdom Cards: 23 12 13 9 19 8 14 25 15 17 
+seed = 694
+Number of Players: 2
+Current Player: 1
+Hand Count: 1
+Deck Count: 332
+Discard Count: 313
+New cards in hand: 13 22 20 4 
+Cards drawn from deck: 22 20 4 
+deck to smithy: 4
+card at smithy: 13
+
+TEST 145:
+	FAILED ON TEST: thisPlayer hand count = 374, expected = 373
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 145: FAILED
+Kingdom Cards: 12 18 23 17 13 21 8 20 11 9 
+seed = 900
+Number of Players: 3
+Current Player: 1
+Hand Count: 371
+Deck Count: 467
+Discard Count: 452
+New cards in hand: 13 18 24 12 
+Cards drawn from deck: 18 24 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 146:
+	FAILED ON TEST: thisPlayer hand count = 191, expected = 190
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 146: FAILED
+Kingdom Cards: 22 9 20 15 17 10 8 12 23 24 
+seed = 693
+Number of Players: 3
+Current Player: 0
+Hand Count: 188
+Deck Count: 25
+Discard Count: 324
+New cards in hand: 13 15 12 14 
+Cards drawn from deck: 15 12 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 147:
+	FAILED ON TEST: thisPlayer hand count = 458, expected = 457
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 147: FAILED
+Kingdom Cards: 13 24 7 15 12 21 19 9 10 25 
+seed = 156
+Number of Players: 2
+Current Player: 1
+Hand Count: 455
+Deck Count: 319
+Discard Count: 144
+New cards in hand: 13 16 11 13 
+Cards drawn from deck: 16 11 13 
+deck to smithy: 13
+card at smithy: 13
+
+TEST 148:
+	FAILED ON TEST: thisPlayer hand count = 389, expected = 388
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 148: FAILED
+Kingdom Cards: 14 15 23 22 18 17 21 9 24 16 
+seed = 223
+Number of Players: 2
+Current Player: 0
+Hand Count: 386
+Deck Count: 41
+Discard Count: 150
+New cards in hand: 13 21 8 22 
+Cards drawn from deck: 21 8 22 
+deck to smithy: 22
+card at smithy: 13
+
+TEST 149:
+	FAILED ON TEST: thisPlayer hand count = 215, expected = 214
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 149: FAILED
+Kingdom Cards: 26 14 25 9 10 18 12 15 7 24 
+seed = 554
+Number of Players: 4
+Current Player: 0
+Hand Count: 212
+Deck Count: 410
+Discard Count: 280
+New cards in hand: 13 14 0 16 
+Cards drawn from deck: 14 0 16 
+deck to smithy: 16
+card at smithy: 13
+
+TEST 150:
+	FAILED ON TEST: thisPlayer hand count = 91, expected = 90
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 150: FAILED
+Kingdom Cards: 20 24 23 17 19 7 11 15 13 25 
+seed = 941
+Number of Players: 2
+Current Player: 1
+Hand Count: 88
+Deck Count: 375
+Discard Count: 244
+New cards in hand: 13 8 15 7 
+Cards drawn from deck: 8 15 7 
+deck to smithy: 7
+card at smithy: 13
+
+TEST 151:
+	FAILED ON TEST: thisPlayer hand count = 497, expected = 496
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 151: FAILED
+Kingdom Cards: 8 22 16 15 26 25 23 11 17 7 
+seed = 203
+Number of Players: 4
+Current Player: 3
+Hand Count: 494
+Deck Count: 32
+Discard Count: 74
+New cards in hand: 13 20 14 11 
+Cards drawn from deck: 20 14 11 
+deck to smithy: 11
+card at smithy: 13
+
+TEST 152:
+	FAILED ON TEST: thisPlayer hand count = 16, expected = 15
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 152: FAILED
+Kingdom Cards: 20 10 18 16 12 17 25 21 14 7 
+seed = 210
+Number of Players: 3
+Current Player: 1
+Hand Count: 13
+Deck Count: 206
+Discard Count: 156
+New cards in hand: 13 11 11 23 
+Cards drawn from deck: 11 11 23 
+deck to smithy: 23
+card at smithy: 13
+
+TEST 153:
+	FAILED ON TEST: thisPlayer hand count = 246, expected = 245
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 153: FAILED
+Kingdom Cards: 24 9 8 21 13 25 19 15 26 10 
+seed = 555
+Number of Players: 3
+Current Player: 0
+Hand Count: 243
+Deck Count: 452
+Discard Count: 383
+New cards in hand: 13 15 19 12 
+Cards drawn from deck: 15 19 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 154:
+	FAILED ON TEST: thisPlayer hand count = 57, expected = 56
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 154: FAILED
+Kingdom Cards: 15 25 12 13 7 8 18 11 26 10 
+seed = 578
+Number of Players: 4
+Current Player: 2
+Hand Count: 54
+Deck Count: 316
+Discard Count: 332
+New cards in hand: 13 6 9 19 
+Cards drawn from deck: 6 9 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 155:
+	FAILED ON TEST: thisPlayer hand count = 293, expected = 292
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 155: FAILED
+Kingdom Cards: 13 25 10 20 21 8 15 11 17 16 
+seed = 548
+Number of Players: 2
+Current Player: 0
+Hand Count: 290
+Deck Count: 466
+Discard Count: 316
+New cards in hand: 13 25 10 3 
+Cards drawn from deck: 25 10 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 156:
+	FAILED ON TEST: thisPlayer hand count = 246, expected = 245
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 156: FAILED
+Kingdom Cards: 24 12 8 14 26 16 13 18 21 11 
+seed = 335
+Number of Players: 3
+Current Player: 1
+Hand Count: 243
+Deck Count: 433
+Discard Count: 243
+New cards in hand: 13 24 14 5 
+Cards drawn from deck: 24 14 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 157:
+	FAILED ON TEST: thisPlayer hand count = 43, expected = 42
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 157: FAILED
+Kingdom Cards: 9 22 17 12 26 10 13 7 18 8 
+seed = 650
+Number of Players: 2
+Current Player: 0
+Hand Count: 40
+Deck Count: 180
+Discard Count: 374
+New cards in hand: 13 14 1 13 
+Cards drawn from deck: 14 1 13 
+deck to smithy: 13
+card at smithy: 13
+
+TEST 158:
+	FAILED ON TEST: thisPlayer hand count = 401, expected = 400
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 158: FAILED
+Kingdom Cards: 20 19 26 22 25 9 24 7 11 23 
+seed = 419
+Number of Players: 2
+Current Player: 1
+Hand Count: 398
+Deck Count: 367
+Discard Count: 331
+New cards in hand: 13 13 15 3 
+Cards drawn from deck: 13 15 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 159:
+	FAILED ON TEST: thisPlayer hand count = 292, expected = 291
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 159: FAILED
+Kingdom Cards: 12 7 19 10 21 8 20 13 24 14 
+seed = 585
+Number of Players: 2
+Current Player: 1
+Hand Count: 289
+Deck Count: 462
+Discard Count: 430
+New cards in hand: 13 8 4 12 
+Cards drawn from deck: 8 4 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 160:
+	FAILED ON TEST: thisPlayer hand count = 121, expected = 120
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 160: FAILED
+Kingdom Cards: 16 24 21 13 12 8 9 18 26 23 
+seed = 33
+Number of Players: 4
+Current Player: 3
+Hand Count: 118
+Deck Count: 358
+Discard Count: 67
+New cards in hand: 13 22 20 11 
+Cards drawn from deck: 22 20 11 
+deck to smithy: 11
+card at smithy: 13
+
+TEST 161:
+	FAILED ON TEST: thisPlayer hand count = 207, expected = 206
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 161: FAILED
+Kingdom Cards: 20 21 14 10 25 22 19 11 23 17 
+seed = 348
+Number of Players: 2
+Current Player: 1
+Hand Count: 204
+Deck Count: 76
+Discard Count: 94
+New cards in hand: 13 16 8 5 
+Cards drawn from deck: 16 8 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 162:
+	FAILED ON TEST: thisPlayer hand count = 330, expected = 329
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 162: FAILED
+Kingdom Cards: 17 21 23 25 12 10 19 15 14 8 
+seed = 906
+Number of Players: 4
+Current Player: 1
+Hand Count: 327
+Deck Count: 81
+Discard Count: 362
+New cards in hand: 13 13 9 25 
+Cards drawn from deck: 13 9 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 163:
+	FAILED ON TEST: thisPlayer hand count = 261, expected = 260
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 163: FAILED
+Kingdom Cards: 12 9 23 24 18 11 26 15 7 21 
+seed = 898
+Number of Players: 2
+Current Player: 1
+Hand Count: 258
+Deck Count: 400
+Discard Count: 41
+New cards in hand: 13 2 6 4 
+Cards drawn from deck: 2 6 4 
+deck to smithy: 4
+card at smithy: 13
+
+TEST 164:
+	FAILED ON TEST: thisPlayer hand count = 387, expected = 386
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 164: FAILED
+Kingdom Cards: 9 22 11 25 19 24 18 14 16 21 
+seed = 358
+Number of Players: 3
+Current Player: 2
+Hand Count: 384
+Deck Count: 177
+Discard Count: 5
+New cards in hand: 13 6 1 18 
+Cards drawn from deck: 6 1 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 165:
+	FAILED ON TEST: thisPlayer hand count = 71, expected = 70
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 165: FAILED
+Kingdom Cards: 17 25 13 14 7 22 12 26 11 21 
+seed = 772
+Number of Players: 4
+Current Player: 1
+Hand Count: 68
+Deck Count: 273
+Discard Count: 219
+New cards in hand: 13 8 14 10 
+Cards drawn from deck: 8 14 10 
+deck to smithy: 10
+card at smithy: 13
+
+TEST 166:
+	FAILED ON TEST: thisPlayer hand count = 494, expected = 493
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 166: FAILED
+Kingdom Cards: 13 21 11 16 20 19 18 8 7 23 
+seed = 342
+Number of Players: 2
+Current Player: 0
+Hand Count: 491
+Deck Count: 114
+Discard Count: 259
+New cards in hand: 13 26 22 3 
+Cards drawn from deck: 26 22 3 
+deck to smithy: 3
+card at smithy: 13
+
+TEST 167:
+	FAILED ON TEST: thisPlayer hand count = 457, expected = 456
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 167: FAILED
+Kingdom Cards: 26 10 23 17 7 12 25 22 8 20 
+seed = 501
+Number of Players: 3
+Current Player: 0
+Hand Count: 454
+Deck Count: 410
+Discard Count: 499
+New cards in hand: 13 6 4 8 
+Cards drawn from deck: 6 4 8 
+deck to smithy: 8
+card at smithy: 13
+
+TEST 168:
+	FAILED ON TEST: thisPlayer hand count = 495, expected = 494
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 168: FAILED
+Kingdom Cards: 22 14 12 17 13 11 21 15 7 20 
+seed = 671
+Number of Players: 4
+Current Player: 1
+Hand Count: 492
+Deck Count: 436
+Discard Count: 149
+New cards in hand: 13 12 19 1 
+Cards drawn from deck: 12 19 1 
+deck to smithy: 1
+card at smithy: 13
+
+TEST 169:
+	FAILED ON TEST: thisPlayer hand count = 476, expected = 475
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 169: FAILED
+Kingdom Cards: 8 19 26 24 16 10 9 22 17 12 
+seed = 912
+Number of Players: 2
+Current Player: 1
+Hand Count: 473
+Deck Count: 15
+Discard Count: 430
+New cards in hand: 13 5 13 24 
+Cards drawn from deck: 5 13 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 170:
+	FAILED ON TEST: thisPlayer hand count = 422, expected = 421
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 170: FAILED
+Kingdom Cards: 13 19 15 18 16 24 17 23 9 10 
+seed = 863
+Number of Players: 3
+Current Player: 0
+Hand Count: 419
+Deck Count: 405
+Discard Count: 210
+New cards in hand: 13 8 20 15 
+Cards drawn from deck: 8 20 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 171:
+	FAILED ON TEST: thisPlayer hand count = 493, expected = 492
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 171: FAILED
+Kingdom Cards: 12 22 7 24 8 23 11 9 18 13 
+seed = 320
+Number of Players: 4
+Current Player: 3
+Hand Count: 490
+Deck Count: 62
+Discard Count: 124
+New cards in hand: 13 8 7 12 
+Cards drawn from deck: 8 7 12 
+deck to smithy: 12
+card at smithy: 13
+
+TEST 172:
+	FAILED ON TEST: thisPlayer hand count = 152, expected = 151
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 172: FAILED
+Kingdom Cards: 24 20 7 11 13 18 12 14 15 8 
+seed = 982
+Number of Players: 3
+Current Player: 0
+Hand Count: 149
+Deck Count: 336
+Discard Count: 97
+New cards in hand: 13 22 25 20 
+Cards drawn from deck: 22 25 20 
+deck to smithy: 20
+card at smithy: 13
+
+TEST 173:
+	FAILED ON TEST: thisPlayer hand count = 218, expected = 217
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 173: FAILED
+Kingdom Cards: 8 12 13 15 10 7 20 26 21 11 
+seed = 681
+Number of Players: 4
+Current Player: 2
+Hand Count: 215
+Deck Count: 359
+Discard Count: 356
+New cards in hand: 13 11 15 21 
+Cards drawn from deck: 11 15 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 174:
+	FAILED ON TEST: thisPlayer hand count = 264, expected = 263
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 174: FAILED
+Kingdom Cards: 18 21 24 14 8 22 15 26 13 9 
+seed = 154
+Number of Players: 3
+Current Player: 0
+Hand Count: 261
+Deck Count: 12
+Discard Count: 154
+New cards in hand: 13 16 22 24 
+Cards drawn from deck: 16 22 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 175:
+	FAILED ON TEST: thisPlayer hand count = 181, expected = 180
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 175: FAILED
+Kingdom Cards: 26 9 8 21 11 24 7 20 10 16 
+seed = 634
+Number of Players: 4
+Current Player: 1
+Hand Count: 178
+Deck Count: 15
+Discard Count: 98
+New cards in hand: 13 6 19 24 
+Cards drawn from deck: 6 19 24 
+deck to smithy: 24
+card at smithy: 13
+
+TEST 176:
+	FAILED ON TEST: thisPlayer hand count = 10, expected = 9
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 176: FAILED
+Kingdom Cards: 11 10 12 16 7 9 26 20 23 14 
+seed = 976
+Number of Players: 3
+Current Player: 1
+Hand Count: 7
+Deck Count: 291
+Discard Count: 359
+New cards in hand: 13 2 16 8 
+Cards drawn from deck: 2 16 8 
+deck to smithy: 8
+card at smithy: 13
+
+TEST 177:
+	FAILED ON TEST: thisPlayer hand count = 404, expected = 403
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 177: FAILED
+Kingdom Cards: 21 10 18 14 25 20 15 26 7 22 
+seed = 692
+Number of Players: 3
+Current Player: 0
+Hand Count: 401
+Deck Count: 433
+Discard Count: 241
+New cards in hand: 13 11 9 21 
+Cards drawn from deck: 11 9 21 
+deck to smithy: 21
+card at smithy: 13
+
+TEST 178:
+	FAILED ON TEST: thisPlayer hand count = 318, expected = 317
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 178: FAILED
+Kingdom Cards: 10 13 21 15 12 26 19 7 23 20 
+seed = 807
+Number of Players: 4
+Current Player: 0
+Hand Count: 315
+Deck Count: 331
+Discard Count: 81
+New cards in hand: 13 14 21 14 
+Cards drawn from deck: 14 21 14 
+deck to smithy: 14
+card at smithy: 13
+
+TEST 179:
+	FAILED ON TEST: thisPlayer hand count = 98, expected = 97
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 179: FAILED
+Kingdom Cards: 9 10 20 16 19 18 12 15 21 8 
+seed = 662
+Number of Players: 2
+Current Player: 0
+Hand Count: 95
+Deck Count: 155
+Discard Count: 366
+New cards in hand: 13 23 13 2 
+Cards drawn from deck: 23 13 2 
+deck to smithy: 2
+card at smithy: 13
+
+TEST 180:
+	FAILED ON TEST: thisPlayer hand count = 251, expected = 250
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 180: FAILED
+Kingdom Cards: 11 21 12 9 19 25 22 15 17 23 
+seed = 529
+Number of Players: 3
+Current Player: 0
+Hand Count: 248
+Deck Count: 315
+Discard Count: 206
+New cards in hand: 13 4 15 7 
+Cards drawn from deck: 4 15 7 
+deck to smithy: 7
+card at smithy: 13
+
+TEST 181:
+	FAILED ON TEST: thisPlayer hand count = 408, expected = 407
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 181: FAILED
+Kingdom Cards: 10 16 18 13 7 14 23 25 11 22 
+seed = 909
+Number of Players: 2
+Current Player: 0
+Hand Count: 405
+Deck Count: 112
+Discard Count: 226
+New cards in hand: 13 4 23 18 
+Cards drawn from deck: 4 23 18 
+deck to smithy: 18
+card at smithy: 13
+
+TEST 182:
+	FAILED ON TEST: thisPlayer hand count = 299, expected = 298
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 182: FAILED
+Kingdom Cards: 14 23 25 19 21 8 9 17 15 20 
+seed = 6
+Number of Players: 4
+Current Player: 0
+Hand Count: 296
+Deck Count: 351
+Discard Count: 367
+New cards in hand: 13 21 15 6 
+Cards drawn from deck: 21 15 6 
+deck to smithy: 6
+card at smithy: 13
+
+TEST 183:
+	FAILED ON TEST: thisPlayer hand count = 382, expected = 381
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 183: FAILED
+Kingdom Cards: 8 21 13 24 26 7 22 12 14 23 
+seed = 685
+Number of Players: 3
+Current Player: 1
+Hand Count: 379
+Deck Count: 241
+Discard Count: 212
+New cards in hand: 13 6 14 4 
+Cards drawn from deck: 6 14 4 
+deck to smithy: 4
+card at smithy: 13
+
+TEST 184:
+	FAILED ON TEST: thisPlayer hand count = 224, expected = 223
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 184: FAILED
+Kingdom Cards: 9 26 21 8 13 12 19 7 25 22 
+seed = 950
+Number of Players: 4
+Current Player: 1
+Hand Count: 221
+Deck Count: 449
+Discard Count: 132
+New cards in hand: 13 11 20 11 
+Cards drawn from deck: 11 20 11 
+deck to smithy: 11
+card at smithy: 13
+
+TEST 185:
+	FAILED ON TEST: thisPlayer hand count = 67, expected = 66
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 185: FAILED
+Kingdom Cards: 22 20 24 16 9 11 7 8 15 13 
+seed = 546
+Number of Players: 2
+Current Player: 0
+Hand Count: 64
+Deck Count: 295
+Discard Count: 328
+New cards in hand: 13 19 11 5 
+Cards drawn from deck: 19 11 5 
+deck to smithy: 5
+card at smithy: 13
+
+TEST 186:
+	FAILED ON TEST: thisPlayer hand count = 178, expected = 177
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 186: FAILED
+Kingdom Cards: 20 13 16 9 10 15 7 8 12 14 
+seed = 196
+Number of Players: 4
+Current Player: 2
+Hand Count: 175
+Deck Count: 314
+Discard Count: 204
+New cards in hand: 13 15 2 2 
+Cards drawn from deck: 15 2 2 
+deck to smithy: 2
+card at smithy: 13
+
+TEST 187:
+	FAILED ON TEST: thisPlayer hand count = 404, expected = 403
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 187: FAILED
+Kingdom Cards: 16 24 21 25 13 8 22 19 20 7 
+seed = 148
+Number of Players: 4
+Current Player: 3
+Hand Count: 401
+Deck Count: 454
+Discard Count: 330
+New cards in hand: 13 4 3 19 
+Cards drawn from deck: 4 3 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 188:
+	FAILED ON TEST: thisPlayer hand count = 30, expected = 29
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 188: FAILED
+Kingdom Cards: 8 20 23 24 15 26 12 11 16 7 
+seed = 326
+Number of Players: 3
+Current Player: 1
+Hand Count: 27
+Deck Count: 307
+Discard Count: 258
+New cards in hand: 13 7 6 19 
+Cards drawn from deck: 7 6 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 189:
+	FAILED ON TEST: thisPlayer hand count = 274, expected = 273
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 189: FAILED
+Kingdom Cards: 11 18 23 10 26 14 13 12 16 25 
+seed = 779
+Number of Players: 3
+Current Player: 1
+Hand Count: 271
+Deck Count: 425
+Discard Count: 260
+New cards in hand: 13 23 1 15 
+Cards drawn from deck: 23 1 15 
+deck to smithy: 15
+card at smithy: 13
+
+TEST 190:
+	FAILED ON TEST: thisPlayer hand count = 213, expected = 212
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 190: FAILED
+Kingdom Cards: 21 12 20 8 14 11 13 15 7 22 
+seed = 902
+Number of Players: 3
+Current Player: 2
+Hand Count: 210
+Deck Count: 446
+Discard Count: 454
+New cards in hand: 13 13 1 19 
+Cards drawn from deck: 13 1 19 
+deck to smithy: 19
+card at smithy: 13
+
+TEST 191:
+	FAILED ON TEST: thisPlayer hand count = 131, expected = 130
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 191: FAILED
+Kingdom Cards: 12 13 9 14 8 19 25 18 23 10 
+seed = 273
+Number of Players: 4
+Current Player: 1
+Hand Count: 128
+Deck Count: 472
+Discard Count: 278
+New cards in hand: 13 22 24 11 
+Cards drawn from deck: 22 24 11 
+deck to smithy: 11
+card at smithy: 13
+
+TEST 192:
+	FAILED ON TEST: thisPlayer hand count = 297, expected = 296
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 192: FAILED
+Kingdom Cards: 17 26 13 7 11 20 14 21 18 22 
+seed = 780
+Number of Players: 2
+Current Player: 1
+Hand Count: 294
+Deck Count: 318
+Discard Count: 432
+New cards in hand: 13 19 15 4 
+Cards drawn from deck: 19 15 4 
+deck to smithy: 4
+card at smithy: 13
+
+TEST 193:
+	FAILED ON TEST: thisPlayer hand count = 282, expected = 281
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 193: FAILED
+Kingdom Cards: 18 10 25 17 11 21 23 13 15 24 
+seed = 300
+Number of Players: 2
+Current Player: 1
+Hand Count: 279
+Deck Count: 138
+Discard Count: 100
+New cards in hand: 13 10 19 0 
+Cards drawn from deck: 10 19 0 
+deck to smithy: 0
+card at smithy: 13
+
+TEST 194:
+	FAILED ON TEST: thisPlayer hand count = 50, expected = 49
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 194: FAILED
+Kingdom Cards: 14 21 22 11 13 10 26 17 18 7 
+seed = 477
+Number of Players: 4
+Current Player: 3
+Hand Count: 47
+Deck Count: 336
+Discard Count: 103
+New cards in hand: 13 2 19 23 
+Cards drawn from deck: 2 19 23 
+deck to smithy: 23
+card at smithy: 13
+
+TEST 195:
+	FAILED ON TEST: thisPlayer hand count = 195, expected = 194
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 195: FAILED
+Kingdom Cards: 11 24 26 7 20 25 23 14 10 15 
+seed = 794
+Number of Players: 4
+Current Player: 3
+Hand Count: 192
+Deck Count: 32
+Discard Count: 108
+New cards in hand: 13 2 13 25 
+Cards drawn from deck: 2 13 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 196:
+	FAILED ON TEST: thisPlayer hand count = 105, expected = 104
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 196: FAILED
+Kingdom Cards: 7 9 23 20 11 17 10 8 16 26 
+seed = 711
+Number of Players: 2
+Current Player: 0
+Hand Count: 102
+Deck Count: 138
+Discard Count: 252
+New cards in hand: 13 2 6 25 
+Cards drawn from deck: 2 6 25 
+deck to smithy: 25
+card at smithy: 13
+
+TEST 197:
+	FAILED ON TEST: thisPlayer hand count = 357, expected = 356
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 197: FAILED
+Kingdom Cards: 16 20 12 7 10 9 11 15 25 18 
+seed = 739
+Number of Players: 4
+Current Player: 3
+Hand Count: 354
+Deck Count: 486
+Discard Count: 45
+New cards in hand: 13 23 25 8 
+Cards drawn from deck: 23 25 8 
+deck to smithy: 8
+card at smithy: 13
+
+TEST 198:
+	FAILED ON TEST: thisPlayer hand count = 21, expected = 20
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 198: FAILED
+Kingdom Cards: 19 26 23 24 10 8 22 9 21 15 
+seed = 211
+Number of Players: 2
+Current Player: 0
+Hand Count: 18
+Deck Count: 124
+Discard Count: 126
+New cards in hand: 13 2 7 1 
+Cards drawn from deck: 2 7 1 
+deck to smithy: 1
+card at smithy: 13
+
+TEST 199:
+	FAILED ON TEST: thisPlayer hand count = 160, expected = 159
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 199: FAILED
+Kingdom Cards: 19 26 10 14 15 24 8 20 22 11 
+seed = 946
+Number of Players: 3
+Current Player: 2
+Hand Count: 157
+Deck Count: 79
+Discard Count: 14
+New cards in hand: 13 24 23 17 
+Cards drawn from deck: 24 23 17 
+deck to smithy: 17
+card at smithy: 13
+
+TEST 200:
+	FAILED ON TEST: thisPlayer hand count = 215, expected = 214
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player's hand should not contain the played smithy card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 13
+TEST 200: FAILED
+Kingdom Cards: 13 19 22 12 14 8 10 15 11 7 
+seed = 327
+Number of Players: 3
+Current Player: 2
+Hand Count: 212
+Deck Count: 242
+Discard Count: 332
+New cards in hand: 13 15 14 4 
+Cards drawn from deck: 15 14 4 
+deck to smithy: 4
+card at smithy: 13
+
+ >>>>> Testing complete Smithy: Failure Count: 200/200 <<<<<
+
+Function 'updateCoins'
+Lines executed:81.82% of 11
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 1
+
+Function 'discardCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'playFeast'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 5
+
+Function 'playVillage'
+Lines executed:0.00% of 5
+No branches
+Calls executed:0.00% of 2
+
+Function 'playCouncil_Room'
+Lines executed:0.00% of 8
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 2
+
+Function 'playTreasure_Map'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+Calls executed:0.00% of 3
+
+Function 'playSmithy'
+Lines executed:100.00% of 4
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 1
+
+Function 'playAdventurer'
+Lines executed:0.00% of 17
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+Calls executed:0.00% of 2
+
+Function 'cardEffect'
+Lines executed:0.00% of 185
+Branches executed:0.00% of 159
+Taken at least once:0.00% of 159
+Calls executed:0.00% of 53
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'drawCard'
+Lines executed:95.45% of 22
+Branches executed:100.00% of 6
+Taken at least once:83.33% of 6
+Calls executed:100.00% of 1
+
+Function 'getWinners'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+Calls executed:0.00% of 2
+
+Function 'scoreFor'
+Lines executed:0.00% of 24
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+Calls executed:0.00% of 3
+
+Function 'isGameOver'
+Lines executed:0.00% of 10
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 3
+
+Function 'whoseTurn'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 9
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:0.00% of 3
+No branches
+Calls executed:0.00% of 1
+
+Function 'numHandCards'
+Lines executed:0.00% of 2
+No branches
+Calls executed:0.00% of 1
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+Calls executed:0.00% of 4
+
+Function 'playCard'
+Lines executed:0.00% of 14
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+Calls executed:0.00% of 3
+
+Function 'shuffle'
+Lines executed:93.75% of 16
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+Calls executed:100.00% of 2
+
+Function 'initializeGame'
+Lines executed:95.16% of 62
+Branches executed:100.00% of 46
+Taken at least once:91.30% of 46
+Calls executed:100.00% of 5
+
+Function 'kingdomCards'
+Lines executed:0.00% of 13
+No branches
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 3
+No branches
+No calls
+
+Function 'compare'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 4
+Taken at least once:100.00% of 4
+No calls
+
+File 'dominion.c'
+Lines executed:20.28% of 562
+Branches executed:17.83% of 415
+Taken at least once:15.90% of 415
+Calls executed:9.57% of 94
+Creating 'dominion.c.gcov'
+

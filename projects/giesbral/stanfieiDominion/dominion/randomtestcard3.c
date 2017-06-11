@@ -4,7 +4,7 @@
 	CS362_400_S2017
 	Assignment 4
 
-	Random Test for Adventurer card
+	Random Test for Village card
 */
 
 
@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TEST_CARD "Adventurer"
+#define TEST_CARD_NAME "Village"
 #define NUM_TESTS 200
 #define NUM_KINGDOM 10
 #define NUM_TEMP_KINGDOM 20
@@ -69,7 +69,7 @@ int main() {
 
 	int failureCount = 0;
 
-	printf("----------------- Random Testing Card: %s ----------------\n", TEST_CARD);
+	printf("----------------- Random Testing Card: %s ----------------\n", TEST_CARD_NAME);
 
 	for (testLoop = 1; testLoop <= NUM_TESTS; testLoop++)
 	{
@@ -121,6 +121,9 @@ int main() {
 		// initialize game state
 		initializeGame(numPlayers, kingdom, seed, &preState);
 
+		// randomize number of actions
+		preState.numActions = randDec(1, 1000);
+
 		//randomizing hand size
 		preState.handCount[thisPlayer] = randDec(1, MAX_HAND);
 
@@ -136,10 +139,10 @@ int main() {
 			preState.hand[thisPlayer][i] = randDec(curse, treasure_map);
 		}
 
-		// randomize adventurer position and add to hand
-		int adventurerPosition = randDec(0, preState.handCount[thisPlayer] - 1);
+		// randomize village position and add to hand
+		int villagePosition = randDec(0, preState.handCount[thisPlayer] - 1);
 
-		preState.hand[thisPlayer][adventurerPosition] = adventurer;
+		preState.hand[thisPlayer][villagePosition] = village;
 
 		// randomizing deck size
 		preState.deckCount[thisPlayer] = randDec(0, MAX_DECK);
@@ -174,21 +177,22 @@ int main() {
 		// target values
 		int cardsGained;
 		int playedCount = 1;
+		int actionsGained = 2;
 
-		if (preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] < 2)
+		if (preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] < 1)
 		{
 			cardsGained = preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer];
 		}
 		else
 		{
-			cardsGained = 2;
+			cardsGained = 1;
 		}
-		
+
 		// copy the pre-test game state to the post-test game state
 		memcpy(&postState, &preState, sizeof(struct gameState));
 
 		// ***** Playing test card ***** //
-		playAdventurer(&postState, adventurerPosition, thisPlayer);
+		playVillage(&postState, villagePosition, thisPlayer);
 
 		// checking hand count
 		if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
@@ -196,16 +200,8 @@ int main() {
 			failedFlag = 1;
 			printf("\tFAILED ON TEST: thisPlayer hand count = %d, expected = %d\n", postState.handCount[thisPlayer], (preState.handCount[thisPlayer] + cardsGained - playedCount));
 		}
-
-		// played adventurer card should not be in the player's hand
-		if (postState.hand[thisPlayer][adventurerPosition] == adventurer && preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != adventurer)
-		{
-			failedFlag = 1;
-			printf("\tFAILED ON TEST: player's hand should not contain the played adventurer card\n");
-		}
-
-		
-		if (preState.deckCount[thisPlayer] != 0)
+	
+		if (preState.deckCount[thisPlayer] >= cardsGained)
 		{
 			// checking deck count
 			if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer] - preState.discardCount[thisPlayer]))))
@@ -215,31 +211,25 @@ int main() {
 			}
 
 			// cards drawn from deck the same as the new cards in the player's hand?
-			// was the adventurer card played from hand position replaced with the correct card?
-			if (preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != postState.hand[thisPlayer][adventurerPosition] &&
-				(preState.deck[thisPlayer][postState.deckCount[thisPlayer]] == copper ||
-					preState.deck[thisPlayer][postState.deckCount[thisPlayer]] == silver ||
-					preState.deck[thisPlayer][postState.deckCount[thisPlayer]] == gold))
+			// was the village card played from hand position replaced with the correct card?
+			if (preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != postState.hand[thisPlayer][villagePosition])
 			{
 				failedFlag = 1;
 				printf("\tFAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand\n");
-				goto continueTests;
+				goto contTests;
 			}
 
-			// are the remaining cards drawn from the deck (that didn't replace the adventurer card at hand position) the same as the cards currently in the player's hand?
+			// are the remaining cards drawn from the deck (that didn't replace the village card at hand position) the same as the cards currently in the player's hand?
 			i = preState.handCount[thisPlayer];
 			k = preState.deckCount[thisPlayer] - 1;
 
 			while (i < postState.handCount[thisPlayer] && k > postState.deckCount[thisPlayer])
 			{
-				if (postState.hand[thisPlayer][i] != preState.deck[thisPlayer][k] &&
-					(preState.deck[thisPlayer][k] == copper ||
-						preState.deck[thisPlayer][k] == silver ||
-						preState.deck[thisPlayer][k] == gold))
+				if (postState.hand[thisPlayer][i] != preState.deck[thisPlayer][k])
 				{
 					failedFlag = 1;
 					printf("\tFAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand\n");
-					goto continueTests;
+					goto contTests;
 				}
 
 				i++;
@@ -249,41 +239,26 @@ int main() {
 		else
 		{
 			// checking deck count
-			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
+			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
 			{
 				failedFlag = 1;
 				printf("\tFAILED ON TEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer]))));
 			}
 
-			// If deck count = 0, was discard shuffled into deck correctly?
-			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
+			// If deck count < cardsGained, was discard shuffled into deck correctly?
+			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
 			{
 				failedFlag = 1;
 				printf("\tFAILED ON TEST: discard pile not shuffled into deck correctly\n");
 			}
 		}
 
-	continueTests:
-
-		// cards drawn from the deck should be treasure cards
-		if (postState.hand[thisPlayer][adventurerPosition] != copper && 
-			postState.hand[thisPlayer][adventurerPosition] != silver && 
-			postState.hand[thisPlayer][adventurerPosition] != gold)
+	contTests:
+		// played village card should not be in the player's hand
+		if (postState.hand[thisPlayer][villagePosition] == village && preState.deck[thisPlayer][postState.deckCount[thisPlayer]] != village)
 		{
 			failedFlag = 1;
-			printf("\tFAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card\n");
-		}
-
-		for (i = preState.handCount[thisPlayer]; i < postState.handCount[thisPlayer]; ++i)
-		{
-			if (postState.hand[thisPlayer][i] != copper && 
-				postState.hand[thisPlayer][i] != silver && 
-				postState.hand[thisPlayer][i] != gold)
-			{
-				failedFlag = 1;
-				printf("\tFAILED ON TEST: cards drawn from deck are not treasure cards\n");
-				break;
-			}
+			printf("\tFAILED ON TEST: player's hand should not contain the played village card\n");
 		}
 
 		// playedCardCount should be +1
@@ -293,11 +268,19 @@ int main() {
 			printf("\tFAILED ON TEST: played count = %d, expected = %d\n", postState.playedCardCount, (preState.playedCardCount + playedCount));
 		}
 
-		// adventurer should be in played pile
-		if (postState.playedCards[preState.playedCardCount] != adventurer)
+		// village should be in played pile
+		//printf("\tTEST: village should be in played cards\n");
+		if (postState.playedCards[preState.playedCardCount] != village)
 		{
 			failedFlag = 1;
-			printf("\tFAILED ON TEST: Played card value = %d, expected %d\n", postState.playedCards[preState.playedCardCount], adventurer);
+			printf("\tFAILED ON TEST: Played card value = %d, expected %d\n", postState.playedCards[preState.playedCardCount], village);
+		}
+
+		// number of actions correct?
+		if (postState.numActions != (preState.numActions + actionsGained))
+		{
+			failedFlag = 1;
+			printf("\tFAILED ON TEST: actions count = %d, expected = %d\n", postState.numActions, (preState.numActions + actionsGained));
 		}
 
 		if (failedFlag == 1)
@@ -311,13 +294,15 @@ int main() {
 			}
 			printf("\n");
 			printf("seed = %d\n", seed);
+
 			printf("Number of Players: %d\n", numPlayers);
 			printf("Current Player: %d\n", thisPlayer);
 			printf("Hand Count: %d\n", preState.handCount[thisPlayer]);
 			printf("Deck Count: %d\n", preState.deckCount[thisPlayer]);
 			printf("Discard Count: %d\n", preState.discardCount[thisPlayer]);
+			printf("Starting Actions: %d\n", preState.numActions);
 			printf("New cards in hand: ");
-			printf("%d ", preState.hand[thisPlayer][adventurerPosition]);
+			printf("%d ", preState.hand[thisPlayer][villagePosition]);
 			for (i = preState.handCount[thisPlayer]; i < postState.handCount[thisPlayer]; i++)
 			{
 				printf("%d ", postState.hand[thisPlayer][i]);
@@ -330,14 +315,14 @@ int main() {
 				printf("%d ", preState.deck[thisPlayer][k]);
 			}
 			printf("\n");
-			printf("deck to adventurer: %d\n", preState.deck[thisPlayer][postState.deckCount[thisPlayer]]);
-			printf("card at adventurer: %d\n", postState.hand[thisPlayer][adventurerPosition]);
+			printf("deck to village: %d\n", preState.deck[thisPlayer][postState.deckCount[thisPlayer]]);
+			printf("card at village: %d\n", postState.hand[thisPlayer][villagePosition]);
 		}
 	}
 
 	// ----------- TESTS COMPLETE --------------
 
-	printf("\n >>>>> Testing complete %s: Failure Count: %d/%d <<<<<\n\n", TEST_CARD, failureCount, NUM_TESTS);
+	printf("\n >>>>> Testing complete %s: Failure Count: %d/%d <<<<<\n\n", TEST_CARD_NAME, failureCount, NUM_TESTS);
 
 	return 0;
 }

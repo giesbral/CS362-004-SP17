@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TEST_CARD "Adventurer"
+#define TEST_CARD_NAME "Adventurer"
 #define NUM_TESTS 200
 #define NUM_KINGDOM 10
 #define NUM_TEMP_KINGDOM 20
@@ -69,7 +69,7 @@ int main() {
 
 	int failureCount = 0;
 
-	printf("----------------- Random Testing Card: %s ----------------\n", TEST_CARD);
+	printf("----------------- Random Testing Card: %s ----------------\n", TEST_CARD_NAME);
 
 	for (testLoop = 1; testLoop <= NUM_TESTS; testLoop++)
 	{
@@ -188,7 +188,7 @@ int main() {
 		memcpy(&postState, &preState, sizeof(struct gameState));
 
 		// ***** Playing test card ***** //
-		playAdventurer(&postState, adventurerPosition, thisPlayer);
+		playAdventurer(&postState, thisPlayer);
 
 		// checking hand count
 		if (postState.handCount[thisPlayer] != (preState.handCount[thisPlayer] + cardsGained - playedCount))
@@ -205,7 +205,7 @@ int main() {
 		}
 
 		
-		if (preState.deckCount[thisPlayer] != 0)
+		if (preState.deckCount[thisPlayer] >= cardsGained)
 		{
 			// checking deck count
 			if (postState.deckCount[thisPlayer] != (preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer] - preState.discardCount[thisPlayer]))))
@@ -249,14 +249,14 @@ int main() {
 		else
 		{
 			// checking deck count
-			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
+			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
 			{
 				failedFlag = 1;
 				printf("\tFAILED ON TEST: thisPlayer deck count = %d, expected = %d\n", postState.deckCount[thisPlayer], (preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer]))));
 			}
 
-			// If deck count = 0, was discard shuffled into deck correctly?
-			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
+			// If deck count < cardsGained, was discard shuffled into deck correctly?
+			if (postState.deckCount[thisPlayer] != preState.discardCount[thisPlayer] + preState.deckCount[thisPlayer] - (cardsGained + (postState.discardCount[thisPlayer])))
 			{
 				failedFlag = 1;
 				printf("\tFAILED ON TEST: discard pile not shuffled into deck correctly\n");
@@ -264,6 +264,13 @@ int main() {
 		}
 
 	continueTests:
+
+		// discard pile should have the correct number of cards
+		if (postState.discardCount[thisPlayer] != preState.discardCount[thisPlayer] + (preState.deckCount[thisPlayer] - postState.deckCount[thisPlayer] - cardsGained))
+		{
+			failedFlag = 1;
+			printf("\tFAILED ON TEST: player discard count: %d, expected: %d\n", (preState.discardCount[thisPlayer] + (preState.deckCount[thisPlayer] - postState.deckCount[thisPlayer] - cardsGained)), postState.discardCount[thisPlayer]);
+		}
 
 		// cards drawn from the deck should be treasure cards
 		if (postState.hand[thisPlayer][adventurerPosition] != copper && 
@@ -337,7 +344,7 @@ int main() {
 
 	// ----------- TESTS COMPLETE --------------
 
-	printf("\n >>>>> Testing complete %s: Failure Count: %d/%d <<<<<\n\n", TEST_CARD, failureCount, NUM_TESTS);
+	printf("\n >>>>> Testing complete %s: Failure Count: %d/%d <<<<<\n\n", TEST_CARD_NAME, failureCount, NUM_TESTS);
 
 	return 0;
 }

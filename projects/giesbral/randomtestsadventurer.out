@@ -1,0 +1,4395 @@
+----------------- Random Testing Card: Adventurer ----------------
+
+TEST 1:
+	FAILED ON TEST: thisPlayer hand count = 480, expected = 479
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 464, expected = 463
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 349, expected: 350
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 1: FAILED
+Kingdom Cards: 19 26 15 16 17 13 24 20 23 10 
+seed = 783
+Number of Players: 2
+Current Player: 1
+Hand Count: 478
+Deck Count: 481
+Discard Count: 334
+New cards in hand: 7 6 4 
+Cards drawn from deck: 25 18 21 1 15 3 16 3 9 19 16 15 21 14 6 12 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 2:
+	FAILED ON TEST: thisPlayer hand count = 237, expected = 236
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 132, expected = 131
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 447, expected: 448
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 2: FAILED
+Kingdom Cards: 15 20 19 13 11 8 23 25 17 18 
+seed = 466
+Number of Players: 2
+Current Player: 1
+Hand Count: 235
+Deck Count: 166
+Discard Count: 415
+New cards in hand: 7 6 4 
+Cards drawn from deck: 9 14 26 20 11 22 7 22 0 7 19 24 20 24 23 26 19 22 25 21 21 14 0 7 20 26 14 2 6 10 9 16 13 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 3:
+	FAILED ON TEST: thisPlayer hand count = 273, expected = 272
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 396, expected = 395
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 243, expected: 244
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 3: FAILED
+Kingdom Cards: 14 11 12 20 18 15 16 13 19 17 
+seed = 699
+Number of Players: 2
+Current Player: 0
+Hand Count: 271
+Deck Count: 437
+Discard Count: 204
+New cards in hand: 7 4 5 
+Cards drawn from deck: 17 14 22 25 9 4 17 0 26 20 14 1 26 22 3 21 19 20 11 21 21 20 8 17 0 2 0 12 13 18 16 19 16 2 18 19 15 24 13 25 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 4:
+	FAILED ON TEST: thisPlayer hand count = 354, expected = 353
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 150, expected = 149
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 321, expected: 322
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 4: FAILED
+Kingdom Cards: 8 16 25 26 7 10 20 18 24 17 
+seed = 478
+Number of Players: 3
+Current Player: 2
+Hand Count: 352
+Deck Count: 199
+Discard Count: 274
+New cards in hand: 7 4 5 
+Cards drawn from deck: 0 1 11 8 14 7 7 8 25 7 9 12 22 21 10 26 4 9 10 3 3 19 26 23 23 14 0 10 18 21 13 19 14 15 11 17 9 0 25 24 11 26 2 7 17 12 0 12 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 5:
+	FAILED ON TEST: thisPlayer hand count = 119, expected = 118
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 11, expected = 10
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 332, expected: 333
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 5: FAILED
+Kingdom Cards: 24 22 25 21 26 18 12 14 23 10 
+seed = 230
+Number of Players: 2
+Current Player: 1
+Hand Count: 117
+Deck Count: 21
+Discard Count: 324
+New cards in hand: 7 4 5 
+Cards drawn from deck: 15 21 12 8 4 20 24 15 9 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 6:
+	FAILED ON TEST: thisPlayer hand count = 283, expected = 282
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 170, expected = 169
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 42, expected: 43
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 6: FAILED
+Kingdom Cards: 16 22 18 23 12 20 17 15 25 10 
+seed = 650
+Number of Players: 4
+Current Player: 2
+Hand Count: 281
+Deck Count: 189
+Discard Count: 25
+New cards in hand: 7 5 4 
+Cards drawn from deck: 5 12 13 17 7 9 20 2 17 23 18 10 12 1 12 3 23 19 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 7:
+	FAILED ON TEST: thisPlayer hand count = 501, expected = 500
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 154, expected = 153
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 331, expected: 332
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 7: FAILED
+Kingdom Cards: 16 17 13 26 15 12 22 11 19 20 
+seed = 334
+Number of Players: 4
+Current Player: 1
+Hand Count: 499
+Deck Count: 186
+Discard Count: 301
+New cards in hand: 7 5 6 
+Cards drawn from deck: 25 19 21 19 20 2 18 19 23 13 16 14 16 8 19 23 14 9 20 17 17 10 8 14 18 1 14 5 3 3 7 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 8:
+	FAILED ON TEST: thisPlayer hand count = 166, expected = 165
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 227, expected = 226
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 118, expected: 119
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 8: FAILED
+Kingdom Cards: 24 22 8 16 15 23 10 26 12 25 
+seed = 814
+Number of Players: 2
+Current Player: 0
+Hand Count: 164
+Deck Count: 250
+Discard Count: 97
+New cards in hand: 7 6 6 
+Cards drawn from deck: 0 13 26 2 18 21 24 26 17 23 6 14 24 0 21 20 17 2 14 15 23 0 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 9:
+	FAILED ON TEST: thisPlayer hand count = 354, expected = 353
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 143, expected = 142
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 8, expected: 9
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 9: FAILED
+Kingdom Cards: 10 13 7 18 23 24 26 15 17 20 
+seed = 228
+Number of Players: 3
+Current Player: 0
+Hand Count: 352
+Deck Count: 148
+Discard Count: 5
+New cards in hand: 7 6 5 
+Cards drawn from deck: 7 11 7 6 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 10:
+	FAILED ON TEST: thisPlayer hand count = 309, expected = 308
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 84, expected = 83
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 528, expected: 529
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 10: FAILED
+Kingdom Cards: 7 8 10 23 13 14 16 21 24 17 
+seed = 305
+Number of Players: 2
+Current Player: 1
+Hand Count: 307
+Deck Count: 143
+Discard Count: 471
+New cards in hand: 7 4 5 
+Cards drawn from deck: 16 19 4 20 2 7 25 18 16 18 0 17 3 12 1 20 15 19 2 25 22 10 22 14 23 16 25 8 17 8 14 7 1 8 21 22 17 18 18 10 26 14 15 9 8 20 2 17 24 3 3 8 14 17 0 15 25 16 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 11:
+	FAILED ON TEST: thisPlayer hand count = 368, expected = 367
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 255, expected = 254
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 360, expected: 361
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 11: FAILED
+Kingdom Cards: 16 15 7 9 12 21 18 22 23 25 
+seed = 390
+Number of Players: 2
+Current Player: 1
+Hand Count: 366
+Deck Count: 276
+Discard Count: 341
+New cards in hand: 7 5 6 
+Cards drawn from deck: 19 23 16 15 9 11 2 22 17 15 10 15 1 5 16 1 15 9 21 23 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 12:
+	FAILED ON TEST: thisPlayer hand count = 258, expected = 257
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 327, expected = 326
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 223, expected: 224
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 12: FAILED
+Kingdom Cards: 26 14 24 7 20 19 8 12 16 9 
+seed = 776
+Number of Players: 2
+Current Player: 0
+Hand Count: 256
+Deck Count: 335
+Discard Count: 217
+New cards in hand: 7 4 4 
+Cards drawn from deck: 18 19 4 13 3 9 14 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 13:
+	FAILED ON TEST: thisPlayer hand count = 310, expected = 309
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 45, expected = 44
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 46, expected: 47
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 13: FAILED
+Kingdom Cards: 9 17 8 23 20 25 24 10 22 21 
+seed = 684
+Number of Players: 3
+Current Player: 2
+Hand Count: 308
+Deck Count: 51
+Discard Count: 42
+New cards in hand: 7 4 5 
+Cards drawn from deck: 4 20 17 20 12 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 14:
+	FAILED ON TEST: thisPlayer hand count = 273, expected = 272
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 119, expected = 118
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 304, expected: 305
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 14: FAILED
+Kingdom Cards: 23 25 17 13 21 19 12 9 24 7 
+seed = 863
+Number of Players: 2
+Current Player: 1
+Hand Count: 271
+Deck Count: 134
+Discard Count: 291
+New cards in hand: 7 5 5 
+Cards drawn from deck: 13 8 17 22 23 8 15 18 16 10 5 24 18 21 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 15:
+	FAILED ON TEST: thisPlayer hand count = 242, expected = 241
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 5, expected = 4
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 105, expected: 106
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 15: FAILED
+Kingdom Cards: 23 22 8 24 14 26 9 19 15 21 
+seed = 445
+Number of Players: 2
+Current Player: 1
+Hand Count: 240
+Deck Count: 21
+Discard Count: 91
+New cards in hand: 7 5 6 
+Cards drawn from deck: 10 20 24 24 18 7 5 7 2 18 3 24 9 14 25 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 16:
+	FAILED ON TEST: thisPlayer hand count = 413, expected = 412
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 95, expected = 94
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 204, expected: 205
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 16: FAILED
+Kingdom Cards: 24 18 9 23 20 10 7 13 22 14 
+seed = 125
+Number of Players: 4
+Current Player: 2
+Hand Count: 411
+Deck Count: 102
+Discard Count: 199
+New cards in hand: 7 6 5 
+Cards drawn from deck: 6 24 11 9 15 2 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 17:
+	FAILED ON TEST: thisPlayer hand count = 80, expected = 79
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 181, expected = 180
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 11, expected: 12
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 17: FAILED
+Kingdom Cards: 20 11 21 8 24 13 19 22 26 10 
+seed = 580
+Number of Players: 3
+Current Player: 2
+Hand Count: 78
+Deck Count: 189
+Discard Count: 5
+New cards in hand: 7 4 4 
+Cards drawn from deck: 11 25 13 7 14 17 4 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 18:
+	FAILED ON TEST: thisPlayer hand count = 429, expected = 428
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 47, expected = 46
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 60, expected: 61
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 18: FAILED
+Kingdom Cards: 22 20 25 10 18 15 23 9 26 16 
+seed = 122
+Number of Players: 4
+Current Player: 2
+Hand Count: 427
+Deck Count: 59
+Discard Count: 50
+New cards in hand: 7 4 6 
+Cards drawn from deck: 12 21 13 25 15 11 7 4 12 15 9 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 19:
+	FAILED ON TEST: thisPlayer hand count = 256, expected = 255
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 464, expected = 463
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 387, expected: 388
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 19: FAILED
+Kingdom Cards: 15 14 20 25 16 13 24 22 21 9 
+seed = 819
+Number of Players: 3
+Current Player: 2
+Hand Count: 254
+Deck Count: 468
+Discard Count: 385
+New cards in hand: 7 4 4 
+Cards drawn from deck: 8 4 2 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 20:
+	FAILED ON TEST: thisPlayer hand count = 276, expected = 275
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 179, expected = 178
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 267, expected: 268
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 20: FAILED
+Kingdom Cards: 10 14 17 25 16 8 19 11 23 7 
+seed = 1
+Number of Players: 4
+Current Player: 1
+Hand Count: 274
+Deck Count: 223
+Discard Count: 225
+New cards in hand: 7 4 6 
+Cards drawn from deck: 23 21 19 24 19 0 21 4 9 25 0 21 9 13 12 14 24 11 21 12 14 7 25 2 24 26 14 9 2 0 7 26 2 18 2 26 2 7 15 14 16 25 20 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 21:
+	FAILED ON TEST: thisPlayer hand count = 66, expected = 65
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 353, expected = 352
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 132, expected: 133
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 21: FAILED
+Kingdom Cards: 7 11 8 21 9 22 16 10 13 17 
+seed = 885
+Number of Players: 4
+Current Player: 0
+Hand Count: 64
+Deck Count: 371
+Discard Count: 116
+New cards in hand: 7 4 6 
+Cards drawn from deck: 16 22 2 2 23 8 9 16 1 4 25 1 0 15 26 24 7 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 22:
+	FAILED ON TEST: thisPlayer hand count = 443, expected = 442
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 181, expected = 180
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 488, expected: 489
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 22: FAILED
+Kingdom Cards: 20 18 21 14 13 22 25 16 10 24 
+seed = 965
+Number of Players: 2
+Current Player: 0
+Hand Count: 441
+Deck Count: 184
+Discard Count: 487
+New cards in hand: 7 6 5 
+Cards drawn from deck: 16 6 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 23:
+	FAILED ON TEST: thisPlayer hand count = 258, expected = 257
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 276, expected = 275
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 132, expected: 133
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 23: FAILED
+Kingdom Cards: 12 25 23 26 15 10 17 14 8 19 
+seed = 486
+Number of Players: 3
+Current Player: 1
+Hand Count: 256
+Deck Count: 304
+Discard Count: 106
+New cards in hand: 7 4 6 
+Cards drawn from deck: 21 14 2 3 14 21 24 17 4 11 14 1 24 22 16 16 10 9 26 10 8 19 3 26 24 22 20 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 24:
+	FAILED ON TEST: thisPlayer hand count = 286, expected = 285
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 203, expected = 202
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 436, expected: 437
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 24: FAILED
+Kingdom Cards: 9 11 22 13 7 18 16 19 14 26 
+seed = 814
+Number of Players: 4
+Current Player: 3
+Hand Count: 284
+Deck Count: 215
+Discard Count: 426
+New cards in hand: 7 4 4 
+Cards drawn from deck: 10 4 14 16 0 11 13 1 11 14 17 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 25:
+	FAILED ON TEST: thisPlayer hand count = 255, expected = 254
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 348, expected = 347
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 132, expected: 133
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 25: FAILED
+Kingdom Cards: 10 15 17 13 22 26 12 23 25 11 
+seed = 511
+Number of Players: 3
+Current Player: 1
+Hand Count: 253
+Deck Count: 354
+Discard Count: 128
+New cards in hand: 7 4 4 
+Cards drawn from deck: 10 11 16 21 4 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 26:
+	FAILED ON TEST: thisPlayer hand count = 425, expected = 424
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 394, expected = 393
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 259, expected: 260
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 26: FAILED
+Kingdom Cards: 17 14 21 12 25 8 26 23 11 18 
+seed = 954
+Number of Players: 3
+Current Player: 0
+Hand Count: 423
+Deck Count: 415
+Discard Count: 240
+New cards in hand: 7 6 5 
+Cards drawn from deck: 13 19 7 18 10 0 7 12 6 13 7 24 1 9 7 2 11 21 16 10 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 27:
+	FAILED ON TEST: thisPlayer hand count = 273, expected = 272
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 457, expected = 456
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 103, expected: 104
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 27: FAILED
+Kingdom Cards: 26 22 24 20 7 23 11 8 14 13 
+seed = 119
+Number of Players: 2
+Current Player: 0
+Hand Count: 271
+Deck Count: 491
+Discard Count: 71
+New cards in hand: 7 4 4 
+Cards drawn from deck: 4 19 15 21 20 11 26 19 21 24 8 8 10 11 22 26 19 7 17 25 19 14 8 15 10 24 7 21 16 23 19 20 9 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 28:
+	FAILED ON TEST: thisPlayer hand count = 231, expected = 230
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 364, expected = 363
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 409, expected: 410
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 28: FAILED
+Kingdom Cards: 15 12 16 14 26 24 25 11 7 13 
+seed = 819
+Number of Players: 2
+Current Player: 0
+Hand Count: 229
+Deck Count: 412
+Discard Count: 363
+New cards in hand: 7 6 5 
+Cards drawn from deck: 21 21 24 13 13 24 24 23 24 2 25 1 2 21 23 1 21 12 2 16 18 14 11 15 11 7 13 13 15 7 23 19 19 0 0 17 11 6 8 23 0 15 16 1 10 21 26 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 29:
+	FAILED ON TEST: thisPlayer hand count = 200, expected = 199
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 423, expected = 422
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 93, expected: 94
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 29: FAILED
+Kingdom Cards: 24 22 19 23 18 14 10 9 7 21 
+seed = 17
+Number of Players: 4
+Current Player: 3
+Hand Count: 198
+Deck Count: 443
+Discard Count: 75
+New cards in hand: 7 5 4 
+Cards drawn from deck: 20 18 12 15 7 22 14 5 3 24 19 12 17 19 3 9 16 9 8 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 30:
+	FAILED ON TEST: thisPlayer hand count = 374, expected = 373
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 301, expected = 300
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 512, expected: 513
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 30: FAILED
+Kingdom Cards: 19 15 26 10 9 7 14 25 23 17 
+seed = 922
+Number of Players: 3
+Current Player: 0
+Hand Count: 372
+Deck Count: 324
+Discard Count: 491
+New cards in hand: 7 4 5 
+Cards drawn from deck: 8 14 21 4 2 19 11 20 0 24 3 7 9 2 25 7 12 1 24 16 0 7 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 31:
+	FAILED ON TEST: thisPlayer hand count = 370, expected = 369
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 114, expected = 113
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 368, expected: 369
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 31: FAILED
+Kingdom Cards: 10 20 21 15 18 23 8 7 16 25 
+seed = 136
+Number of Players: 2
+Current Player: 0
+Hand Count: 368
+Deck Count: 119
+Discard Count: 365
+New cards in hand: 7 6 4 
+Cards drawn from deck: 20 12 6 23 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 32:
+	FAILED ON TEST: thisPlayer hand count = 170, expected = 169
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 242, expected = 241
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 475, expected: 476
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 32: FAILED
+Kingdom Cards: 14 20 24 16 8 11 7 10 23 26 
+seed = 206
+Number of Players: 4
+Current Player: 1
+Hand Count: 168
+Deck Count: 270
+Discard Count: 449
+New cards in hand: 7 4 4 
+Cards drawn from deck: 19 16 9 14 1 16 13 22 22 17 24 26 22 19 1 7 0 15 4 8 0 10 15 15 16 8 11 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 33:
+	FAILED ON TEST: thisPlayer hand count = 165, expected = 164
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 485, expected = 484
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 417, expected: 418
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 33: FAILED
+Kingdom Cards: 8 15 10 7 22 9 26 24 21 23 
+seed = 625
+Number of Players: 2
+Current Player: 1
+Hand Count: 163
+Deck Count: 500
+Discard Count: 404
+New cards in hand: 7 4 6 
+Cards drawn from deck: 19 14 21 15 7 25 25 15 21 4 14 3 14 8 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 34:
+	FAILED ON TEST: thisPlayer hand count = 465, expected = 464
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 286, expected = 285
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 321, expected: 322
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 34: FAILED
+Kingdom Cards: 17 23 22 14 9 11 13 21 16 20 
+seed = 458
+Number of Players: 4
+Current Player: 0
+Hand Count: 463
+Deck Count: 323
+Discard Count: 286
+New cards in hand: 7 5 5 
+Cards drawn from deck: 5 18 13 15 0 21 21 25 0 10 25 7 11 8 9 22 13 25 16 16 25 18 16 14 8 9 8 2 15 0 18 17 2 19 21 2 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 35:
+	FAILED ON TEST: thisPlayer hand count = 189, expected = 188
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 70, expected = 69
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 131, expected: 132
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 35: FAILED
+Kingdom Cards: 24 14 7 12 21 17 25 15 8 18 
+seed = 981
+Number of Players: 2
+Current Player: 1
+Hand Count: 187
+Deck Count: 83
+Discard Count: 120
+New cards in hand: 7 4 5 
+Cards drawn from deck: 2 15 12 16 13 0 18 8 3 1 26 4 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 36:
+	FAILED ON TEST: thisPlayer hand count = 14, expected = 13
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 174, expected = 173
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 397, expected: 398
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 36: FAILED
+Kingdom Cards: 22 15 23 19 11 9 24 18 16 25 
+seed = 669
+Number of Players: 3
+Current Player: 1
+Hand Count: 12
+Deck Count: 181
+Discard Count: 392
+New cards in hand: 7 6 4 
+Cards drawn from deck: 12 2 1 6 20 16 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 37:
+	FAILED ON TEST: thisPlayer hand count = 367, expected = 366
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 414, expected = 413
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 116, expected: 117
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 37: FAILED
+Kingdom Cards: 23 11 14 25 24 15 21 10 13 12 
+seed = 392
+Number of Players: 2
+Current Player: 0
+Hand Count: 365
+Deck Count: 441
+Discard Count: 91
+New cards in hand: 7 4 6 
+Cards drawn from deck: 7 4 21 24 22 1 22 2 26 12 25 1 14 7 3 19 24 16 25 26 21 14 11 17 1 20 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 38:
+	FAILED ON TEST: thisPlayer hand count = 430, expected = 429
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 425, expected = 424
+	FAILED ON TEST: player discard count: 18, expected: 19
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 38: FAILED
+Kingdom Cards: 11 16 24 21 12 20 9 18 19 15 
+seed = 214
+Number of Players: 4
+Current Player: 3
+Hand Count: 428
+Deck Count: 14
+Discard Count: 431
+New cards in hand: 7 5 6 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 39:
+	FAILED ON TEST: thisPlayer hand count = 30, expected = 29
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 257, expected = 256
+	FAILED ON TEST: player discard count: 17, expected: 18
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 39: FAILED
+Kingdom Cards: 13 23 25 15 10 16 11 18 19 12 
+seed = 428
+Number of Players: 4
+Current Player: 3
+Hand Count: 28
+Deck Count: 11
+Discard Count: 265
+New cards in hand: 7 5 6 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 40:
+	FAILED ON TEST: thisPlayer hand count = 114, expected = 113
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 329, expected = 328
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 245, expected: 246
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 40: FAILED
+Kingdom Cards: 7 25 18 20 23 9 21 10 17 13 
+seed = 429
+Number of Players: 3
+Current Player: 1
+Hand Count: 112
+Deck Count: 360
+Discard Count: 216
+New cards in hand: 7 4 5 
+Cards drawn from deck: 24 14 1 12 8 18 15 7 8 17 14 24 3 11 4 13 11 10 22 11 12 18 2 3 20 0 26 11 21 17 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 41:
+	FAILED ON TEST: thisPlayer hand count = 471, expected = 470
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 471, expected = 470
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 330, expected: 331
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 41: FAILED
+Kingdom Cards: 8 12 22 7 11 20 19 16 17 18 
+seed = 751
+Number of Players: 4
+Current Player: 2
+Hand Count: 469
+Deck Count: 480
+Discard Count: 323
+New cards in hand: 7 4 5 
+Cards drawn from deck: 21 4 15 10 10 12 9 26 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 42:
+	FAILED ON TEST: thisPlayer hand count = 90, expected = 89
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 263, expected = 262
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 47, expected: 48
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 42: FAILED
+Kingdom Cards: 20 19 17 12 8 9 16 11 13 26 
+seed = 392
+Number of Players: 4
+Current Player: 3
+Hand Count: 88
+Deck Count: 279
+Discard Count: 33
+New cards in hand: 7 5 4 
+Cards drawn from deck: 9 23 5 2 14 19 11 21 1 1 10 8 20 19 2 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 43:
+	FAILED ON TEST: thisPlayer hand count = 295, expected = 294
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 136, expected = 135
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 409, expected: 410
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 43: FAILED
+Kingdom Cards: 16 11 22 12 20 18 21 15 14 23 
+seed = 579
+Number of Players: 2
+Current Player: 1
+Hand Count: 293
+Deck Count: 163
+Discard Count: 384
+New cards in hand: 7 4 5 
+Cards drawn from deck: 0 24 20 9 4 24 26 9 16 22 18 8 10 11 16 3 16 3 10 20 14 23 10 7 9 23 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 44:
+	FAILED ON TEST: thisPlayer hand count = 493, expected = 492
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 140, expected = 139
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 500, expected: 501
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 44: FAILED
+Kingdom Cards: 16 24 20 21 19 15 18 12 10 26 
+seed = 2
+Number of Players: 4
+Current Player: 0
+Hand Count: 491
+Deck Count: 181
+Discard Count: 461
+New cards in hand: 7 4 5 
+Cards drawn from deck: 21 21 0 8 23 13 20 8 21 19 18 3 14 1 7 16 1 20 4 23 20 18 19 13 12 9 10 19 16 16 16 13 24 25 25 26 3 1 17 2 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 45:
+	FAILED ON TEST: thisPlayer hand count = 323, expected = 322
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 474, expected = 473
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 124, expected: 125
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 45: FAILED
+Kingdom Cards: 26 21 22 13 11 9 20 18 10 24 
+seed = 258
+Number of Players: 2
+Current Player: 1
+Hand Count: 321
+Deck Count: 482
+Discard Count: 118
+New cards in hand: 7 5 6 
+Cards drawn from deck: 1 5 3 21 26 24 15 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 46:
+	FAILED ON TEST: thisPlayer hand count = 324, expected = 323
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 410, expected = 409
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 367, expected: 368
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 46: FAILED
+Kingdom Cards: 14 11 26 23 12 21 16 19 10 18 
+seed = 466
+Number of Players: 4
+Current Player: 3
+Hand Count: 322
+Deck Count: 435
+Discard Count: 344
+New cards in hand: 7 5 5 
+Cards drawn from deck: 22 0 13 5 11 7 23 25 20 3 17 25 8 8 3 13 16 18 8 0 0 11 9 15 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 47:
+	FAILED ON TEST: thisPlayer hand count = 244, expected = 243
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 384, expected = 383
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 319, expected: 320
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 47: FAILED
+Kingdom Cards: 17 19 7 15 9 20 13 25 21 11 
+seed = 746
+Number of Players: 4
+Current Player: 0
+Hand Count: 242
+Deck Count: 389
+Discard Count: 316
+New cards in hand: 7 4 4 
+Cards drawn from deck: 26 14 4 21 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 48:
+	FAILED ON TEST: thisPlayer hand count = 284, expected = 283
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 201, expected = 200
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 286, expected: 287
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 48: FAILED
+Kingdom Cards: 13 17 25 8 16 20 7 9 24 23 
+seed = 651
+Number of Players: 3
+Current Player: 2
+Hand Count: 282
+Deck Count: 205
+Discard Count: 284
+New cards in hand: 7 5 5 
+Cards drawn from deck: 5 1 18 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 49:
+	FAILED ON TEST: thisPlayer hand count = 179, expected = 178
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 356, expected = 355
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 438, expected: 439
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 49: FAILED
+Kingdom Cards: 26 17 23 8 9 15 22 10 18 20 
+seed = 257
+Number of Players: 2
+Current Player: 0
+Hand Count: 177
+Deck Count: 382
+Discard Count: 414
+New cards in hand: 7 4 4 
+Cards drawn from deck: 24 24 24 24 9 0 20 16 25 9 3 23 0 26 20 4 2 20 12 19 1 15 20 12 23 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 50:
+	FAILED ON TEST: thisPlayer hand count = 86, expected = 85
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 99, expected = 98
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 507, expected: 508
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 50: FAILED
+Kingdom Cards: 15 22 7 13 12 19 24 21 14 10 
+seed = 285
+Number of Players: 2
+Current Player: 1
+Hand Count: 84
+Deck Count: 118
+Discard Count: 490
+New cards in hand: 7 6 6 
+Cards drawn from deck: 14 15 7 10 23 0 16 20 10 14 10 12 14 25 25 26 6 15 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 51:
+	FAILED ON TEST: thisPlayer hand count = 105, expected = 104
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 254, expected = 253
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 487, expected: 488
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 51: FAILED
+Kingdom Cards: 11 14 13 20 16 21 15 17 10 12 
+seed = 266
+Number of Players: 4
+Current Player: 0
+Hand Count: 103
+Deck Count: 265
+Discard Count: 478
+New cards in hand: 7 4 4 
+Cards drawn from deck: 24 8 10 1 1 19 4 10 14 2 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 52:
+	FAILED ON TEST: thisPlayer hand count = 132, expected = 131
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 43, expected = 42
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 278, expected: 279
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 52: FAILED
+Kingdom Cards: 14 12 17 7 13 11 20 23 19 21 
+seed = 124
+Number of Players: 4
+Current Player: 2
+Hand Count: 130
+Deck Count: 68
+Discard Count: 255
+New cards in hand: 7 5 4 
+Cards drawn from deck: 10 15 18 0 11 2 17 24 21 25 5 15 7 24 18 13 14 11 19 10 7 19 11 10 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 53:
+	FAILED ON TEST: thisPlayer hand count = 395, expected = 394
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 377, expected = 376
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 54, expected: 55
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 53: FAILED
+Kingdom Cards: 20 16 24 12 22 19 9 8 10 18 
+seed = 630
+Number of Players: 2
+Current Player: 0
+Hand Count: 393
+Deck Count: 411
+Discard Count: 22
+New cards in hand: 7 6 6 
+Cards drawn from deck: 25 3 1 17 1 21 16 2 11 22 25 1 11 25 21 16 21 15 11 22 21 16 3 13 25 24 0 1 25 6 2 18 2 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 54:
+	FAILED ON TEST: thisPlayer hand count = 327, expected = 326
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 145, expected = 144
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 387, expected: 388
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 54: FAILED
+Kingdom Cards: 26 21 9 18 17 7 12 14 15 25 
+seed = 842
+Number of Players: 2
+Current Player: 1
+Hand Count: 325
+Deck Count: 147
+Discard Count: 387
+New cards in hand: 7 5 5 
+Cards drawn from deck: 5 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 55:
+	FAILED ON TEST: thisPlayer hand count = 96, expected = 95
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 274, expected = 273
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 165, expected: 166
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 55: FAILED
+Kingdom Cards: 12 18 19 11 22 14 21 25 10 23 
+seed = 824
+Number of Players: 2
+Current Player: 0
+Hand Count: 94
+Deck Count: 283
+Discard Count: 158
+New cards in hand: 7 6 4 
+Cards drawn from deck: 25 23 19 6 23 9 16 17 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 56:
+	FAILED ON TEST: thisPlayer hand count = 329, expected = 328
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 271, expected = 270
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 390, expected: 391
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 56: FAILED
+Kingdom Cards: 19 17 21 26 24 7 18 11 9 14 
+seed = 766
+Number of Players: 3
+Current Player: 2
+Hand Count: 327
+Deck Count: 305
+Discard Count: 358
+New cards in hand: 7 6 6 
+Cards drawn from deck: 23 25 9 1 23 14 17 2 22 12 2 7 26 2 3 7 22 17 24 7 2 10 26 26 7 3 9 19 3 6 22 22 2 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 57:
+	FAILED ON TEST: thisPlayer hand count = 327, expected = 326
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 61, expected = 60
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 428, expected: 429
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 57: FAILED
+Kingdom Cards: 8 7 10 17 13 11 12 14 15 19 
+seed = 196
+Number of Players: 3
+Current Player: 1
+Hand Count: 325
+Deck Count: 73
+Discard Count: 418
+New cards in hand: 7 5 4 
+Cards drawn from deck: 18 3 22 22 24 21 23 14 5 25 15 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 58:
+	FAILED ON TEST: thisPlayer hand count = 281, expected = 280
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 162, expected = 161
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 355, expected: 356
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 58: FAILED
+Kingdom Cards: 24 16 14 18 23 17 26 10 19 20 
+seed = 146
+Number of Players: 3
+Current Player: 1
+Hand Count: 279
+Deck Count: 174
+Discard Count: 345
+New cards in hand: 7 5 4 
+Cards drawn from deck: 25 1 20 10 17 8 5 22 10 12 2 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 59:
+	FAILED ON TEST: thisPlayer hand count = 392, expected = 391
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 353, expected = 352
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 296, expected: 297
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 59: FAILED
+Kingdom Cards: 16 26 20 8 21 23 12 15 24 17 
+seed = 140
+Number of Players: 3
+Current Player: 1
+Hand Count: 390
+Deck Count: 368
+Discard Count: 283
+New cards in hand: 7 5 5 
+Cards drawn from deck: 7 19 22 15 22 21 7 8 11 13 13 5 10 0 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 60:
+	FAILED ON TEST: thisPlayer hand count = 331, expected = 330
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 260, expected = 259
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 509, expected: 510
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 60: FAILED
+Kingdom Cards: 8 19 9 23 10 12 25 15 14 7 
+seed = 512
+Number of Players: 3
+Current Player: 2
+Hand Count: 329
+Deck Count: 278
+Discard Count: 493
+New cards in hand: 7 6 4 
+Cards drawn from deck: 10 20 20 6 22 14 2 11 15 0 10 15 1 26 9 25 21 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 61:
+	FAILED ON TEST: thisPlayer hand count = 440, expected = 439
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 331, expected = 330
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 125, expected: 126
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 61: FAILED
+Kingdom Cards: 16 17 25 14 18 24 8 26 11 21 
+seed = 345
+Number of Players: 4
+Current Player: 3
+Hand Count: 438
+Deck Count: 337
+Discard Count: 121
+New cards in hand: 7 6 5 
+Cards drawn from deck: 26 6 10 12 20 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 62:
+	FAILED ON TEST: thisPlayer hand count = 209, expected = 208
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 305, expected = 304
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 159, expected: 160
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 62: FAILED
+Kingdom Cards: 19 10 22 9 25 14 13 12 20 15 
+seed = 52
+Number of Players: 4
+Current Player: 1
+Hand Count: 207
+Deck Count: 314
+Discard Count: 152
+New cards in hand: 7 5 4 
+Cards drawn from deck: 0 5 17 20 10 19 3 7 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 63:
+	FAILED ON TEST: thisPlayer hand count = 72, expected = 71
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 448, expected = 447
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 142, expected: 143
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 63: FAILED
+Kingdom Cards: 16 14 10 17 12 9 15 25 20 24 
+seed = 233
+Number of Players: 2
+Current Player: 1
+Hand Count: 70
+Deck Count: 467
+Discard Count: 125
+New cards in hand: 7 4 4 
+Cards drawn from deck: 25 12 4 7 25 25 19 13 7 7 26 1 1 24 19 26 19 11 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 64:
+	FAILED ON TEST: thisPlayer hand count = 478, expected = 477
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 140, expected = 139
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 319, expected: 320
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 64: FAILED
+Kingdom Cards: 21 18 16 11 22 15 24 20 10 25 
+seed = 492
+Number of Players: 4
+Current Player: 1
+Hand Count: 476
+Deck Count: 144
+Discard Count: 317
+New cards in hand: 7 4 5 
+Cards drawn from deck: 4 19 18 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 65:
+	FAILED ON TEST: thisPlayer hand count = 414, expected = 413
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 53, expected = 52
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 399, expected: 400
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 65: FAILED
+Kingdom Cards: 18 7 15 22 13 8 17 19 23 21 
+seed = 965
+Number of Players: 4
+Current Player: 3
+Hand Count: 412
+Deck Count: 130
+Discard Count: 324
+New cards in hand: 7 4 6 
+Cards drawn from deck: 2 0 3 4 2 9 16 26 14 13 8 7 17 12 14 3 0 18 26 12 0 22 19 24 12 18 8 7 17 10 19 24 9 21 15 2 21 14 18 18 22 7 20 25 11 7 15 15 1 3 3 3 10 1 26 15 1 9 15 3 0 25 9 7 0 0 22 14 3 21 25 8 23 23 10 23 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 66:
+	FAILED ON TEST: thisPlayer hand count = 120, expected = 119
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 364, expected = 363
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 279, expected: 280
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 66: FAILED
+Kingdom Cards: 25 13 20 7 21 15 12 8 22 17 
+seed = 211
+Number of Players: 2
+Current Player: 1
+Hand Count: 118
+Deck Count: 390
+Discard Count: 255
+New cards in hand: 7 4 4 
+Cards drawn from deck: 7 23 24 20 1 9 8 23 25 24 19 0 19 24 24 17 8 10 25 19 22 18 23 8 4 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 67:
+	FAILED ON TEST: thisPlayer hand count = 230, expected = 229
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 229, expected = 228
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 390, expected: 391
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 67: FAILED
+Kingdom Cards: 14 19 23 21 7 17 25 22 8 12 
+seed = 811
+Number of Players: 2
+Current Player: 1
+Hand Count: 228
+Deck Count: 277
+Discard Count: 344
+New cards in hand: 7 6 6 
+Cards drawn from deck: 19 14 22 13 16 9 26 25 19 25 1 19 20 9 21 7 6 22 19 0 22 23 21 16 9 7 12 3 23 24 21 16 8 12 25 2 1 11 8 11 16 19 25 24 13 26 26 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 68:
+	FAILED ON TEST: thisPlayer hand count = 264, expected = 263
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 22, expected = 21
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 256, expected: 257
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 68: FAILED
+Kingdom Cards: 26 16 15 21 9 12 13 23 24 19 
+seed = 899
+Number of Players: 3
+Current Player: 2
+Hand Count: 262
+Deck Count: 35
+Discard Count: 245
+New cards in hand: 7 5 5 
+Cards drawn from deck: 23 13 20 22 21 10 21 18 18 12 18 5 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 69:
+	FAILED ON TEST: thisPlayer hand count = 12, expected = 11
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 177, expected = 176
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 488, expected: 489
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 69: FAILED
+Kingdom Cards: 14 17 13 16 23 24 15 25 9 21 
+seed = 223
+Number of Players: 2
+Current Player: 1
+Hand Count: 10
+Deck Count: 189
+Discard Count: 478
+New cards in hand: 7 6 6 
+Cards drawn from deck: 8 14 0 18 6 18 25 21 20 26 8 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 70:
+	FAILED ON TEST: thisPlayer hand count = 114, expected = 113
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 82, expected = 81
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 400, expected: 401
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 70: FAILED
+Kingdom Cards: 9 24 14 10 23 12 21 11 20 7 
+seed = 13
+Number of Players: 4
+Current Player: 2
+Hand Count: 112
+Deck Count: 101
+Discard Count: 383
+New cards in hand: 7 4 6 
+Cards drawn from deck: 3 18 4 25 17 15 21 10 21 11 21 12 21 2 20 16 8 10 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 71:
+	FAILED ON TEST: thisPlayer hand count = 357, expected = 356
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 161, expected = 160
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 434, expected: 435
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 71: FAILED
+Kingdom Cards: 14 18 10 8 21 13 22 23 15 17 
+seed = 200
+Number of Players: 4
+Current Player: 3
+Hand Count: 355
+Deck Count: 190
+Discard Count: 407
+New cards in hand: 7 6 5 
+Cards drawn from deck: 24 2 25 19 0 0 0 25 22 7 6 12 21 0 17 25 12 26 26 16 19 10 20 9 9 23 15 8 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 72:
+	FAILED ON TEST: thisPlayer hand count = 392, expected = 391
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 295, expected = 294
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 271, expected: 272
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 72: FAILED
+Kingdom Cards: 15 16 10 9 26 8 20 14 23 17 
+seed = 190
+Number of Players: 3
+Current Player: 1
+Hand Count: 390
+Deck Count: 306
+Discard Count: 262
+New cards in hand: 7 5 4 
+Cards drawn from deck: 2 5 7 7 9 10 17 14 1 18 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 73:
+	FAILED ON TEST: thisPlayer hand count = 241, expected = 240
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 240, expected = 239
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 477, expected: 478
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 73: FAILED
+Kingdom Cards: 18 17 24 23 19 8 13 12 15 26 
+seed = 757
+Number of Players: 4
+Current Player: 1
+Hand Count: 239
+Deck Count: 259
+Discard Count: 460
+New cards in hand: 7 6 5 
+Cards drawn from deck: 13 8 16 23 12 8 24 16 9 11 8 23 6 25 16 11 14 18 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 74:
+	FAILED ON TEST: thisPlayer hand count = 430, expected = 429
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 278, expected = 277
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 472, expected: 473
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 74: FAILED
+Kingdom Cards: 24 17 23 21 16 15 13 11 22 25 
+seed = 834
+Number of Players: 3
+Current Player: 0
+Hand Count: 428
+Deck Count: 287
+Discard Count: 465
+New cards in hand: 7 4 6 
+Cards drawn from deck: 13 9 11 4 2 21 26 20 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 75:
+	FAILED ON TEST: thisPlayer hand count = 141, expected = 140
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 89, expected = 88
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 399, expected: 400
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 75: FAILED
+Kingdom Cards: 14 7 13 19 12 9 8 20 10 26 
+seed = 155
+Number of Players: 4
+Current Player: 3
+Hand Count: 139
+Deck Count: 113
+Discard Count: 377
+New cards in hand: 7 4 5 
+Cards drawn from deck: 8 25 18 1 4 20 2 12 13 3 18 24 11 7 22 25 17 12 21 10 13 24 11 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 76:
+	FAILED ON TEST: thisPlayer hand count = 140, expected = 139
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 389, expected = 388
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 301, expected: 302
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 76: FAILED
+Kingdom Cards: 11 25 18 19 23 10 22 12 13 7 
+seed = 623
+Number of Players: 3
+Current Player: 0
+Hand Count: 138
+Deck Count: 404
+Discard Count: 288
+New cards in hand: 7 4 6 
+Cards drawn from deck: 15 11 7 11 24 9 7 15 0 3 11 2 4 8 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 77:
+	FAILED ON TEST: thisPlayer hand count = 201, expected = 200
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 67, expected = 66
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 195, expected: 196
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 77: FAILED
+Kingdom Cards: 13 19 26 18 24 25 20 7 17 21 
+seed = 860
+Number of Players: 3
+Current Player: 0
+Hand Count: 199
+Deck Count: 88
+Discard Count: 176
+New cards in hand: 7 4 4 
+Cards drawn from deck: 17 15 13 17 11 3 15 21 4 7 19 21 20 11 12 23 13 11 17 19 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 78:
+	FAILED ON TEST: thisPlayer hand count = 216, expected = 215
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 326, expected = 325
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 237, expected: 238
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 78: FAILED
+Kingdom Cards: 24 17 19 23 10 26 20 9 25 22 
+seed = 604
+Number of Players: 3
+Current Player: 1
+Hand Count: 214
+Deck Count: 334
+Discard Count: 231
+New cards in hand: 7 6 5 
+Cards drawn from deck: 20 6 19 3 1 24 9 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 79:
+	FAILED ON TEST: thisPlayer hand count = 130, expected = 129
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 307, expected = 306
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 16, expected: 17
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 79: FAILED
+Kingdom Cards: 12 13 8 9 23 16 19 25 21 7 
+seed = 153
+Number of Players: 2
+Current Player: 0
+Hand Count: 128
+Deck Count: 321
+Discard Count: 4
+New cards in hand: 7 4 5 
+Cards drawn from deck: 15 24 23 19 15 20 19 13 0 9 2 25 4 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 80:
+	FAILED ON TEST: thisPlayer hand count = 129, expected = 128
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 91, expected = 90
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 234, expected: 235
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 80: FAILED
+Kingdom Cards: 19 11 12 24 9 14 21 25 20 23 
+seed = 684
+Number of Players: 3
+Current Player: 2
+Hand Count: 127
+Deck Count: 140
+Discard Count: 187
+New cards in hand: 7 4 6 
+Cards drawn from deck: 22 10 16 19 22 18 1 0 18 9 7 15 0 25 2 15 11 19 21 0 13 2 4 23 2 2 0 26 23 19 2 3 26 9 1 22 0 19 3 14 9 9 24 12 25 21 20 11 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 81:
+	FAILED ON TEST: thisPlayer hand count = 17, expected = 16
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 471, expected = 470
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 326, expected: 327
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 81: FAILED
+Kingdom Cards: 20 19 10 9 18 16 11 17 13 22 
+seed = 290
+Number of Players: 2
+Current Player: 1
+Hand Count: 15
+Deck Count: 480
+Discard Count: 319
+New cards in hand: 7 5 4 
+Cards drawn from deck: 26 5 13 16 9 21 14 19 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 82:
+	FAILED ON TEST: thisPlayer hand count = 400, expected = 399
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 391, expected = 390
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 183, expected: 184
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 82: FAILED
+Kingdom Cards: 24 26 14 17 19 8 15 9 18 21 
+seed = 93
+Number of Players: 4
+Current Player: 0
+Hand Count: 398
+Deck Count: 453
+Discard Count: 123
+New cards in hand: 7 6 4 
+Cards drawn from deck: 22 11 26 9 21 26 12 15 19 14 17 9 18 21 13 18 23 10 1 7 7 26 9 6 24 25 24 7 16 11 19 23 17 26 24 17 7 8 25 9 23 23 7 26 9 3 1 16 3 1 9 1 13 11 20 17 20 23 15 20 21 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 83:
+	FAILED ON TEST: thisPlayer hand count = 298, expected = 297
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 98, expected = 97
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 157, expected: 158
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 83: FAILED
+Kingdom Cards: 7 21 14 13 18 17 10 20 12 16 
+seed = 624
+Number of Players: 3
+Current Player: 0
+Hand Count: 296
+Deck Count: 107
+Discard Count: 150
+New cards in hand: 7 5 5 
+Cards drawn from deck: 24 16 5 19 11 3 2 0 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 84:
+	FAILED ON TEST: thisPlayer hand count = 304, expected = 303
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 81, expected = 80
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 387, expected: 388
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 84: FAILED
+Kingdom Cards: 15 13 21 22 20 24 25 18 26 12 
+seed = 181
+Number of Players: 4
+Current Player: 0
+Hand Count: 302
+Deck Count: 89
+Discard Count: 381
+New cards in hand: 7 4 4 
+Cards drawn from deck: 3 9 14 21 7 4 22 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 85:
+	FAILED ON TEST: thisPlayer hand count = 9, expected = 8
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 233, expected = 232
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 443, expected: 444
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 85: FAILED
+Kingdom Cards: 19 17 13 7 26 21 16 14 25 20 
+seed = 589
+Number of Players: 4
+Current Player: 3
+Hand Count: 7
+Deck Count: 244
+Discard Count: 434
+New cards in hand: 7 4 5 
+Cards drawn from deck: 13 8 8 15 15 4 21 25 20 11 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 86:
+	FAILED ON TEST: thisPlayer hand count = 48, expected = 47
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 313, expected = 312
+	FAILED ON TEST: player discard count: 12, expected: 13
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 86: FAILED
+Kingdom Cards: 24 7 8 15 16 23 22 21 17 10 
+seed = 555
+Number of Players: 4
+Current Player: 0
+Hand Count: 46
+Deck Count: 5
+Discard Count: 322
+New cards in hand: 7 6 4 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 87:
+	FAILED ON TEST: thisPlayer hand count = 167, expected = 166
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 467, expected = 466
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 223, expected: 224
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 87: FAILED
+Kingdom Cards: 16 22 21 14 23 7 25 17 11 10 
+seed = 794
+Number of Players: 4
+Current Player: 0
+Hand Count: 165
+Deck Count: 478
+Discard Count: 214
+New cards in hand: 7 4 4 
+Cards drawn from deck: 22 4 12 14 14 22 23 1 21 7 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 88:
+	FAILED ON TEST: thisPlayer hand count = 192, expected = 191
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 454, expected = 453
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 327, expected: 328
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 88: FAILED
+Kingdom Cards: 20 19 11 16 10 8 9 25 12 21 
+seed = 660
+Number of Players: 2
+Current Player: 1
+Hand Count: 190
+Deck Count: 465
+Discard Count: 318
+New cards in hand: 7 6 5 
+Cards drawn from deck: 18 3 16 23 6 13 25 24 1 3 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 89:
+	FAILED ON TEST: thisPlayer hand count = 472, expected = 471
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 483, expected = 482
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 415, expected: 416
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 89: FAILED
+Kingdom Cards: 11 9 17 25 8 18 12 15 26 13 
+seed = 402
+Number of Players: 3
+Current Player: 1
+Hand Count: 470
+Deck Count: 496
+Discard Count: 404
+New cards in hand: 7 5 4 
+Cards drawn from deck: 12 8 13 17 22 9 17 5 20 10 18 3 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 90:
+	FAILED ON TEST: thisPlayer hand count = 232, expected = 231
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 296, expected = 295
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 177, expected: 178
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 90: FAILED
+Kingdom Cards: 16 24 13 23 19 14 20 7 18 26 
+seed = 174
+Number of Players: 4
+Current Player: 0
+Hand Count: 230
+Deck Count: 299
+Discard Count: 176
+New cards in hand: 7 4 4 
+Cards drawn from deck: 26 4 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 91:
+	FAILED ON TEST: thisPlayer hand count = 243, expected = 242
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 369, expected = 368
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 381, expected: 382
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 91: FAILED
+Kingdom Cards: 8 17 14 23 19 20 13 12 26 24 
+seed = 563
+Number of Players: 2
+Current Player: 1
+Hand Count: 241
+Deck Count: 379
+Discard Count: 373
+New cards in hand: 7 4 6 
+Cards drawn from deck: 13 23 1 22 15 2 8 4 9 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 92:
+	FAILED ON TEST: thisPlayer hand count = 259, expected = 258
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 410, expected = 409
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 243, expected: 244
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 92: FAILED
+Kingdom Cards: 24 23 13 12 9 21 19 22 16 7 
+seed = 53
+Number of Players: 4
+Current Player: 1
+Hand Count: 257
+Deck Count: 432
+Discard Count: 223
+New cards in hand: 7 5 5 
+Cards drawn from deck: 16 12 25 5 16 9 23 13 24 18 14 24 2 25 23 1 2 19 17 9 15 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 93:
+	FAILED ON TEST: thisPlayer hand count = 317, expected = 316
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 409, expected = 408
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 14, expected: 15
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 93: FAILED
+Kingdom Cards: 11 22 26 14 21 15 18 7 23 10 
+seed = 640
+Number of Players: 4
+Current Player: 2
+Hand Count: 315
+Deck Count: 418
+Discard Count: 7
+New cards in hand: 7 4 5 
+Cards drawn from deck: 1 20 0 26 4 21 23 1 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 94:
+	FAILED ON TEST: thisPlayer hand count = 71, expected = 70
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 94, expected = 93
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 82, expected: 83
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 94: FAILED
+Kingdom Cards: 24 13 23 17 25 7 15 26 16 20 
+seed = 52
+Number of Players: 2
+Current Player: 1
+Hand Count: 69
+Deck Count: 109
+Discard Count: 69
+New cards in hand: 7 4 4 
+Cards drawn from deck: 25 10 10 25 9 14 16 11 21 14 15 8 4 26 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 95:
+	FAILED ON TEST: thisPlayer hand count = 365, expected = 364
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 57, expected = 56
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 485, expected: 486
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 95: FAILED
+Kingdom Cards: 22 13 10 26 19 18 21 16 15 23 
+seed = 260
+Number of Players: 3
+Current Player: 1
+Hand Count: 363
+Deck Count: 106
+Discard Count: 438
+New cards in hand: 7 6 5 
+Cards drawn from deck: 23 6 23 25 25 16 23 18 17 15 3 2 3 18 22 21 26 24 10 8 19 3 14 14 8 26 3 15 1 23 20 8 8 18 2 18 26 8 14 26 22 23 17 9 19 9 22 2 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 96:
+	FAILED ON TEST: thisPlayer hand count = 379, expected = 378
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 89, expected = 88
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 464, expected: 465
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 96: FAILED
+Kingdom Cards: 15 10 17 22 19 18 11 8 21 23 
+seed = 899
+Number of Players: 2
+Current Player: 1
+Hand Count: 377
+Deck Count: 91
+Discard Count: 464
+New cards in hand: 7 6 4 
+Cards drawn from deck: 6 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 97:
+	FAILED ON TEST: thisPlayer hand count = 154, expected = 153
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 376, expected = 375
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 423, expected: 424
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 97: FAILED
+Kingdom Cards: 13 7 12 14 16 15 11 8 9 24 
+seed = 519
+Number of Players: 2
+Current Player: 0
+Hand Count: 152
+Deck Count: 385
+Discard Count: 416
+New cards in hand: 7 6 6 
+Cards drawn from deck: 6 3 13 22 26 18 17 14 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 98:
+	FAILED ON TEST: thisPlayer hand count = 321, expected = 320
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 125, expected = 124
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 341, expected: 342
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 98: FAILED
+Kingdom Cards: 10 11 13 7 17 15 19 23 25 12 
+seed = 355
+Number of Players: 3
+Current Player: 0
+Hand Count: 319
+Deck Count: 151
+Discard Count: 317
+New cards in hand: 7 4 4 
+Cards drawn from deck: 11 19 21 9 14 11 4 15 9 10 23 22 25 14 11 10 11 13 13 23 19 13 1 16 15 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 99:
+	FAILED ON TEST: thisPlayer hand count = 490, expected = 489
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 4, expected = 3
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 6, expected: 7
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 99: FAILED
+Kingdom Cards: 23 18 9 16 11 25 7 15 13 24 
+seed = 195
+Number of Players: 4
+Current Player: 1
+Hand Count: 488
+Deck Count: 12
+Discard Count: 0
+New cards in hand: 7 6 5 
+Cards drawn from deck: 1 16 2 6 12 12 21 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 100:
+	FAILED ON TEST: thisPlayer hand count = 118, expected = 117
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 479, expected = 478
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 441, expected: 442
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 100: FAILED
+Kingdom Cards: 9 26 11 14 16 10 20 25 22 19 
+seed = 224
+Number of Players: 2
+Current Player: 1
+Hand Count: 116
+Deck Count: 493
+Discard Count: 429
+New cards in hand: 7 4 6 
+Cards drawn from deck: 11 21 7 16 0 18 4 25 9 21 14 1 18 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 101:
+	FAILED ON TEST: thisPlayer hand count = 469, expected = 468
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 208, expected = 207
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 207, expected: 208
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 101: FAILED
+Kingdom Cards: 21 15 17 11 7 25 20 19 16 23 
+seed = 13
+Number of Players: 2
+Current Player: 0
+Hand Count: 467
+Deck Count: 230
+Discard Count: 187
+New cards in hand: 7 5 6 
+Cards drawn from deck: 16 17 21 22 13 19 14 9 5 14 14 23 9 21 12 0 10 23 16 13 20 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 102:
+	FAILED ON TEST: thisPlayer hand count = 282, expected = 281
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 167, expected = 166
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 285, expected: 286
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 102: FAILED
+Kingdom Cards: 16 21 9 10 17 19 15 7 22 18 
+seed = 704
+Number of Players: 3
+Current Player: 1
+Hand Count: 280
+Deck Count: 175
+Discard Count: 279
+New cards in hand: 7 6 5 
+Cards drawn from deck: 6 11 16 23 14 2 7 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 103:
+	FAILED ON TEST: thisPlayer hand count = 478, expected = 477
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 96, expected = 95
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 233, expected: 234
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 103: FAILED
+Kingdom Cards: 9 15 7 8 23 14 10 13 21 20 
+seed = 448
+Number of Players: 4
+Current Player: 2
+Hand Count: 476
+Deck Count: 129
+Discard Count: 202
+New cards in hand: 7 5 4 
+Cards drawn from deck: 10 5 18 7 11 3 18 13 8 0 25 10 18 7 13 19 25 14 2 7 20 9 20 13 0 22 20 20 3 12 20 14 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 104:
+	FAILED ON TEST: thisPlayer hand count = 322, expected = 321
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 249, expected = 248
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 128, expected: 129
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 104: FAILED
+Kingdom Cards: 8 20 18 17 7 24 16 13 10 12 
+seed = 9
+Number of Players: 4
+Current Player: 2
+Hand Count: 320
+Deck Count: 255
+Discard Count: 124
+New cards in hand: 7 4 5 
+Cards drawn from deck: 11 2 21 14 4 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 105:
+	FAILED ON TEST: thisPlayer hand count = 28, expected = 27
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 304, expected = 303
+	FAILED ON TEST: discard pile not shuffled into deck correctly
+	FAILED ON TEST: player discard count: 2, expected: 3
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 105: FAILED
+Kingdom Cards: 15 14 18 21 16 13 9 19 11 24 
+seed = 20
+Number of Players: 2
+Current Player: 1
+Hand Count: 26
+Deck Count: 0
+Discard Count: 308
+New cards in hand: 7 5 6 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 106:
+	FAILED ON TEST: thisPlayer hand count = 239, expected = 238
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 382, expected = 381
+	FAILED ON TEST: player discard count: 26, expected: 27
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 106: FAILED
+Kingdom Cards: 14 26 19 8 18 15 22 23 9 17 
+seed = 316
+Number of Players: 3
+Current Player: 2
+Hand Count: 237
+Deck Count: 4
+Discard Count: 406
+New cards in hand: 7 5 6 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 107:
+	FAILED ON TEST: thisPlayer hand count = 397, expected = 396
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 148, expected = 147
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 139, expected: 140
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 107: FAILED
+Kingdom Cards: 25 11 15 8 24 10 23 26 14 7 
+seed = 647
+Number of Players: 2
+Current Player: 0
+Hand Count: 395
+Deck Count: 199
+Discard Count: 90
+New cards in hand: 7 4 4 
+Cards drawn from deck: 0 17 26 4 8 8 19 1 19 18 21 20 7 19 13 10 9 23 0 2 13 1 9 14 21 3 12 19 21 1 9 7 9 2 11 17 15 12 18 10 11 2 18 24 21 16 9 7 10 10 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 108:
+	FAILED ON TEST: thisPlayer hand count = 287, expected = 286
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 455, expected = 454
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 363, expected: 364
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 108: FAILED
+Kingdom Cards: 12 9 24 8 15 14 19 11 13 18 
+seed = 856
+Number of Players: 4
+Current Player: 0
+Hand Count: 285
+Deck Count: 473
+Discard Count: 347
+New cards in hand: 7 5 4 
+Cards drawn from deck: 2 7 19 1 26 19 3 18 7 12 26 7 9 18 11 18 5 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 109:
+	FAILED ON TEST: thisPlayer hand count = 375, expected = 374
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 451, expected = 450
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 362, expected: 363
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 109: FAILED
+Kingdom Cards: 16 10 11 21 14 23 18 22 15 12 
+seed = 127
+Number of Players: 3
+Current Player: 1
+Hand Count: 373
+Deck Count: 464
+Discard Count: 351
+New cards in hand: 7 5 4 
+Cards drawn from deck: 20 21 7 9 9 11 3 12 18 5 20 9 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 110:
+	FAILED ON TEST: thisPlayer hand count = 40, expected = 39
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 49, expected = 48
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 29, expected: 30
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 110: FAILED
+Kingdom Cards: 13 24 21 10 18 9 22 14 8 11 
+seed = 128
+Number of Players: 4
+Current Player: 0
+Hand Count: 38
+Deck Count: 66
+Discard Count: 14
+New cards in hand: 7 6 4 
+Cards drawn from deck: 7 2 0 8 3 23 13 12 6 0 15 13 26 19 26 13 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 111:
+	FAILED ON TEST: thisPlayer hand count = 366, expected = 365
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 238, expected = 237
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 235, expected: 236
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 111: FAILED
+Kingdom Cards: 23 20 8 19 18 11 10 17 16 25 
+seed = 229
+Number of Players: 4
+Current Player: 0
+Hand Count: 364
+Deck Count: 258
+Discard Count: 217
+New cards in hand: 7 6 5 
+Cards drawn from deck: 8 24 1 19 11 25 21 24 15 20 6 11 7 1 25 16 26 20 13 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 112:
+	FAILED ON TEST: thisPlayer hand count = 217, expected = 216
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 229, expected = 228
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 34, expected: 35
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 112: FAILED
+Kingdom Cards: 19 24 16 18 12 21 26 13 23 14 
+seed = 683
+Number of Players: 2
+Current Player: 0
+Hand Count: 215
+Deck Count: 233
+Discard Count: 32
+New cards in hand: 7 4 4 
+Cards drawn from deck: 26 4 2 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 113:
+	FAILED ON TEST: thisPlayer hand count = 352, expected = 351
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 2, expected = 1
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 56, expected: 57
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 113: FAILED
+Kingdom Cards: 24 16 26 23 25 17 9 22 13 11 
+seed = 665
+Number of Players: 4
+Current Player: 3
+Hand Count: 350
+Deck Count: 37
+Discard Count: 23
+New cards in hand: 7 6 4 
+Cards drawn from deck: 23 24 16 22 21 16 2 13 8 15 23 11 8 8 6 17 15 19 17 22 1 21 25 14 2 1 22 2 22 10 25 0 13 0 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 114:
+	FAILED ON TEST: thisPlayer hand count = 222, expected = 221
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 299, expected = 298
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 491, expected: 492
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 114: FAILED
+Kingdom Cards: 19 16 15 14 21 24 18 12 20 13 
+seed = 4
+Number of Players: 2
+Current Player: 1
+Hand Count: 220
+Deck Count: 308
+Discard Count: 484
+New cards in hand: 7 6 6 
+Cards drawn from deck: 3 21 15 6 18 8 20 8 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 115:
+	FAILED ON TEST: thisPlayer hand count = 340, expected = 339
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 189, expected = 188
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 209, expected: 210
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 115: FAILED
+Kingdom Cards: 20 13 16 19 8 25 22 23 17 26 
+seed = 347
+Number of Players: 4
+Current Player: 0
+Hand Count: 338
+Deck Count: 224
+Discard Count: 176
+New cards in hand: 7 4 6 
+Cards drawn from deck: 3 2 23 4 7 8 25 25 24 11 14 16 14 22 12 2 24 0 26 8 25 0 1 22 11 24 15 2 1 24 21 10 22 26 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 116:
+	FAILED ON TEST: thisPlayer hand count = 107, expected = 106
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 181, expected = 180
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 255, expected: 256
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 116: FAILED
+Kingdom Cards: 21 18 16 9 23 22 10 15 8 12 
+seed = 989
+Number of Players: 3
+Current Player: 1
+Hand Count: 105
+Deck Count: 206
+Discard Count: 232
+New cards in hand: 7 6 5 
+Cards drawn from deck: 10 9 10 13 0 2 13 22 22 18 24 11 6 3 8 22 3 16 20 0 17 13 20 7 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 117:
+	FAILED ON TEST: thisPlayer hand count = 496, expected = 495
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 195, expected = 194
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 294, expected: 295
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 117: FAILED
+Kingdom Cards: 19 10 25 26 8 20 18 23 15 13 
+seed = 552
+Number of Players: 4
+Current Player: 1
+Hand Count: 494
+Deck Count: 222
+Discard Count: 269
+New cards in hand: 7 4 5 
+Cards drawn from deck: 13 18 0 14 11 25 4 8 0 20 26 24 18 20 17 1 15 20 16 0 22 25 20 26 15 9 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 118:
+	FAILED ON TEST: thisPlayer hand count = 243, expected = 242
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 96, expected = 95
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 457, expected: 458
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 118: FAILED
+Kingdom Cards: 15 13 9 18 17 11 10 21 8 12 
+seed = 524
+Number of Players: 3
+Current Player: 0
+Hand Count: 241
+Deck Count: 135
+Discard Count: 420
+New cards in hand: 7 4 4 
+Cards drawn from deck: 1 13 0 3 11 2 1 4 23 12 0 12 18 7 21 14 21 23 25 12 21 24 15 21 22 11 8 13 24 10 24 25 2 25 12 17 16 16 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 119:
+	FAILED ON TEST: thisPlayer hand count = 68, expected = 67
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 311, expected = 310
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 43, expected: 44
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 119: FAILED
+Kingdom Cards: 10 26 16 17 25 13 18 20 8 7 
+seed = 548
+Number of Players: 3
+Current Player: 0
+Hand Count: 66
+Deck Count: 334
+Discard Count: 22
+New cards in hand: 7 5 4 
+Cards drawn from deck: 18 24 23 24 7 24 9 23 5 0 22 22 1 20 25 11 11 17 15 22 15 16 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 120:
+	FAILED ON TEST: thisPlayer hand count = 26, expected = 25
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 484, expected = 483
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 12, expected: 13
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 120: FAILED
+Kingdom Cards: 23 11 19 24 12 8 9 20 14 10 
+seed = 402
+Number of Players: 2
+Current Player: 0
+Hand Count: 24
+Deck Count: 487
+Discard Count: 11
+New cards in hand: 7 6 4 
+Cards drawn from deck: 6 19 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 121:
+	FAILED ON TEST: thisPlayer hand count = 31, expected = 30
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 439, expected = 438
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 326, expected: 327
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 121: FAILED
+Kingdom Cards: 13 16 12 19 26 10 25 18 17 8 
+seed = 430
+Number of Players: 4
+Current Player: 0
+Hand Count: 29
+Deck Count: 457
+Discard Count: 310
+New cards in hand: 7 4 4 
+Cards drawn from deck: 16 21 19 14 17 19 18 7 7 0 0 9 10 7 18 4 2 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 122:
+	FAILED ON TEST: thisPlayer hand count = 310, expected = 309
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 463, expected = 462
+	FAILED ON TEST: player discard count: 25, expected: 26
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 122: FAILED
+Kingdom Cards: 20 24 18 7 13 8 14 22 11 15 
+seed = 106
+Number of Players: 3
+Current Player: 1
+Hand Count: 308
+Deck Count: 23
+Discard Count: 467
+New cards in hand: 7 4 4 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 123:
+	FAILED ON TEST: thisPlayer hand count = 303, expected = 302
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 340, expected = 339
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 363, expected: 364
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 123: FAILED
+Kingdom Cards: 26 19 22 20 17 23 13 7 9 10 
+seed = 3
+Number of Players: 4
+Current Player: 2
+Hand Count: 301
+Deck Count: 362
+Discard Count: 343
+New cards in hand: 7 4 5 
+Cards drawn from deck: 14 18 2 14 7 12 9 3 2 26 18 22 23 18 12 9 21 19 22 4 10 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 124:
+	FAILED ON TEST: thisPlayer hand count = 370, expected = 369
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 354, expected = 353
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 176, expected: 177
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 124: FAILED
+Kingdom Cards: 9 21 15 8 7 23 14 25 10 19 
+seed = 532
+Number of Players: 4
+Current Player: 2
+Hand Count: 368
+Deck Count: 368
+Discard Count: 164
+New cards in hand: 7 5 4 
+Cards drawn from deck: 14 24 5 12 0 16 11 11 15 11 24 23 9 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 125:
+	FAILED ON TEST: thisPlayer hand count = 255, expected = 254
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 236, expected = 235
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 164, expected: 165
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 125: FAILED
+Kingdom Cards: 11 10 8 16 23 22 26 15 12 21 
+seed = 951
+Number of Players: 2
+Current Player: 0
+Hand Count: 253
+Deck Count: 268
+Discard Count: 134
+New cards in hand: 7 4 5 
+Cards drawn from deck: 3 3 2 25 22 20 8 26 18 23 4 16 24 24 20 14 25 19 11 20 10 17 15 10 0 12 26 22 8 13 3 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 126:
+	FAILED ON TEST: thisPlayer hand count = 401, expected = 400
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 187, expected = 186
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 197, expected: 198
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 126: FAILED
+Kingdom Cards: 13 19 26 9 18 14 22 12 24 21 
+seed = 783
+Number of Players: 4
+Current Player: 0
+Hand Count: 399
+Deck Count: 212
+Discard Count: 174
+New cards in hand: 7 4 6 
+Cards drawn from deck: 11 4 11 0 12 8 1 11 1 14 3 15 18 1 1 19 21 16 18 17 23 7 26 2 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 127:
+	FAILED ON TEST: thisPlayer hand count = 427, expected = 426
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 77, expected = 76
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 187, expected: 188
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 127: FAILED
+Kingdom Cards: 21 14 11 20 26 16 22 13 15 7 
+seed = 728
+Number of Players: 4
+Current Player: 3
+Hand Count: 425
+Deck Count: 80
+Discard Count: 186
+New cards in hand: 7 6 5 
+Cards drawn from deck: 6 18 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 128:
+	FAILED ON TEST: thisPlayer hand count = 310, expected = 309
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 464, expected = 463
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 477, expected: 478
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 128: FAILED
+Kingdom Cards: 7 8 14 16 23 20 12 9 11 10 
+seed = 826
+Number of Players: 3
+Current Player: 1
+Hand Count: 308
+Deck Count: 486
+Discard Count: 457
+New cards in hand: 7 6 6 
+Cards drawn from deck: 22 12 17 23 2 20 3 22 2 3 13 21 2 20 6 2 13 21 9 11 21 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 129:
+	FAILED ON TEST: thisPlayer hand count = 180, expected = 179
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 218, expected = 217
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 192, expected: 193
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 129: FAILED
+Kingdom Cards: 20 15 11 13 10 14 9 24 22 8 
+seed = 102
+Number of Players: 3
+Current Player: 0
+Hand Count: 178
+Deck Count: 246
+Discard Count: 166
+New cards in hand: 7 4 6 
+Cards drawn from deck: 9 1 15 1 10 11 26 7 10 4 14 10 9 9 23 20 0 23 21 13 17 21 8 9 8 8 2 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 130:
+	FAILED ON TEST: thisPlayer hand count = 205, expected = 204
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 441, expected = 440
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 309, expected: 310
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 130: FAILED
+Kingdom Cards: 22 14 15 11 21 8 23 18 20 9 
+seed = 431
+Number of Players: 4
+Current Player: 0
+Hand Count: 203
+Deck Count: 462
+Discard Count: 290
+New cards in hand: 7 5 6 
+Cards drawn from deck: 18 17 12 22 5 18 3 24 2 20 22 17 19 13 21 26 1 11 15 7 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 131:
+	FAILED ON TEST: thisPlayer hand count = 32, expected = 31
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 146, expected = 145
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 379, expected: 380
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 131: FAILED
+Kingdom Cards: 19 24 26 16 25 15 11 23 21 14 
+seed = 642
+Number of Players: 4
+Current Player: 0
+Hand Count: 30
+Deck Count: 151
+Discard Count: 376
+New cards in hand: 7 5 6 
+Cards drawn from deck: 5 23 0 24 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 132:
+	FAILED ON TEST: thisPlayer hand count = 136, expected = 135
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 477, expected = 476
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 309, expected: 310
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 132: FAILED
+Kingdom Cards: 12 14 7 23 10 9 8 22 17 24 
+seed = 706
+Number of Players: 3
+Current Player: 0
+Hand Count: 134
+Deck Count: 499
+Discard Count: 289
+New cards in hand: 7 4 5 
+Cards drawn from deck: 18 16 7 4 23 20 12 8 19 18 22 20 21 10 8 8 1 2 14 12 25 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 133:
+	FAILED ON TEST: thisPlayer hand count = 221, expected = 220
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 209, expected = 208
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 347, expected: 348
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 133: FAILED
+Kingdom Cards: 16 14 18 20 25 19 10 15 13 8 
+seed = 860
+Number of Players: 3
+Current Player: 2
+Hand Count: 219
+Deck Count: 215
+Discard Count: 343
+New cards in hand: 7 5 4 
+Cards drawn from deck: 25 24 17 5 12 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 134:
+	FAILED ON TEST: thisPlayer hand count = 401, expected = 400
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 389, expected = 388
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 201, expected: 202
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 134: FAILED
+Kingdom Cards: 13 12 18 20 8 14 26 22 16 23 
+seed = 525
+Number of Players: 3
+Current Player: 2
+Hand Count: 399
+Deck Count: 406
+Discard Count: 186
+New cards in hand: 7 4 5 
+Cards drawn from deck: 26 12 2 1 17 9 22 14 12 11 3 17 14 4 14 0 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 135:
+	FAILED ON TEST: thisPlayer hand count = 336, expected = 335
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 232, expected = 231
+	FAILED ON TEST: player discard count: 41, expected: 42
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 135: FAILED
+Kingdom Cards: 7 15 13 10 25 22 16 18 21 8 
+seed = 378
+Number of Players: 3
+Current Player: 0
+Hand Count: 334
+Deck Count: 6
+Discard Count: 269
+New cards in hand: 7 4 4 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 136:
+	FAILED ON TEST: thisPlayer hand count = 250, expected = 249
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 309, expected = 308
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 398, expected: 399
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 136: FAILED
+Kingdom Cards: 23 19 8 7 11 9 10 20 22 14 
+seed = 772
+Number of Players: 3
+Current Player: 1
+Hand Count: 248
+Deck Count: 323
+Discard Count: 386
+New cards in hand: 7 5 5 
+Cards drawn from deck: 21 25 22 14 20 20 8 11 5 26 11 15 9 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 137:
+	FAILED ON TEST: thisPlayer hand count = 29, expected = 28
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 474, expected = 473
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 481, expected: 482
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 137: FAILED
+Kingdom Cards: 18 12 17 15 23 13 8 20 11 21 
+seed = 628
+Number of Players: 2
+Current Player: 1
+Hand Count: 27
+Deck Count: 477
+Discard Count: 480
+New cards in hand: 7 6 6 
+Cards drawn from deck: 6 13 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 138:
+	FAILED ON TEST: thisPlayer hand count = 468, expected = 467
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 410, expected = 409
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 354, expected: 355
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 138: FAILED
+Kingdom Cards: 25 10 13 15 12 17 8 14 24 19 
+seed = 311
+Number of Players: 3
+Current Player: 2
+Hand Count: 466
+Deck Count: 422
+Discard Count: 344
+New cards in hand: 7 4 5 
+Cards drawn from deck: 17 23 10 1 23 4 12 10 21 20 12 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 139:
+	FAILED ON TEST: thisPlayer hand count = 129, expected = 128
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 248, expected = 247
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 158, expected: 159
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 139: FAILED
+Kingdom Cards: 18 19 8 23 9 26 14 7 15 21 
+seed = 855
+Number of Players: 2
+Current Player: 0
+Hand Count: 127
+Deck Count: 265
+Discard Count: 143
+New cards in hand: 7 6 6 
+Cards drawn from deck: 0 10 6 17 14 3 8 13 11 14 11 2 19 20 17 7 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 140:
+	FAILED ON TEST: thisPlayer hand count = 236, expected = 235
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 199, expected = 198
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 437, expected: 438
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 140: FAILED
+Kingdom Cards: 10 8 21 14 16 7 22 26 12 15 
+seed = 859
+Number of Players: 3
+Current Player: 2
+Hand Count: 234
+Deck Count: 223
+Discard Count: 415
+New cards in hand: 7 5 4 
+Cards drawn from deck: 1 8 9 23 3 20 13 15 26 24 5 23 15 17 15 2 11 1 3 16 13 19 25 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 141:
+	FAILED ON TEST: thisPlayer hand count = 216, expected = 215
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 393, expected = 392
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 465, expected: 466
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 141: FAILED
+Kingdom Cards: 21 23 17 19 10 14 22 13 20 16 
+seed = 90
+Number of Players: 4
+Current Player: 0
+Hand Count: 214
+Deck Count: 421
+Discard Count: 439
+New cards in hand: 7 4 5 
+Cards drawn from deck: 8 17 7 17 19 4 14 17 3 11 21 24 26 9 9 9 22 9 8 12 8 1 13 20 2 16 17 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 142:
+	FAILED ON TEST: thisPlayer hand count = 382, expected = 381
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 422, expected = 421
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 89, expected: 90
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 142: FAILED
+Kingdom Cards: 17 25 21 13 15 16 8 18 23 22 
+seed = 219
+Number of Players: 2
+Current Player: 0
+Hand Count: 380
+Deck Count: 465
+Discard Count: 48
+New cards in hand: 7 5 6 
+Cards drawn from deck: 18 26 0 17 13 22 25 12 5 17 0 24 10 14 1 24 8 20 0 19 18 8 16 13 10 10 0 9 12 13 12 12 24 16 19 0 16 18 23 8 18 12 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 143:
+	FAILED ON TEST: thisPlayer hand count = 361, expected = 360
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 464, expected = 463
+	FAILED ON TEST: player discard count: 28, expected: 29
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 143: FAILED
+Kingdom Cards: 7 25 19 20 24 13 18 11 17 21 
+seed = 160
+Number of Players: 2
+Current Player: 0
+Hand Count: 359
+Deck Count: 17
+Discard Count: 477
+New cards in hand: 7 5 6 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 144:
+	FAILED ON TEST: thisPlayer hand count = 27, expected = 26
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 184, expected = 183
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 181, expected: 182
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 144: FAILED
+Kingdom Cards: 16 23 12 14 22 20 8 7 25 9 
+seed = 95
+Number of Players: 2
+Current Player: 1
+Hand Count: 25
+Deck Count: 202
+Discard Count: 165
+New cards in hand: 7 4 4 
+Cards drawn from deck: 25 26 20 4 16 20 8 22 1 2 20 23 24 9 12 1 7 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 145:
+	FAILED ON TEST: thisPlayer hand count = 162, expected = 161
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 451, expected = 450
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 432, expected: 433
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 145: FAILED
+Kingdom Cards: 16 21 9 7 15 14 8 22 13 26 
+seed = 735
+Number of Players: 2
+Current Player: 1
+Hand Count: 160
+Deck Count: 492
+Discard Count: 393
+New cards in hand: 7 6 5 
+Cards drawn from deck: 21 0 21 17 3 13 8 12 6 16 16 25 22 26 17 7 20 25 20 14 26 22 26 21 16 10 21 9 19 13 16 15 8 8 8 2 17 19 22 8 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 146:
+	FAILED ON TEST: thisPlayer hand count = 444, expected = 443
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 385, expected = 384
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 22, expected: 23
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 146: FAILED
+Kingdom Cards: 21 18 20 23 14 13 17 12 19 24 
+seed = 674
+Number of Players: 4
+Current Player: 1
+Hand Count: 442
+Deck Count: 398
+Discard Count: 11
+New cards in hand: 7 4 6 
+Cards drawn from deck: 15 4 18 19 0 1 15 1 17 3 0 23 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 147:
+	FAILED ON TEST: thisPlayer hand count = 459, expected = 458
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 351, expected = 350
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 140, expected: 141
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 147: FAILED
+Kingdom Cards: 21 10 22 11 23 12 18 7 17 8 
+seed = 216
+Number of Players: 3
+Current Player: 0
+Hand Count: 457
+Deck Count: 361
+Discard Count: 132
+New cards in hand: 7 5 6 
+Cards drawn from deck: 19 17 14 25 15 0 8 19 5 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 148:
+	FAILED ON TEST: thisPlayer hand count = 320, expected = 319
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 99, expected = 98
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 70, expected: 71
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 148: FAILED
+Kingdom Cards: 25 26 14 18 22 11 24 13 21 12 
+seed = 693
+Number of Players: 2
+Current Player: 0
+Hand Count: 318
+Deck Count: 144
+Discard Count: 27
+New cards in hand: 7 5 4 
+Cards drawn from deck: 19 19 18 20 23 17 15 22 26 17 12 8 18 12 26 16 19 16 21 19 2 22 12 24 2 18 14 10 17 3 11 25 23 12 5 12 18 8 9 2 26 0 8 1 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 149:
+	FAILED ON TEST: thisPlayer hand count = 13, expected = 12
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 316, expected = 315
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 366, expected: 367
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 149: FAILED
+Kingdom Cards: 25 20 16 21 9 15 24 8 19 13 
+seed = 503
+Number of Players: 2
+Current Player: 0
+Hand Count: 11
+Deck Count: 326
+Discard Count: 358
+New cards in hand: 7 4 4 
+Cards drawn from deck: 23 3 18 4 16 13 24 9 3 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 150:
+	FAILED ON TEST: thisPlayer hand count = 298, expected = 297
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 147, expected = 146
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 10, expected: 11
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 150: FAILED
+Kingdom Cards: 17 25 23 19 11 21 13 7 16 15 
+seed = 967
+Number of Players: 4
+Current Player: 0
+Hand Count: 296
+Deck Count: 152
+Discard Count: 7
+New cards in hand: 7 4 4 
+Cards drawn from deck: 0 21 14 4 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 151:
+	FAILED ON TEST: thisPlayer hand count = 417, expected = 416
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 295, expected = 294
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 261, expected: 262
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 151: FAILED
+Kingdom Cards: 9 26 11 22 8 21 17 20 7 10 
+seed = 313
+Number of Players: 4
+Current Player: 2
+Hand Count: 415
+Deck Count: 297
+Discard Count: 261
+New cards in hand: 7 6 6 
+Cards drawn from deck: 6 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 152:
+	FAILED ON TEST: thisPlayer hand count = 468, expected = 467
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 378, expected = 377
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 356, expected: 357
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 152: FAILED
+Kingdom Cards: 24 22 23 10 12 16 25 17 18 11 
+seed = 4
+Number of Players: 4
+Current Player: 2
+Hand Count: 466
+Deck Count: 386
+Discard Count: 350
+New cards in hand: 7 6 5 
+Cards drawn from deck: 10 18 1 18 22 19 6 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 153:
+	FAILED ON TEST: thisPlayer hand count = 8, expected = 7
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 212, expected = 211
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 174, expected: 175
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 153: FAILED
+Kingdom Cards: 16 11 12 21 23 10 14 13 18 24 
+seed = 497
+Number of Players: 2
+Current Player: 0
+Hand Count: 6
+Deck Count: 220
+Discard Count: 168
+New cards in hand: 7 4 5 
+Cards drawn from deck: 22 4 0 20 1 8 9 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 154:
+	FAILED ON TEST: thisPlayer hand count = 15, expected = 14
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 225, expected = 224
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 497, expected: 498
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 154: FAILED
+Kingdom Cards: 23 18 9 25 15 24 11 8 14 20 
+seed = 682
+Number of Players: 4
+Current Player: 2
+Hand Count: 13
+Deck Count: 229
+Discard Count: 495
+New cards in hand: 7 5 6 
+Cards drawn from deck: 13 5 24 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 155:
+	FAILED ON TEST: thisPlayer hand count = 502, expected = 501
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 205, expected = 204
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 188, expected: 189
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 155: FAILED
+Kingdom Cards: 9 14 8 15 21 22 25 11 13 20 
+seed = 254
+Number of Players: 4
+Current Player: 3
+Hand Count: 500
+Deck Count: 207
+Discard Count: 188
+New cards in hand: 7 6 6 
+Cards drawn from deck: 6 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 156:
+	FAILED ON TEST: thisPlayer hand count = 475, expected = 474
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 398, expected = 397
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 499, expected: 500
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 156: FAILED
+Kingdom Cards: 13 21 11 16 10 23 18 9 8 22 
+seed = 282
+Number of Players: 2
+Current Player: 0
+Hand Count: 473
+Deck Count: 411
+Discard Count: 488
+New cards in hand: 7 5 5 
+Cards drawn from deck: 24 2 18 21 3 3 17 14 25 5 20 25 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 157:
+	FAILED ON TEST: thisPlayer hand count = 214, expected = 213
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 191, expected = 190
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 103, expected: 104
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 157: FAILED
+Kingdom Cards: 15 24 14 10 25 26 16 13 22 9 
+seed = 258
+Number of Players: 4
+Current Player: 2
+Hand Count: 212
+Deck Count: 197
+Discard Count: 99
+New cards in hand: 7 6 6 
+Cards drawn from deck: 13 6 7 17 17 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 158:
+	FAILED ON TEST: thisPlayer hand count = 350, expected = 349
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 234, expected = 233
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 100, expected: 101
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 158: FAILED
+Kingdom Cards: 11 21 8 10 24 16 26 19 12 17 
+seed = 732
+Number of Players: 2
+Current Player: 1
+Hand Count: 348
+Deck Count: 241
+Discard Count: 95
+New cards in hand: 7 6 4 
+Cards drawn from deck: 8 6 16 18 23 21 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 159:
+	FAILED ON TEST: thisPlayer hand count = 69, expected = 68
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 136, expected = 135
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 108, expected: 109
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 159: FAILED
+Kingdom Cards: 10 8 15 19 26 24 12 21 7 13 
+seed = 602
+Number of Players: 3
+Current Player: 1
+Hand Count: 67
+Deck Count: 139
+Discard Count: 107
+New cards in hand: 7 4 4 
+Cards drawn from deck: 4 16 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 160:
+	FAILED ON TEST: thisPlayer hand count = 281, expected = 280
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 256, expected = 255
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 23, expected: 24
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 160: FAILED
+Kingdom Cards: 22 24 25 13 17 23 16 26 12 21 
+seed = 74
+Number of Players: 3
+Current Player: 0
+Hand Count: 279
+Deck Count: 279
+Discard Count: 2
+New cards in hand: 7 4 4 
+Cards drawn from deck: 0 18 14 25 4 20 21 19 21 19 2 8 12 13 9 17 22 20 18 1 11 9 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 161:
+	FAILED ON TEST: thisPlayer hand count = 414, expected = 413
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 397, expected = 396
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 350, expected: 351
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 161: FAILED
+Kingdom Cards: 24 26 10 21 11 19 18 17 8 20 
+seed = 141
+Number of Players: 2
+Current Player: 0
+Hand Count: 412
+Deck Count: 399
+Discard Count: 350
+New cards in hand: 7 5 6 
+Cards drawn from deck: 5 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 162:
+	FAILED ON TEST: thisPlayer hand count = 272, expected = 271
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 22, expected = 21
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 169, expected: 170
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 162: FAILED
+Kingdom Cards: 12 16 23 15 9 25 14 18 19 22 
+seed = 536
+Number of Players: 3
+Current Player: 1
+Hand Count: 270
+Deck Count: 42
+Discard Count: 151
+New cards in hand: 7 4 5 
+Cards drawn from deck: 14 17 20 20 26 4 7 15 26 17 18 15 7 11 8 12 24 18 0 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 163:
+	FAILED ON TEST: thisPlayer hand count = 417, expected = 416
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 91, expected = 90
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 393, expected: 394
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 163: FAILED
+Kingdom Cards: 9 18 20 23 11 26 17 16 8 22 
+seed = 143
+Number of Players: 3
+Current Player: 1
+Hand Count: 415
+Deck Count: 138
+Discard Count: 348
+New cards in hand: 7 4 4 
+Cards drawn from deck: 21 23 13 11 15 24 26 7 2 17 9 12 20 26 12 24 13 10 20 21 8 14 11 10 1 4 9 2 24 25 25 20 19 16 12 19 21 20 25 1 23 21 11 7 24 2 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 164:
+	FAILED ON TEST: thisPlayer hand count = 194, expected = 193
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 27, expected = 26
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 399, expected: 400
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 164: FAILED
+Kingdom Cards: 22 12 10 9 8 25 17 7 14 21 
+seed = 252
+Number of Players: 2
+Current Player: 0
+Hand Count: 192
+Deck Count: 55
+Discard Count: 373
+New cards in hand: 7 5 4 
+Cards drawn from deck: 25 25 0 13 22 1 24 22 20 1 22 5 3 7 14 22 16 21 10 11 26 25 11 20 18 25 26 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 165:
+	FAILED ON TEST: thisPlayer hand count = 269, expected = 268
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 132, expected = 131
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 368, expected: 369
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 165: FAILED
+Kingdom Cards: 7 16 19 26 11 25 17 10 24 8 
+seed = 310
+Number of Players: 2
+Current Player: 0
+Hand Count: 267
+Deck Count: 137
+Discard Count: 365
+New cards in hand: 7 6 5 
+Cards drawn from deck: 2 6 21 23 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 166:
+	FAILED ON TEST: thisPlayer hand count = 440, expected = 439
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 7, expected = 6
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 164, expected: 165
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 166: FAILED
+Kingdom Cards: 12 23 26 16 22 19 17 10 15 24 
+seed = 111
+Number of Players: 3
+Current Player: 1
+Hand Count: 438
+Deck Count: 34
+Discard Count: 139
+New cards in hand: 7 4 6 
+Cards drawn from deck: 9 20 20 2 2 7 24 12 4 15 1 15 10 10 3 17 26 7 16 2 9 24 13 25 25 25 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 167:
+	FAILED ON TEST: thisPlayer hand count = 358, expected = 357
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 333, expected = 332
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 502, expected: 503
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 167: FAILED
+Kingdom Cards: 19 14 9 17 11 18 26 24 10 20 
+seed = 935
+Number of Players: 4
+Current Player: 0
+Hand Count: 356
+Deck Count: 346
+Discard Count: 491
+New cards in hand: 7 5 5 
+Cards drawn from deck: 11 23 5 19 16 7 2 14 25 23 1 22 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 168:
+	FAILED ON TEST: thisPlayer hand count = 54, expected = 53
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 53, expected = 52
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 256, expected: 257
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 168: FAILED
+Kingdom Cards: 26 10 15 23 7 18 9 17 11 22 
+seed = 152
+Number of Players: 2
+Current Player: 1
+Hand Count: 52
+Deck Count: 72
+Discard Count: 239
+New cards in hand: 7 5 6 
+Cards drawn from deck: 9 3 10 10 15 18 23 1 13 19 7 20 24 5 21 21 9 2 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 169:
+	FAILED ON TEST: thisPlayer hand count = 359, expected = 358
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 60, expected = 59
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 517, expected: 518
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 169: FAILED
+Kingdom Cards: 16 12 13 9 7 21 25 11 26 14 
+seed = 565
+Number of Players: 2
+Current Player: 1
+Hand Count: 357
+Deck Count: 81
+Discard Count: 498
+New cards in hand: 7 4 6 
+Cards drawn from deck: 22 17 18 15 4 12 1 15 24 21 1 11 19 9 12 10 1 23 1 8 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 170:
+	FAILED ON TEST: thisPlayer hand count = 113, expected = 112
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 145, expected = 144
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 406, expected: 407
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 170: FAILED
+Kingdom Cards: 18 24 21 17 11 14 25 15 7 19 
+seed = 82
+Number of Players: 4
+Current Player: 3
+Hand Count: 111
+Deck Count: 159
+Discard Count: 394
+New cards in hand: 7 4 6 
+Cards drawn from deck: 12 21 14 17 4 12 8 24 8 11 1 13 1 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 171:
+	FAILED ON TEST: thisPlayer hand count = 432, expected = 431
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 112, expected = 111
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 493, expected: 494
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 171: FAILED
+Kingdom Cards: 14 21 12 19 26 22 16 10 18 25 
+seed = 330
+Number of Players: 2
+Current Player: 1
+Hand Count: 430
+Deck Count: 134
+Discard Count: 473
+New cards in hand: 7 6 4 
+Cards drawn from deck: 13 23 7 26 20 18 15 12 1 23 23 1 22 23 17 22 19 11 8 6 8 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 172:
+	FAILED ON TEST: thisPlayer hand count = 477, expected = 476
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 144, expected = 143
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 456, expected: 457
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 172: FAILED
+Kingdom Cards: 13 8 12 15 20 23 21 7 17 18 
+seed = 557
+Number of Players: 2
+Current Player: 0
+Hand Count: 475
+Deck Count: 167
+Discard Count: 435
+New cards in hand: 7 4 5 
+Cards drawn from deck: 1 13 11 18 4 21 21 14 13 26 19 3 25 11 11 17 26 15 15 9 8 22 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 173:
+	FAILED ON TEST: thisPlayer hand count = 153, expected = 152
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 400, expected = 399
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 56, expected: 57
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 173: FAILED
+Kingdom Cards: 10 12 13 11 9 25 7 24 8 22 
+seed = 749
+Number of Players: 3
+Current Player: 2
+Hand Count: 151
+Deck Count: 414
+Discard Count: 44
+New cards in hand: 7 6 5 
+Cards drawn from deck: 6 15 22 19 0 2 12 0 25 17 1 26 26 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 174:
+	FAILED ON TEST: thisPlayer hand count = 245, expected = 244
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 412, expected = 411
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 329, expected: 330
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 174: FAILED
+Kingdom Cards: 18 22 15 20 12 17 11 14 25 26 
+seed = 383
+Number of Players: 3
+Current Player: 2
+Hand Count: 243
+Deck Count: 436
+Discard Count: 307
+New cards in hand: 7 6 5 
+Cards drawn from deck: 3 3 14 1 26 24 22 13 15 19 25 25 6 23 21 14 3 0 1 3 14 8 19 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 175:
+	FAILED ON TEST: thisPlayer hand count = 55, expected = 54
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 99, expected = 98
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 37, expected: 38
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 175: FAILED
+Kingdom Cards: 26 22 25 19 10 13 23 12 20 11 
+seed = 355
+Number of Players: 4
+Current Player: 0
+Hand Count: 53
+Deck Count: 120
+Discard Count: 18
+New cards in hand: 7 5 4 
+Cards drawn from deck: 3 8 15 24 5 1 1 11 16 15 21 7 13 8 23 8 13 26 3 22 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 176:
+	FAILED ON TEST: thisPlayer hand count = 271, expected = 270
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 328, expected = 327
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 21, expected: 22
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 176: FAILED
+Kingdom Cards: 12 16 15 19 26 25 18 13 11 10 
+seed = 737
+Number of Players: 3
+Current Player: 0
+Hand Count: 269
+Deck Count: 334
+Discard Count: 17
+New cards in hand: 7 6 5 
+Cards drawn from deck: 6 2 7 17 18 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 177:
+	FAILED ON TEST: thisPlayer hand count = 79, expected = 78
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 197, expected = 196
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 119, expected: 120
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 177: FAILED
+Kingdom Cards: 7 19 11 18 14 20 25 26 9 17 
+seed = 176
+Number of Players: 3
+Current Player: 2
+Hand Count: 77
+Deck Count: 212
+Discard Count: 106
+New cards in hand: 7 5 5 
+Cards drawn from deck: 14 23 23 16 18 23 5 23 13 20 24 10 7 3 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 178:
+	FAILED ON TEST: thisPlayer hand count = 123, expected = 122
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 398, expected = 397
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 329, expected: 330
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 178: FAILED
+Kingdom Cards: 12 17 26 21 14 16 25 24 11 18 
+seed = 680
+Number of Players: 3
+Current Player: 2
+Hand Count: 121
+Deck Count: 401
+Discard Count: 328
+New cards in hand: 7 5 5 
+Cards drawn from deck: 5 22 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 179:
+	FAILED ON TEST: thisPlayer hand count = 396, expected = 395
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 115, expected = 114
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 85, expected: 86
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 179: FAILED
+Kingdom Cards: 23 25 21 9 14 17 8 24 19 16 
+seed = 66
+Number of Players: 4
+Current Player: 3
+Hand Count: 394
+Deck Count: 126
+Discard Count: 76
+New cards in hand: 7 5 6 
+Cards drawn from deck: 24 25 23 9 8 5 19 22 18 11 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 180:
+	FAILED ON TEST: thisPlayer hand count = 62, expected = 61
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 359, expected = 358
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 229, expected: 230
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 180: FAILED
+Kingdom Cards: 11 25 10 9 8 17 18 19 26 16 
+seed = 871
+Number of Players: 2
+Current Player: 1
+Hand Count: 60
+Deck Count: 364
+Discard Count: 226
+New cards in hand: 7 5 6 
+Cards drawn from deck: 5 26 9 17 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 181:
+	FAILED ON TEST: thisPlayer hand count = 445, expected = 444
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 65, expected = 64
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 274, expected: 275
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 181: FAILED
+Kingdom Cards: 21 19 17 8 23 15 22 20 25 24 
+seed = 536
+Number of Players: 3
+Current Player: 1
+Hand Count: 443
+Deck Count: 89
+Discard Count: 252
+New cards in hand: 7 4 4 
+Cards drawn from deck: 13 16 19 12 4 8 1 19 24 14 14 20 13 13 22 7 17 12 10 12 13 25 24 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 182:
+	FAILED ON TEST: thisPlayer hand count = 363, expected = 362
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 409, expected = 408
+	FAILED ON TEST: player discard count: 15, expected: 16
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 182: FAILED
+Kingdom Cards: 20 16 12 9 15 17 21 8 11 25 
+seed = 284
+Number of Players: 2
+Current Player: 1
+Hand Count: 361
+Deck Count: 4
+Discard Count: 422
+New cards in hand: 7 6 4 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 183:
+	FAILED ON TEST: thisPlayer hand count = 260, expected = 259
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 2, expected = 1
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 179, expected: 180
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 183: FAILED
+Kingdom Cards: 16 19 17 20 23 9 15 11 14 21 
+seed = 776
+Number of Players: 2
+Current Player: 0
+Hand Count: 258
+Deck Count: 4
+Discard Count: 179
+New cards in hand: 7 6 5 
+Cards drawn from deck: 6 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 184:
+	FAILED ON TEST: thisPlayer hand count = 388, expected = 387
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 95, expected = 94
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 230, expected: 231
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 184: FAILED
+Kingdom Cards: 12 22 14 24 16 20 7 17 23 8 
+seed = 871
+Number of Players: 4
+Current Player: 0
+Hand Count: 386
+Deck Count: 110
+Discard Count: 217
+New cards in hand: 7 6 4 
+Cards drawn from deck: 2 9 0 10 2 26 6 18 1 23 12 21 12 13 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 185:
+	FAILED ON TEST: thisPlayer hand count = 401, expected = 400
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 192, expected = 191
+	FAILED ON TEST: player discard count: 42, expected: 43
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 185: FAILED
+Kingdom Cards: 16 20 13 12 17 26 7 18 8 9 
+seed = 340
+Number of Players: 3
+Current Player: 2
+Hand Count: 399
+Deck Count: 40
+Discard Count: 196
+New cards in hand: 7 5 6 
+Cards drawn from deck: 
+deck to adventurer: -1
+card at adventurer: 7
+
+TEST 186:
+	FAILED ON TEST: thisPlayer hand count = 422, expected = 421
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 434, expected = 433
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 36, expected: 37
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 186: FAILED
+Kingdom Cards: 25 14 19 23 9 8 11 20 16 26 
+seed = 151
+Number of Players: 2
+Current Player: 0
+Hand Count: 420
+Deck Count: 468
+Discard Count: 4
+New cards in hand: 7 4 4 
+Cards drawn from deck: 2 0 12 21 20 8 18 1 12 2 8 17 0 9 3 16 9 10 0 23 12 17 22 1 4 20 7 10 26 25 19 8 7 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 187:
+	FAILED ON TEST: thisPlayer hand count = 38, expected = 37
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 201, expected = 200
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 283, expected: 284
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 187: FAILED
+Kingdom Cards: 14 23 21 20 19 13 8 7 12 25 
+seed = 278
+Number of Players: 3
+Current Player: 0
+Hand Count: 36
+Deck Count: 230
+Discard Count: 256
+New cards in hand: 7 6 4 
+Cards drawn from deck: 14 0 14 22 7 1 17 15 19 25 17 22 20 26 10 7 16 12 16 6 16 20 24 21 13 18 11 25 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 188:
+	FAILED ON TEST: thisPlayer hand count = 418, expected = 417
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 302, expected = 301
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 228, expected: 229
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 188: FAILED
+Kingdom Cards: 21 17 19 14 11 9 18 24 15 8 
+seed = 388
+Number of Players: 3
+Current Player: 2
+Hand Count: 416
+Deck Count: 304
+Discard Count: 228
+New cards in hand: 7 5 4 
+Cards drawn from deck: 5 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 189:
+	FAILED ON TEST: thisPlayer hand count = 443, expected = 442
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 323, expected = 322
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 216, expected: 217
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 189: FAILED
+Kingdom Cards: 12 10 11 26 15 20 18 22 17 21 
+seed = 431
+Number of Players: 2
+Current Player: 0
+Hand Count: 441
+Deck Count: 339
+Discard Count: 202
+New cards in hand: 7 5 4 
+Cards drawn from deck: 2 22 12 1 19 25 15 11 13 9 7 15 5 2 1 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 190:
+	FAILED ON TEST: thisPlayer hand count = 38, expected = 37
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 319, expected = 318
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 502, expected: 503
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 190: FAILED
+Kingdom Cards: 9 10 20 12 13 24 21 25 19 23 
+seed = 182
+Number of Players: 3
+Current Player: 0
+Hand Count: 36
+Deck Count: 334
+Discard Count: 489
+New cards in hand: 7 4 4 
+Cards drawn from deck: 20 25 16 21 8 17 20 8 1 7 10 4 15 10 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 191:
+	FAILED ON TEST: thisPlayer hand count = 383, expected = 382
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 273, expected = 272
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 251, expected: 252
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 191: FAILED
+Kingdom Cards: 9 7 26 25 11 22 10 20 16 23 
+seed = 856
+Number of Players: 2
+Current Player: 0
+Hand Count: 381
+Deck Count: 295
+Discard Count: 231
+New cards in hand: 7 5 4 
+Cards drawn from deck: 7 14 5 2 19 21 10 2 15 16 18 20 24 26 14 19 7 16 13 18 1 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 192:
+	FAILED ON TEST: thisPlayer hand count = 22, expected = 21
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 117, expected = 116
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 176, expected: 177
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 192: FAILED
+Kingdom Cards: 14 11 16 20 19 25 23 12 17 7 
+seed = 221
+Number of Players: 3
+Current Player: 0
+Hand Count: 20
+Deck Count: 121
+Discard Count: 174
+New cards in hand: 7 6 6 
+Cards drawn from deck: 18 6 12 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 193:
+	FAILED ON TEST: thisPlayer hand count = 16, expected = 15
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 125, expected = 124
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 431, expected: 432
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 193: FAILED
+Kingdom Cards: 8 15 20 21 26 23 18 19 16 13 
+seed = 918
+Number of Players: 4
+Current Player: 0
+Hand Count: 14
+Deck Count: 139
+Discard Count: 419
+New cards in hand: 7 6 4 
+Cards drawn from deck: 6 12 26 18 0 0 22 1 3 21 16 3 12 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 194:
+	FAILED ON TEST: thisPlayer hand count = 446, expected = 445
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 122, expected = 121
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 75, expected: 76
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 194: FAILED
+Kingdom Cards: 20 16 14 19 18 13 9 24 25 8 
+seed = 671
+Number of Players: 3
+Current Player: 0
+Hand Count: 444
+Deck Count: 147
+Discard Count: 52
+New cards in hand: 7 5 6 
+Cards drawn from deck: 7 7 0 7 17 25 7 19 24 20 1 20 19 5 12 25 19 25 12 12 1 13 24 26 
+deck to adventurer: 6
+card at adventurer: 7
+
+TEST 195:
+	FAILED ON TEST: thisPlayer hand count = 7, expected = 6
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 434, expected = 433
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 292, expected: 293
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 195: FAILED
+Kingdom Cards: 13 18 26 17 12 11 22 24 14 25 
+seed = 36
+Number of Players: 4
+Current Player: 1
+Hand Count: 5
+Deck Count: 454
+Discard Count: 274
+New cards in hand: 7 6 4 
+Cards drawn from deck: 21 25 25 10 26 25 9 20 14 7 16 6 12 11 22 3 17 21 21 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 196:
+	FAILED ON TEST: thisPlayer hand count = 334, expected = 333
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 227, expected = 226
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 446, expected: 447
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 196: FAILED
+Kingdom Cards: 24 12 22 17 14 21 20 15 9 16 
+seed = 824
+Number of Players: 2
+Current Player: 1
+Hand Count: 332
+Deck Count: 235
+Discard Count: 440
+New cards in hand: 7 6 4 
+Cards drawn from deck: 20 7 16 18 9 2 6 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 197:
+	FAILED ON TEST: thisPlayer hand count = 215, expected = 214
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 238, expected = 237
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 25, expected: 26
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 197: FAILED
+Kingdom Cards: 17 10 7 9 8 24 19 15 13 16 
+seed = 553
+Number of Players: 4
+Current Player: 0
+Hand Count: 213
+Deck Count: 246
+Discard Count: 19
+New cards in hand: 7 6 5 
+Cards drawn from deck: 2 23 23 6 24 20 14 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 198:
+	FAILED ON TEST: thisPlayer hand count = 135, expected = 134
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 355, expected = 354
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 516, expected: 517
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 198: FAILED
+Kingdom Cards: 13 22 11 10 7 20 18 16 26 24 
+seed = 676
+Number of Players: 2
+Current Player: 1
+Hand Count: 133
+Deck Count: 381
+Discard Count: 492
+New cards in hand: 7 6 5 
+Cards drawn from deck: 19 15 19 18 16 11 23 19 11 8 18 0 6 17 3 18 18 1 1 21 24 21 13 24 24 
+deck to adventurer: 5
+card at adventurer: 7
+
+TEST 199:
+	FAILED ON TEST: thisPlayer hand count = 43, expected = 42
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 374, expected = 373
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 154, expected: 155
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 199: FAILED
+Kingdom Cards: 12 25 13 9 10 11 22 21 18 7 
+seed = 850
+Number of Players: 4
+Current Player: 1
+Hand Count: 41
+Deck Count: 387
+Discard Count: 143
+New cards in hand: 7 6 4 
+Cards drawn from deck: 2 21 25 18 21 18 16 0 6 25 10 11 
+deck to adventurer: 4
+card at adventurer: 7
+
+TEST 200:
+	FAILED ON TEST: thisPlayer hand count = 389, expected = 388
+	FAILED ON TEST: player's hand should not contain the played adventurer card
+	FAILED ON TEST: thisPlayer deck count = 264, expected = 263
+	FAILED ON TEST: cards drawn from deck are not the same as the new cards in the player's hand
+	FAILED ON TEST: player discard count: 169, expected: 170
+	FAILED ON TEST: card drawn from deck at adventurerPosition is not a treasure card
+	FAILED ON TEST: played count = 0, expected = 1
+	FAILED ON TEST: Played card value = 4196186, expected 7
+TEST 200: FAILED
+Kingdom Cards: 7 12 10 22 17 23 14 19 26 15 
+seed = 73
+Number of Players: 4
+Current Player: 1
+Hand Count: 387
+Deck Count: 267
+Discard Count: 168
+New cards in hand: 7 6 4 
+Cards drawn from deck: 14 6 
+deck to adventurer: 4
+card at adventurer: 7
+
+ >>>>> Testing complete Adventurer: Failure Count: 200/200 <<<<<
+

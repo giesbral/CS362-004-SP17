@@ -104,7 +104,8 @@ public class UrlValidatorTest extends TestCase {
          String url = testBuffer.toString();
          boolean result = urlVal.isValid(url);
          
-         //if(result == true)
+
+         if(result == true)
         	 System.out.println(url);
          assertEquals(url, expected, result);
          
@@ -281,14 +282,7 @@ public class UrlValidatorTest extends TestCase {
                carry = true;
             }
          }
-//         if (testPartsIndexIndex == 0)
-//         {
-//        	 maxIndex &= (index == part.length);
-//         }
-//         else
-//         {
-        	 maxIndex &= (index == (part.length - 1));
-//         }     
+         maxIndex &= (index == (part.length - 1));
       }
 
 
@@ -414,8 +408,7 @@ public class UrlValidatorTest extends TestCase {
 
    ResultPair[] testUrlQuery = {new ResultPair("?action=view", true),
                               new ResultPair("?action=edit&mode=up", true),
-                              new ResultPair("", true),
-                              
+                              new ResultPair("", true)
    };
 
    Object[] testUrlParts = {testUrlScheme, testUrlAuthority, testUrlPort, testPath, testUrlQuery};

@@ -10,8 +10,6 @@
 
 #define DEBUG 0
 
-
-
 /* http://dominion.diehrstraits.com has card texts */
 /* http://dominion.isotropic.org has other stuff */
 
@@ -87,7 +85,7 @@ int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
 		   struct gameState *state);
 /* Responsible for initializing all supplies, and shuffling deck and
    drawing starting hands for all players.  Check that 10 cards selected
-   are in fact (different) kingdom cards, and that numPlayers is valid.
+   are in fact (different) kingdom cards, and that numPlayers is valid. 
 
 Cards not in game should initialize supply position to -1 */
 
@@ -129,12 +127,5 @@ int scoreFor(int player, struct gameState *state);
 int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 /* Set array position of each player who won (remember ties!) to
    1, others to 0 */
-
-int playAdventurer(struct gameState *state, int handPos, int currentPlayer);
-int playSmithy(struct gameState *state, int handPos, int currentPlayer);
-int playVillage(struct gameState *state, int handPos, int currentPlayer);
-int playOutpost(struct gameState *state, int handPos, int currentPlayer);
-int playSeaHag(struct gameState *state, int currentPlayer);
-
 
 #endif
